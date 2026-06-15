@@ -364,25 +364,75 @@ function sortBy(k){
 function setMonth(m){ CUR=m; renderAll(); }
 
 /* ── drawer ── */
+const STATUS_COLOR={
+  '簽約':'#15795A','補足':'#2C6FB3','小訂':'#B07914',
+  '買回':'#C0392B','公關':'#7B5EA7','業':'#5A6A85',
+  '交屋':'#1A6B5A','未售':'#E8ECF2'
+};
+const STATUS_TEXT={
+  '簽約':'#fff','補足':'#fff','小訂':'#fff',
+  '買回':'#fff','公關':'#fff','業':'#fff',
+  '交屋':'#fff','未售':'#909AAB'
+};
+
 function openDrawer(name){
   const pr=(DB.portfolio[CUR]||[]).find(r=>r.project_name===name); if(!pr)return;
   el("dName").textContent=name;
   el("dMeta").textContent=`${pr.agency_name||""} · ${pr.license_status||""} · 進場 ${pr.entry_date||""}`;
 
+  // 深度資料：從 projects 取（若有）
+  const proj=(DB.projects||{})[name];
+  const hasDeep=!!proj;
+
   const sold=(pr.units||0)-(pr.remain_units||0);
   const rate=pr.units?sold/pr.units*100:0;
 
-  /* weekly bars for current month */
-  const allWk=(DB.weekly||{})[name]||[];
-  const wk=allWk.filter(r=>r.year_month===CUR).sort((a,b)=>a.week_label.localeCompare(b.week_label));
-  const wkSvg=buildWeeklyBars(wk);
+  // 週損益：優先從 projects.weekly 取，fallback 到 portfolio weeks
+  let wkRows=[];
+  if(hasDeep && proj.weekly){
+    // 找當月（以 week_start 前6字判斷民國月份）
+    const curYr=parseInt(CUR.split('.')[0]), curMo=parseInt(CUR.split('.')[1]);
+    wkRows=Object.values(proj.weekly).filter(w=>{
+      if(!w.week_start) return false;
+      const dt=new Date(w.week_start);
+      const roc=dt.getFullYear()-1911;
+      return roc===curYr && (dt.getMonth()+1)===curMo;
+    }).sort((a,b)=>a.week_start.localeCompare(b.week_start));
+  } else {
+    const allWk=(DB.weekly||{})[name]||[];
+    wkRows=allWk.filter(r=>r.year_month===CUR).sort((a,b)=>a.week_label.localeCompare(b.week_label))
+      .map(r=>({week_start:r.week_label, signed_week_amount:r.pnl}));
+  }
+  const wkSvg=buildWeeklyBarsDeep(wkRows);
 
-  /* monthly trend for this project */
+  // 歷月損益
   const mthData=DB.months.map(m=>{
     const r=(DB.portfolio[m]||[]).find(x=>x.project_name===name);
     return r?{m, pnl:(r.month_pnl||0)/10000}:null;
   }).filter(Boolean);
   const mthSvg=buildMiniTrend(mthData);
+
+  // 預算雷達（本月最新週）
+  let budgetHtml='';
+  if(hasDeep && wkRows.length){
+    const latest=wkRows[wkRows.length-1];
+    budgetHtml=buildBudgetBars(latest);
+  }
+
+  // 銷況熱力圖
+  let statusHtml='';
+  if(hasDeep && proj.unit_status && proj.unit_status.matrix){
+    statusHtml=buildStatusHeatmap(proj.unit_status);
+  }
+
+  // 銷售人員（最新週）
+  let spHtml='';
+  if(hasDeep && wkRows.length){
+    const latest=wkRows[wkRows.length-1];
+    if(latest.salespeople && latest.salespeople.length){
+      spHtml=buildSalespeople(latest.salespeople);
+    }
+  }
 
   el("dBody").innerHTML=`
     <div class="dstat">
@@ -393,10 +443,13 @@ function openDrawer(name){
       <div class="s"><div class="sl">本月來人</div><div class="sv num">${fmtN(pr.visitors)} 組</div></div>
       <div class="s"><div class="sl">本月成交</div><div class="sv num">${fmtN(pr.deals)} 戶</div></div>
     </div>
-    <div class="dsec">當月各週損益（${CUR} · 萬元）</div>
+    <div class="dsec">當月各週（${CUR}）</div>
     <div class="spark">${wkSvg}</div>
     <div class="dsec">歷月損益趨勢（萬元）</div>
     <div class="spark">${mthSvg}</div>
+    ${budgetHtml ? `<div class="dsec">本週預算執行</div><div class="spark">${budgetHtml}</div>` : ''}
+    ${spHtml     ? `<div class="dsec">銷售人員累計</div>${spHtml}` : ''}
+    ${statusHtml ? `<div class="dsec">銷況熱力圖</div>${statusHtml}` : ''}
     <div class="dsec">財務</div>
     <div class="dstat">
       <div class="s"><div class="sl">案量</div><div class="sv num">${fmtN(pr.total_volume)}</div></div>
@@ -409,22 +462,133 @@ function openDrawer(name){
   el("scrim").classList.add("show");
 }
 
+/* 週損益：使用深度資料（signed_week_amount 作為本週成交金額代理）+ visitors */
+function buildWeeklyBarsDeep(wkRows){
+  if(!wkRows.length)return'<div style="font-size:11px;color:var(--faint);padding:8px 0">本月尚無週資料</div>';
+  const W=370,H=130,pl=6,pr=6,pt=14,pb=38;
+  const vals=wkRows.map(w=>w.signed_week_amount||0);
+  const vis=wkRows.map(w=>w.visitors_week||0);
+  const mx=Math.max(...vals.map(Math.abs),1);
+  const n=wkRows.length;
+  const xs=i=>pl+(W-pl-pr)*(n>1?i/(n-1):0.5);
+  const ys=v=>{const mid=(H-pt-pb)/2+pt;return mid-(v/mx)*((H-pt-pb)/2);};
+  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%">`;
+  svg+=`<line x1="${pl}" y1="${ys(0)}" x2="${W-pr}" y2="${ys(0)}" stroke="${css('--line')}" stroke-width="1"/>`;
+  vals.forEach((v,i)=>{
+    const x=xs(i),y=ys(v),y0=ys(0),pos=v>=0,bh=Math.max(Math.abs(y-y0),1);
+    svg+=`<rect x="${x-18}" y="${Math.min(y,y0)}" width="36" height="${bh}" rx="2" fill="${pos?css('--pos'):css('--neg')}"/>`;
+    svg+=`<text x="${x}" y="${Math.min(y,y0)-4}" font-size="9" fill="${pos?css('--pos'):css('--neg')}" text-anchor="middle" font-family="Noto Sans TC">${fmtW(v)}</text>`;
+    // x軸：日期 + 來人
+    const label=wkRows[i].week_start?wkRows[i].week_start.slice(5):(i+1+'W');
+    svg+=`<text x="${x}" y="${H-20}" font-size="9" fill="${css('--mut')}" text-anchor="middle" font-family="Noto Sans TC">${label}</text>`;
+    svg+=`<text x="${x}" y="${H-8}" font-size="9" fill="${css('--blue')}" text-anchor="middle" font-family="Noto Sans TC">👁 ${vis[i]}</text>`;
+  });
+  return svg+'</svg>';
+}
+
+/* 預算執行橫條 */
+function buildBudgetBars(wk){
+  const items=[
+    {k:'budget_media',    l:'媒體'},
+    {k:'budget_personnel',l:'人事'},
+    {k:'budget_onsite',   l:'現場'},
+    {k:'budget_company',  l:'公司管銷'},
+    {k:'budget_bonus',    l:'銷售獎金'},
+  ];
+  const vals=items.map(it=>wk[it.k]||0);
+  const mx=Math.max(...vals,1);
+  let html='<div style="display:flex;flex-direction:column;gap:5px">';
+  items.forEach((it,i)=>{
+    const v=vals[i], w=Math.max(v/mx*100,2);
+    html+=`<div style="display:flex;align-items:center;gap:8px;font-size:11px">
+      <div style="width:52px;color:var(--mut);text-align:right;flex-shrink:0">${it.l}</div>
+      <div style="flex:1;background:#EDF0F5;border-radius:3px;height:14px;overflow:hidden">
+        <div style="width:${w}%;height:100%;background:var(--brand);border-radius:3px"></div>
+      </div>
+      <div style="width:52px;text-align:right;font-weight:500;color:var(--ink);flex-shrink:0">${fmtW(v)}萬</div>
+    </div>`;
+  });
+  html+='</div>';
+  return html;
+}
+
+/* 銷售人員 */
+function buildSalespeople(sp){
+  let html=`<div style="display:flex;flex-direction:column;gap:4px">`;
+  sp.forEach(p=>{
+    const cr=p.conv_rate!=null?(p.conv_rate>1?p.conv_rate.toFixed(1):(p.conv_rate*100).toFixed(1)):null;
+    html+=`<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 10px;background:var(--line2);border-radius:8px;font-size:12px">
+      <span style="font-weight:500">${p.name}</span>
+      <span style="color:var(--mut)">累計來人 <b>${p.cum_visitors??'—'}</b> · 成交 <b>${p.cum_deals??'—'}</b>${cr?` · 轉換 <b style="color:var(--blue)">${cr}%</b>`:''}</span>
+    </div>`;
+  });
+  html+='</div>';
+  return html;
+}
+
+/* 銷況熱力圖 */
+function buildStatusHeatmap(us){
+  const matrix=us.matrix||[];
+  if(!matrix.length)return'';
+  // 取得所有樓層與戶別
+  const floors=[...new Set(matrix.map(r=>r.floor))].sort((a,b)=>{
+    const na=parseInt(a),nb=parseInt(b); return nb-na;
+  });
+  const units=[...new Set(matrix.map(r=>r.unit))];
+  const lookup={};
+  matrix.forEach(r=>{lookup[`${r.floor}__${r.unit}`]=r.status;});
+
+  // 圖例
+  const statusCounts={};
+  matrix.forEach(r=>{statusCounts[r.status]=(statusCounts[r.status]||0)+1;});
+  const legendEntries=Object.entries(statusCounts).sort((a,b)=>b[1]-a[1]);
+  let legend=`<div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px">`;
+  legendEntries.forEach(([s,cnt])=>{
+    legend+=`<span style="font-size:10px;background:${STATUS_COLOR[s]||'#E8ECF2'};color:${STATUS_TEXT[s]||'#909AAB'};padding:2px 7px;border-radius:4px">${s} ${cnt}</span>`;
+  });
+  legend+='</div>';
+
+  const cellW=Math.floor(340/units.length);
+  const cellH=14;
+  const W=cellW*units.length+36, H=cellH*floors.length+28;
+
+  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="font-family:'Noto Sans TC',sans-serif">`;
+  // col headers
+  units.forEach((u,i)=>{
+    svg+=`<text x="${36+i*cellW+cellW/2}" y="12" font-size="8" fill="${css('--mut')}" text-anchor="middle">${u}</text>`;
+  });
+  floors.forEach((fl,fi)=>{
+    svg+=`<text x="32" y="${20+fi*cellH+cellH/2}" font-size="8" fill="${css('--mut')}" text-anchor="end" dominant-baseline="middle">${fl}</text>`;
+    units.forEach((u,ui)=>{
+      const st=lookup[`${fl}__${u}`]||'';
+      const bg=STATUS_COLOR[st]||'transparent';
+      svg+=`<rect x="${36+ui*cellW}" y="${18+fi*cellH}" width="${cellW-1}" height="${cellH-1}" rx="1" fill="${bg}"/>`;
+      if(st && st!=='未售'){
+        const tc=STATUS_TEXT[st]||'#fff';
+        svg+=`<text x="${36+ui*cellW+cellW/2}" y="${18+fi*cellH+cellH/2}" font-size="7" fill="${tc}" text-anchor="middle" dominant-baseline="middle">${st}</text>`;
+      }
+    });
+  });
+  svg+='</svg>';
+  return legend+`<div style="overflow-x:auto">${svg}</div>`;
+}
+
 function buildWeeklyBars(wk){
-  if(!wk.length)return'<div style="font-size:11px;color:var(--faint);padding:8px">本月尚無週資料</div>';
+  // fallback 舊格式（portfolio weekly by label）
+  if(!wk.length)return'<div style="font-size:11px;color:var(--faint);padding:8px 0">本月尚無週資料</div>';
   const W=370,H=120,pl=6,pr=6,pt=14,pb=22;
   const labels=["W1","W2","W3","W4","W5"];
   const vals=labels.map(l=>{const r=wk.find(x=>x.week_label===l);return r?.pnl??null;});
   const mx=Math.max(...vals.map(v=>Math.abs(v??0)),1);
   const xs=i=>pl+(W-pl-pr)*(i/4);
-  const ys=v=>{ const mid=(H-pt-pb)/2+pt; return mid-((v??0)/mx)*((H-pt-pb)/2); };
+  const ys=v=>{const mid=(H-pt-pb)/2+pt;return mid-((v??0)/mx)*((H-pt-pb)/2);};
   let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%">`;
   svg+=`<line x1="${pl}" y1="${ys(0)}" x2="${W-pr}" y2="${ys(0)}" stroke="${css('--line')}" stroke-width="1"/>`;
   vals.forEach((v,i)=>{
-    const x=xs(i), y=ys(v??0), y0=ys(0), pos=(v??0)>=0;
-    const bh=Math.max(Math.abs(y-y0),1);
+    const x=xs(i),y=ys(v??0),y0=ys(0),pos=(v??0)>=0,bh=Math.max(Math.abs(y-y0),1);
     svg+=`<rect x="${x-14}" y="${Math.min(y,y0)}" width="28" height="${bh}" rx="2" fill="${pos?css('--pos'):css('--neg')}" opacity="${v==null?0.25:1}"/>`;
     svg+=`<text x="${x}" y="${H-5}" font-size="10" fill="${css('--mut')}" text-anchor="middle" font-family="Noto Sans TC">${labels[i]}</text>`;
-    if(v!=null) svg+=`<text x="${x}" y="${Math.min(y,y0)-4}" font-size="9.5" fill="${pos?css('--pos'):css('--neg')}" text-anchor="middle" font-family="Noto Sans TC">${fmtW(v)}</text>`;
+    if(v!=null)svg+=`<text x="${x}" y="${Math.min(y,y0)-4}" font-size="9.5" fill="${pos?css('--pos'):css('--neg')}" text-anchor="middle" font-family="Noto Sans TC">${fmtW(v)}</text>`;
   });
   return svg+'</svg>';
 }

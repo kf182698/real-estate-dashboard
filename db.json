@@ -2831,5 +2831,5623 @@
       "deals": 153.0
     }
   ],
-  "updated_at": "2026-06-15 13:40"
+  "updated_at": "2026-06-15 13:40",
+  "projects": {
+    "合康雙匯": {
+      "weekly": {
+        "2026-01-05": {
+          "week_start": "2026-01-05",
+          "week_end": "2026-01-11",
+          "week_no": 63,
+          "visitors_week": 8,
+          "visitors_cum": 964,
+          "calls_week": 4,
+          "ordered_week_units": null,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": 1,
+          "signed_cum_units": 120,
+          "signed_cum_amount": 264373.0,
+          "deals_week": 1,
+          "remain_units": 125,
+          "remain_parking": 131,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0105-0111",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 244,
+              "cum_deals": 35,
+              "conv_rate": 6.9714
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 207,
+              "cum_deals": 14,
+              "conv_rate": 14.7857
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 230,
+              "cum_deals": 22,
+              "conv_rate": 10.4545
+            }
+          ]
+        },
+        "2026-01-12": {
+          "week_start": "2026-01-12",
+          "week_end": "2026-01-18",
+          "week_no": 64,
+          "visitors_week": 12,
+          "visitors_cum": 984,
+          "calls_week": 3,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 120,
+          "signed_cum_amount": 264503.0,
+          "deals_week": 0,
+          "remain_units": 125,
+          "remain_parking": 131,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0112-0118",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 248,
+              "cum_deals": 35,
+              "conv_rate": 7.0857
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 210,
+              "cum_deals": 14,
+              "conv_rate": 15.0
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 235,
+              "cum_deals": 22,
+              "conv_rate": 10.6818
+            }
+          ]
+        },
+        "2025-01-13": {
+          "week_start": "2025-01-13",
+          "week_end": "2025-01-19",
+          "week_no": 12,
+          "visitors_week": 16,
+          "visitors_cum": 390,
+          "calls_week": 8,
+          "ordered_week_units": 0,
+          "deposit_week_units": 4,
+          "signed_week_units": 33,
+          "signed_week_amount": 76234.0,
+          "cancelled_week_units": 13,
+          "signed_cum_units": 37,
+          "signed_cum_amount": 37.0,
+          "deals_week": 0,
+          "remain_units": 159,
+          "remain_parking": 181,
+          "budget_media": 3125008.4333,
+          "budget_personnel": 157033.3333,
+          "budget_onsite": 1313418.0,
+          "budget_company": 157500.0,
+          "budget_bonus": 5336380.0,
+          "budget_total": 13194872.7667,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0113-0119",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 68,
+              "cum_deals": 5,
+              "conv_rate": 13.6
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 87,
+              "cum_deals": 10,
+              "conv_rate": 8.7
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-01-19": {
+          "week_start": "2026-01-19",
+          "week_end": "2026-01-25",
+          "week_no": 65,
+          "visitors_week": 14,
+          "visitors_cum": 998,
+          "calls_week": 3,
+          "ordered_week_units": 1,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 120,
+          "signed_cum_amount": 264503.0,
+          "deals_week": 0,
+          "remain_units": 125,
+          "remain_parking": 131,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0119-0125",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 253,
+              "cum_deals": 35,
+              "conv_rate": 7.2286
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 213,
+              "cum_deals": 14,
+              "conv_rate": 15.2143
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 241,
+              "cum_deals": 22,
+              "conv_rate": 10.9545
+            }
+          ]
+        },
+        "2025-01-20": {
+          "week_start": "2025-01-20",
+          "week_end": "2025-01-26",
+          "week_no": 13,
+          "visitors_week": 3,
+          "visitors_cum": 393,
+          "calls_week": 5,
+          "ordered_week_units": 0,
+          "deposit_week_units": 2,
+          "signed_week_units": 35,
+          "signed_week_amount": 80344.0,
+          "cancelled_week_units": 13,
+          "signed_cum_units": 37,
+          "signed_cum_amount": 37.0,
+          "deals_week": 0,
+          "remain_units": 159,
+          "remain_parking": 181,
+          "budget_media": 3125008.4333,
+          "budget_personnel": 134366.6667,
+          "budget_onsite": 1303759.0,
+          "budget_company": 157500.0,
+          "budget_bonus": 5624080.0,
+          "budget_total": 13450247.1,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0120-0126",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 69,
+              "cum_deals": 5,
+              "conv_rate": 13.8
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 88,
+              "cum_deals": 10,
+              "conv_rate": 8.8
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-02-02": {
+          "week_start": "2026-02-02",
+          "week_end": "2026-02-08",
+          "week_no": 67,
+          "visitors_week": 10,
+          "visitors_cum": 1014,
+          "calls_week": 3,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 2,
+          "signed_week_amount": 4172.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 122,
+          "signed_cum_amount": 268675.0,
+          "deals_week": 1,
+          "remain_units": 123,
+          "remain_parking": 129,
+          "budget_media": 62899.7667,
+          "budget_personnel": 66850.0,
+          "budget_onsite": 34415.0,
+          "budget_company": 150000.0,
+          "budget_bonus": 292040.0,
+          "budget_total": 606204.7667,
+          "exec_rate_budget": 0.5756,
+          "exec_rate_sales": 0.412,
+          "billable_fee": 85.0,
+          "billed_fee": 85.0,
+          "this_month_request": 0.0,
+          "sheet": "0126-0201",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 259,
+              "cum_deals": 36,
+              "conv_rate": 7.1944
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 216,
+              "cum_deals": 15,
+              "conv_rate": 14.4
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 248,
+              "cum_deals": 22,
+              "conv_rate": 11.2727
+            }
+          ]
+        },
+        "2025-01-27": {
+          "week_start": "2025-01-27",
+          "week_end": "2025-02-02",
+          "week_no": 14,
+          "visitors_week": 15,
+          "visitors_cum": 408,
+          "calls_week": 10,
+          "ordered_week_units": 2,
+          "deposit_week_units": 5,
+          "signed_week_units": 36,
+          "signed_week_amount": 82255.0,
+          "cancelled_week_units": 13,
+          "signed_cum_units": 41,
+          "signed_cum_amount": 41.0,
+          "deals_week": 0,
+          "remain_units": 155,
+          "remain_parking": 177,
+          "budget_media": 3125008.4333,
+          "budget_personnel": 157033.3333,
+          "budget_onsite": 1307696.0,
+          "budget_company": 157500.0,
+          "budget_bonus": 5757850.0,
+          "budget_total": 13610620.7667,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0127-0202",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 73,
+              "cum_deals": 6,
+              "conv_rate": 12.1667
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 92,
+              "cum_deals": 11,
+              "conv_rate": 8.3636
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-02-03": {
+          "week_start": "2025-02-03",
+          "week_end": "2025-02-09",
+          "week_no": 15,
+          "visitors_week": 19,
+          "visitors_cum": 427,
+          "calls_week": 16,
+          "ordered_week_units": 2,
+          "deposit_week_units": 4,
+          "signed_week_units": 39,
+          "signed_week_amount": 87687.0,
+          "cancelled_week_units": 13,
+          "signed_cum_units": 43,
+          "signed_cum_amount": 43.0,
+          "deals_week": 0,
+          "remain_units": 153,
+          "remain_parking": 175,
+          "budget_media": 3100508.4333,
+          "budget_personnel": 159866.6667,
+          "budget_onsite": 1309614.0,
+          "budget_company": 157500.0,
+          "budget_bonus": 6138090.0,
+          "budget_total": 13971112.1,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0203-0209",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 77,
+              "cum_deals": 6,
+              "conv_rate": 12.8333
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 96,
+              "cum_deals": 12,
+              "conv_rate": 8.0
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-02-10": {
+          "week_start": "2025-02-10",
+          "week_end": "2025-02-16",
+          "week_no": 16,
+          "visitors_week": 28,
+          "visitors_cum": 455,
+          "calls_week": 12,
+          "ordered_week_units": 3,
+          "deposit_week_units": 7,
+          "signed_week_units": 42,
+          "signed_week_amount": 93892.0,
+          "cancelled_week_units": 14,
+          "signed_cum_units": 49,
+          "signed_cum_amount": 49.0,
+          "deals_week": 0,
+          "remain_units": 147,
+          "remain_parking": 169,
+          "budget_media": 60667.0,
+          "budget_personnel": 82166.6667,
+          "budget_onsite": 6155.0,
+          "budget_company": 157500.0,
+          "budget_bonus": 380240.0,
+          "budget_total": 686728.6667,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0210-0216",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 85,
+              "cum_deals": 7,
+              "conv_rate": 12.1429
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 105,
+              "cum_deals": 13,
+              "conv_rate": 8.0769
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-02-16": {
+          "week_start": "2026-02-16",
+          "week_end": "2026-02-22",
+          "week_no": 69,
+          "visitors_week": 11,
+          "visitors_cum": 1025,
+          "calls_week": 4,
+          "ordered_week_units": 1,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 1900.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 123,
+          "signed_cum_amount": 270575.0,
+          "deals_week": 1,
+          "remain_units": 122,
+          "remain_parking": 128,
+          "budget_media": 62899.7667,
+          "budget_personnel": 66850.0,
+          "budget_onsite": 34415.0,
+          "budget_company": null,
+          "budget_bonus": 133000.0,
+          "budget_total": 297164.7667,
+          "exec_rate_budget": 0.5768,
+          "exec_rate_sales": 0.4167,
+          "billable_fee": 85.0,
+          "billed_fee": 85.0,
+          "this_month_request": 0.0,
+          "sheet": "0216-0222",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 262,
+              "cum_deals": 36,
+              "conv_rate": 7.2778
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 221,
+              "cum_deals": 15,
+              "conv_rate": 14.7333
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 251,
+              "cum_deals": 23,
+              "conv_rate": 10.913
+            }
+          ]
+        },
+        "2025-02-17": {
+          "week_start": "2025-02-17",
+          "week_end": "2025-02-23",
+          "week_no": 17,
+          "visitors_week": 26,
+          "visitors_cum": 481,
+          "calls_week": 11,
+          "ordered_week_units": 2,
+          "deposit_week_units": 5,
+          "signed_week_units": 48,
+          "signed_week_amount": 106650.0,
+          "cancelled_week_units": 16,
+          "signed_cum_units": 53,
+          "signed_cum_amount": 53.0,
+          "deals_week": 0,
+          "remain_units": 143,
+          "remain_parking": 165,
+          "budget_media": 60666.6667,
+          "budget_personnel": 82166.6667,
+          "budget_onsite": 2784.0,
+          "budget_company": 0.0,
+          "budget_bonus": 430290.0,
+          "budget_total": 575907.3333,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0217-0223",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 89,
+              "cum_deals": 9,
+              "conv_rate": 9.8889
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 109,
+              "cum_deals": 14,
+              "conv_rate": 7.7857
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-02-23": {
+          "week_start": "2026-02-23",
+          "week_end": "2026-03-01",
+          "week_no": 70,
+          "visitors_week": 6,
+          "visitors_cum": 1031,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 2345.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 123,
+          "signed_cum_amount": 270575.0,
+          "deals_week": 0,
+          "remain_units": 122,
+          "remain_parking": 128,
+          "budget_media": 99741.8719,
+          "budget_personnel": 66850.0,
+          "budget_onsite": 2241.0,
+          "budget_company": null,
+          "budget_bonus": 164150.0,
+          "budget_total": 332982.8719,
+          "exec_rate_budget": 0.5774,
+          "exec_rate_sales": 0.4167,
+          "billable_fee": 87.0,
+          "billed_fee": 87.0,
+          "this_month_request": 0.0,
+          "sheet": "0223-0301",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 265,
+              "cum_deals": 36,
+              "conv_rate": 7.3611
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 225,
+              "cum_deals": 15,
+              "conv_rate": 15.0
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 251,
+              "cum_deals": 23,
+              "conv_rate": 10.913
+            }
+          ]
+        },
+        "2025-02-24": {
+          "week_start": "2025-02-24",
+          "week_end": "2025-03-02",
+          "week_no": 18,
+          "visitors_week": 33,
+          "visitors_cum": 514,
+          "calls_week": 11,
+          "ordered_week_units": 1,
+          "deposit_week_units": 7,
+          "signed_week_units": 52,
+          "signed_week_amount": 115676.0,
+          "cancelled_week_units": 18,
+          "signed_cum_units": 59,
+          "signed_cum_amount": 59.0,
+          "deals_week": 0,
+          "remain_units": 137,
+          "remain_parking": 159,
+          "budget_media": 52966.4333,
+          "budget_personnel": 82166.6667,
+          "budget_onsite": 3748.0,
+          "budget_company": 0.0,
+          "budget_bonus": 893060.0,
+          "budget_total": 1031941.1,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0224-0302",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 96,
+              "cum_deals": 9,
+              "conv_rate": 10.6667
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 116,
+              "cum_deals": 15,
+              "conv_rate": 7.7333
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-03-02": {
+          "week_start": "2026-03-02",
+          "week_end": "2026-03-08",
+          "week_no": 71,
+          "visitors_week": 7,
+          "visitors_cum": 1038,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 123,
+          "signed_cum_amount": 270575.0,
+          "deals_week": 0,
+          "remain_units": 122,
+          "remain_parking": 128,
+          "budget_media": 99741.8719,
+          "budget_personnel": 62954.8387,
+          "budget_onsite": 24975.0,
+          "budget_company": 150000.0,
+          "budget_bonus": 0.0,
+          "budget_total": 337671.7106,
+          "exec_rate_budget": 0.5787,
+          "exec_rate_sales": 0.4167,
+          "billable_fee": 87.0,
+          "billed_fee": 87.0,
+          "this_month_request": 0.0,
+          "sheet": "0302-0308",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 269,
+              "cum_deals": 36,
+              "conv_rate": 7.4722
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 227,
+              "cum_deals": 15,
+              "conv_rate": 15.1333
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 252,
+              "cum_deals": 22,
+              "conv_rate": 11.4545
+            }
+          ]
+        },
+        "2025-03-03": {
+          "week_start": "2025-03-03",
+          "week_end": "2025-03-09",
+          "week_no": 19,
+          "visitors_week": 23,
+          "visitors_cum": 537,
+          "calls_week": 13,
+          "ordered_week_units": 0,
+          "deposit_week_units": 2,
+          "signed_week_units": 58,
+          "signed_week_amount": 129092.0,
+          "cancelled_week_units": 18,
+          "signed_cum_units": 60,
+          "signed_cum_amount": 60.0,
+          "deals_week": 0,
+          "remain_units": 136,
+          "remain_parking": 158,
+          "budget_media": 52966.4333,
+          "budget_personnel": 82166.6667,
+          "budget_onsite": 3937.0,
+          "budget_company": 0.0,
+          "budget_bonus": 631820.0,
+          "budget_total": 770890.1,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0303-0309",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 103,
+              "cum_deals": 10,
+              "conv_rate": 10.3
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 119,
+              "cum_deals": 15,
+              "conv_rate": 7.9333
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-03-09": {
+          "week_start": "2026-03-09",
+          "week_end": "2026-03-15",
+          "week_no": 72,
+          "visitors_week": 2,
+          "visitors_cum": 1040,
+          "calls_week": 1,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 123,
+          "signed_cum_amount": 270575.0,
+          "deals_week": 0,
+          "remain_units": 122,
+          "remain_parking": 128,
+          "budget_media": 62899.7667,
+          "budget_personnel": 62954.8387,
+          "budget_onsite": 3072.0,
+          "budget_company": null,
+          "budget_bonus": 0.0,
+          "budget_total": 128926.6054,
+          "exec_rate_budget": 0.5786,
+          "exec_rate_sales": 0.4167,
+          "billable_fee": 87.0,
+          "billed_fee": 87.0,
+          "this_month_request": 0.0,
+          "sheet": "0309-0315",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 270,
+              "cum_deals": 36,
+              "conv_rate": 7.5
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 227,
+              "cum_deals": 15,
+              "conv_rate": 15.1333
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 253,
+              "cum_deals": 22,
+              "conv_rate": 11.5
+            }
+          ]
+        },
+        "2025-03-10": {
+          "week_start": "2025-03-10",
+          "week_end": "2025-03-16",
+          "week_no": 20,
+          "visitors_week": 20,
+          "visitors_cum": 557,
+          "calls_week": 7,
+          "ordered_week_units": 0,
+          "deposit_week_units": 2,
+          "signed_week_units": 59,
+          "signed_week_amount": 131442.0,
+          "cancelled_week_units": 18,
+          "signed_cum_units": 61,
+          "signed_cum_amount": 61.0,
+          "deals_week": 0,
+          "remain_units": 135,
+          "remain_parking": 157,
+          "budget_media": 52966.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 3164.0,
+          "budget_company": 150000.0,
+          "budget_bonus": 939120.0,
+          "budget_total": 1223304.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0310-0316",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 109,
+              "cum_deals": 10,
+              "conv_rate": 10.9
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 123,
+              "cum_deals": 16,
+              "conv_rate": 7.6875
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-03-16": {
+          "week_start": "2026-03-16",
+          "week_end": "2026-03-22",
+          "week_no": 73,
+          "visitors_week": 11,
+          "visitors_cum": 1051,
+          "calls_week": 3,
+          "ordered_week_units": 1,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 123,
+          "signed_cum_amount": 270575.0,
+          "deals_week": 0,
+          "remain_units": 122,
+          "remain_parking": 128,
+          "budget_media": 65599.7667,
+          "budget_personnel": 62954.8387,
+          "budget_onsite": 32376.0,
+          "budget_company": null,
+          "budget_bonus": 0.0,
+          "budget_total": 160930.6054,
+          "exec_rate_budget": 0.5844,
+          "exec_rate_sales": 0.4167,
+          "billable_fee": 89.0,
+          "billed_fee": 87.0,
+          "this_month_request": 2.0,
+          "sheet": "0316-0322",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 277,
+              "cum_deals": 36,
+              "conv_rate": 7.6944
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 229,
+              "cum_deals": 15,
+              "conv_rate": 15.2667
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 253,
+              "cum_deals": 22,
+              "conv_rate": 11.5
+            }
+          ]
+        },
+        "2025-03-17": {
+          "week_start": "2025-03-17",
+          "week_end": "2025-03-23",
+          "week_no": 21,
+          "visitors_week": 24,
+          "visitors_cum": 581,
+          "calls_week": 11,
+          "ordered_week_units": 0,
+          "deposit_week_units": 1,
+          "signed_week_units": 59,
+          "signed_week_amount": 131442.0,
+          "cancelled_week_units": 19,
+          "signed_cum_units": 60,
+          "signed_cum_amount": 60.0,
+          "deals_week": 0,
+          "remain_units": 136,
+          "remain_parking": 158,
+          "budget_media": 52966.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 5084.0,
+          "budget_company": 0.0,
+          "budget_bonus": 164500.0,
+          "budget_total": 300604.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0317-0323",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 112,
+              "cum_deals": 10,
+              "conv_rate": 11.2
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 130,
+              "cum_deals": 15,
+              "conv_rate": 8.6667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-03-23": {
+          "week_start": "2026-03-23",
+          "week_end": "2026-03-29",
+          "week_no": 74,
+          "visitors_week": 7,
+          "visitors_cum": 1058,
+          "calls_week": 3,
+          "ordered_week_units": 4,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 124,
+          "signed_cum_amount": 273526.0,
+          "deals_week": 1,
+          "remain_units": 121,
+          "remain_parking": 126,
+          "budget_media": 65599.7667,
+          "budget_personnel": 54088.172,
+          "budget_onsite": 2730.0,
+          "budget_company": null,
+          "budget_bonus": 0.0,
+          "budget_total": 122417.9387,
+          "exec_rate_budget": 0.5843,
+          "exec_rate_sales": 0.4213,
+          "billable_fee": 89.0,
+          "billed_fee": 87.0,
+          "this_month_request": 2.0,
+          "sheet": "0323-0329",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 279,
+              "cum_deals": 36,
+              "conv_rate": 7.75
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 231,
+              "cum_deals": 16,
+              "conv_rate": 14.4375
+            }
+          ]
+        },
+        "2025-03-24": {
+          "week_start": "2025-03-24",
+          "week_end": "2025-03-30",
+          "week_no": 22,
+          "visitors_week": 16,
+          "visitors_cum": 597,
+          "calls_week": 7,
+          "ordered_week_units": 0,
+          "deposit_week_units": 1,
+          "signed_week_units": 59,
+          "signed_week_amount": 131442.0,
+          "cancelled_week_units": 19,
+          "signed_cum_units": 60,
+          "signed_cum_amount": 60.0,
+          "deals_week": 0,
+          "remain_units": 136,
+          "remain_parking": 158,
+          "budget_media": 52966.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 4349.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 135369.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0324-0330",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 116,
+              "cum_deals": 10,
+              "conv_rate": 11.6
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 136,
+              "cum_deals": 15,
+              "conv_rate": 9.0667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-03-30": {
+          "week_start": "2026-03-30",
+          "week_end": "2026-04-05",
+          "week_no": 75,
+          "visitors_week": 9,
+          "visitors_cum": 1067,
+          "calls_week": 7,
+          "ordered_week_units": 1,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 125,
+          "signed_cum_amount": 275414.0,
+          "deals_week": 1,
+          "remain_units": 120,
+          "remain_parking": 125,
+          "budget_media": 65599.7667,
+          "budget_personnel": 54088.172,
+          "budget_onsite": 5579.0,
+          "budget_company": null,
+          "budget_bonus": 0.0,
+          "budget_total": 125266.9387,
+          "exec_rate_budget": 0.5842,
+          "exec_rate_sales": 0.4259,
+          "billable_fee": 89.0,
+          "billed_fee": 87.0,
+          "this_month_request": 2.0,
+          "sheet": "0330-0405",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 283,
+              "cum_deals": 36,
+              "conv_rate": 7.8611
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 233,
+              "cum_deals": 16,
+              "conv_rate": 14.5625
+            }
+          ]
+        },
+        "2025-03-31": {
+          "week_start": "2025-03-31",
+          "week_end": "2025-04-06",
+          "week_no": 23,
+          "visitors_week": 14,
+          "visitors_cum": 611,
+          "calls_week": 10,
+          "ordered_week_units": 1,
+          "deposit_week_units": 1,
+          "signed_week_units": 60,
+          "signed_week_amount": 133739.0,
+          "cancelled_week_units": 19,
+          "signed_cum_units": 61,
+          "signed_cum_amount": 61.0,
+          "deals_week": 0,
+          "remain_units": 135,
+          "remain_parking": 157,
+          "budget_media": 52966.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 1301.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 132321.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0331-0406",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 119,
+              "cum_deals": 10,
+              "conv_rate": 11.9
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 139,
+              "cum_deals": 15,
+              "conv_rate": 9.2667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-04-06": {
+          "week_start": "2026-04-06",
+          "week_end": "2026-04-12",
+          "week_no": 76,
+          "visitors_week": 12,
+          "visitors_cum": 1080,
+          "calls_week": 7,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 2,
+          "signed_week_amount": 5263.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 126,
+          "signed_cum_amount": 277726.0,
+          "deals_week": 1,
+          "remain_units": 119,
+          "remain_parking": 124,
+          "budget_media": 68299.7667,
+          "budget_personnel": 54088.172,
+          "budget_onsite": 29851.0,
+          "budget_company": null,
+          "budget_bonus": 368410.0,
+          "budget_total": 520648.9387,
+          "exec_rate_budget": 0.5876,
+          "exec_rate_sales": 0.4306,
+          "billable_fee": 89.0,
+          "billed_fee": 87.0,
+          "this_month_request": 2.0,
+          "sheet": "0406-0412",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 287,
+              "cum_deals": 37,
+              "conv_rate": 7.7568
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 239,
+              "cum_deals": 16,
+              "conv_rate": 14.9375
+            }
+          ]
+        },
+        "2025-04-07": {
+          "week_start": "2025-04-07",
+          "week_end": "2025-04-13",
+          "week_no": 24,
+          "visitors_week": 11,
+          "visitors_cum": 622,
+          "calls_week": 4,
+          "ordered_week_units": 1,
+          "deposit_week_units": 4,
+          "signed_week_units": 61,
+          "signed_week_amount": 136110.0,
+          "cancelled_week_units": 19,
+          "signed_cum_units": 65,
+          "signed_cum_amount": 65.0,
+          "deals_week": 0,
+          "remain_units": 131,
+          "remain_parking": 153,
+          "budget_media": 42166.6667,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 1925.0,
+          "budget_company": 150000.0,
+          "budget_bonus": 160790.0,
+          "budget_total": 432935.4301,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0407-0413",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 121,
+              "cum_deals": 11,
+              "conv_rate": 11.0
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 143,
+              "cum_deals": 16,
+              "conv_rate": 8.9375
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-04-13": {
+          "week_start": "2026-04-13",
+          "week_end": "2026-04-19",
+          "week_no": 77,
+          "visitors_week": 4,
+          "visitors_cum": 1084,
+          "calls_week": 1,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 1888.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 126,
+          "signed_cum_amount": 277726.0,
+          "deals_week": 0,
+          "remain_units": 119,
+          "remain_parking": 124,
+          "budget_media": 65599.7667,
+          "budget_personnel": 45055.914,
+          "budget_onsite": 4265.0,
+          "budget_company": null,
+          "budget_bonus": 132160.0,
+          "budget_total": 247080.6806,
+          "exec_rate_budget": 0.6055,
+          "exec_rate_sales": 0.4306,
+          "billable_fee": 89.0,
+          "billed_fee": 87.0,
+          "this_month_request": 2.0,
+          "sheet": "0413-0419",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 288,
+              "cum_deals": 37,
+              "conv_rate": 7.7838
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 240,
+              "cum_deals": 16,
+              "conv_rate": 15.0
+            }
+          ]
+        },
+        "2025-04-14": {
+          "week_start": "2025-04-14",
+          "week_end": "2025-04-20",
+          "week_no": 25,
+          "visitors_week": 15,
+          "visitors_cum": 637,
+          "calls_week": 5,
+          "ordered_week_units": 0,
+          "deposit_week_units": 0,
+          "signed_week_units": 61,
+          "signed_week_amount": 136110.0,
+          "cancelled_week_units": 23,
+          "signed_cum_units": 61,
+          "signed_cum_amount": 61.0,
+          "deals_week": 0,
+          "remain_units": 135,
+          "remain_parking": 157,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 2502.0,
+          "budget_company": 0.0,
+          "budget_bonus": 165970.0,
+          "budget_total": 286892.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0414-0420",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 124,
+              "cum_deals": 10,
+              "conv_rate": 12.4
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 145,
+              "cum_deals": 15,
+              "conv_rate": 9.6667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-04-20": {
+          "week_start": "2026-04-20",
+          "week_end": "2026-04-26",
+          "week_no": 78,
+          "visitors_week": 9,
+          "visitors_cum": 1093,
+          "calls_week": 3,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 126,
+          "signed_cum_amount": 277726.0,
+          "deals_week": 0,
+          "remain_units": 119,
+          "remain_parking": 124,
+          "budget_media": 58600.0,
+          "budget_personnel": 45055.914,
+          "budget_onsite": 4971.0,
+          "budget_company": null,
+          "budget_bonus": 0.0,
+          "budget_total": 108626.914,
+          "exec_rate_budget": 0.6054,
+          "exec_rate_sales": 0.4306,
+          "billable_fee": 91.0,
+          "billed_fee": 91.0,
+          "this_month_request": 0.0,
+          "sheet": "0420-0426",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 292,
+              "cum_deals": 37,
+              "conv_rate": 7.8919
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 243,
+              "cum_deals": 16,
+              "conv_rate": 15.1875
+            }
+          ]
+        },
+        "2025-04-21": {
+          "week_start": "2025-04-21",
+          "week_end": "2025-04-27",
+          "week_no": 26,
+          "visitors_week": 14,
+          "visitors_cum": 651,
+          "calls_week": 8,
+          "ordered_week_units": 0,
+          "deposit_week_units": 1,
+          "signed_week_units": 62,
+          "signed_week_amount": 138470.0,
+          "cancelled_week_units": 23,
+          "signed_cum_units": 63,
+          "signed_cum_amount": 63.0,
+          "deals_week": 0,
+          "remain_units": 133,
+          "remain_parking": 155,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 2899.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 121319.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0421-0427",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 129,
+              "cum_deals": 11,
+              "conv_rate": 11.7273
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 147,
+              "cum_deals": 15,
+              "conv_rate": 9.8
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-05-04": {
+          "week_start": "2026-05-04",
+          "week_end": "2026-05-10",
+          "week_no": 80,
+          "visitors_week": 10,
+          "visitors_cum": 1114,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 1900.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 127,
+          "signed_cum_amount": 279626.0,
+          "deals_week": 0,
+          "remain_units": 118,
+          "remain_parking": 123,
+          "budget_media": 66699.7667,
+          "budget_personnel": 54088.172,
+          "budget_onsite": 19637.0,
+          "budget_company": null,
+          "budget_bonus": 133000.0,
+          "budget_total": 273424.9387,
+          "exec_rate_budget": 0.6068,
+          "exec_rate_sales": 0.4352,
+          "billable_fee": 91.0,
+          "billed_fee": 91.0,
+          "this_month_request": 0.0,
+          "sheet": "0427-0503",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 301,
+              "cum_deals": 37,
+              "conv_rate": 8.1351
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 248,
+              "cum_deals": 17,
+              "conv_rate": 14.5882
+            }
+          ]
+        },
+        "2025-04-28": {
+          "week_start": "2025-04-28",
+          "week_end": "2025-05-04",
+          "week_no": 27,
+          "visitors_week": 13,
+          "visitors_cum": 664,
+          "calls_week": 6,
+          "ordered_week_units": 1,
+          "deposit_week_units": 2,
+          "signed_week_units": 62,
+          "signed_week_amount": 138470.0,
+          "cancelled_week_units": 23,
+          "signed_cum_units": 64,
+          "signed_cum_amount": 64.0,
+          "deals_week": 0,
+          "remain_units": 132,
+          "remain_parking": 154,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 5152.0,
+          "budget_company": 0.0,
+          "budget_bonus": 165200.0,
+          "budget_total": 288772.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0428-0504",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 132,
+              "cum_deals": 11,
+              "conv_rate": 12.0
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 149,
+              "cum_deals": 15,
+              "conv_rate": 9.9333
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-05-05": {
+          "week_start": "2025-05-05",
+          "week_end": "2025-05-11",
+          "week_no": 28,
+          "visitors_week": 5,
+          "visitors_cum": 669,
+          "calls_week": 6,
+          "ordered_week_units": 2,
+          "deposit_week_units": 1,
+          "signed_week_units": 63,
+          "signed_week_amount": 141043.0,
+          "cancelled_week_units": 23,
+          "signed_cum_units": 64,
+          "signed_cum_amount": 64.0,
+          "deals_week": 0,
+          "remain_units": 132,
+          "remain_parking": 154,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 1733.0,
+          "budget_company": 150000.0,
+          "budget_bonus": 0.0,
+          "budget_total": 270153.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0505-0511",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 133,
+              "cum_deals": 11,
+              "conv_rate": 12.0909
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 151,
+              "cum_deals": 15,
+              "conv_rate": 10.0667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-05-11": {
+          "week_start": "2026-05-11",
+          "week_end": "2026-05-17",
+          "week_no": 81,
+          "visitors_week": 15,
+          "visitors_cum": 1129,
+          "calls_week": 3,
+          "ordered_week_units": 1,
+          "deposit_week_units": 3,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": 1,
+          "signed_cum_units": 130,
+          "signed_cum_amount": 286192.0,
+          "deals_week": 0,
+          "remain_units": 116,
+          "remain_parking": 121,
+          "budget_media": 69399.7667,
+          "budget_personnel": 54088.172,
+          "budget_onsite": 2425.0,
+          "budget_company": null,
+          "budget_bonus": 0.0,
+          "budget_total": 125912.9387,
+          "exec_rate_budget": 0.6056,
+          "exec_rate_sales": 0.4444,
+          "billable_fee": 91.0,
+          "billed_fee": 91.0,
+          "this_month_request": 0.0,
+          "sheet": "0511-0517",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 307,
+              "cum_deals": 37,
+              "conv_rate": 8.2973
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 254,
+              "cum_deals": 17,
+              "conv_rate": 14.9412
+            }
+          ]
+        },
+        "2025-05-12": {
+          "week_start": "2025-05-12",
+          "week_end": "2025-05-18",
+          "week_no": 29,
+          "visitors_week": 9,
+          "visitors_cum": 678,
+          "calls_week": 8,
+          "ordered_week_units": 2,
+          "deposit_week_units": 2,
+          "signed_week_units": 63,
+          "signed_week_amount": 141043.0,
+          "cancelled_week_units": 24,
+          "signed_cum_units": 65,
+          "signed_cum_amount": 65.0,
+          "deals_week": 0,
+          "remain_units": 131,
+          "remain_parking": 153,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 1495.0,
+          "budget_company": 0.0,
+          "budget_bonus": 180110.0,
+          "budget_total": 300025.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0512-0518",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 135,
+              "cum_deals": 10,
+              "conv_rate": 13.5
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 154,
+              "cum_deals": 15,
+              "conv_rate": 10.2667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-05-18": {
+          "week_start": "2026-05-18",
+          "week_end": "2026-05-24",
+          "week_no": 82,
+          "visitors_week": 9,
+          "visitors_cum": 1138,
+          "calls_week": 3,
+          "ordered_week_units": null,
+          "deposit_week_units": 2,
+          "signed_week_units": 3,
+          "signed_week_amount": 6544.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 133,
+          "signed_cum_amount": 292121.0,
+          "deals_week": 3,
+          "remain_units": 113,
+          "remain_parking": 118,
+          "budget_media": 69399.7667,
+          "budget_personnel": 54088.172,
+          "budget_onsite": 16965.0,
+          "budget_company": null,
+          "budget_bonus": 458080.0,
+          "budget_total": 598532.9387,
+          "exec_rate_budget": 0.6164,
+          "exec_rate_sales": 0.4583,
+          "billable_fee": 92.0,
+          "billed_fee": 91.0,
+          "this_month_request": 1.0,
+          "sheet": "0518-0524",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 310,
+              "cum_deals": 40,
+              "conv_rate": 7.75
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 259,
+              "cum_deals": 17,
+              "conv_rate": 15.2353
+            }
+          ]
+        },
+        "2025-05-19": {
+          "week_start": "2025-05-19",
+          "week_end": "2025-05-25",
+          "week_no": 30,
+          "visitors_week": 9,
+          "visitors_cum": 687,
+          "calls_week": 3,
+          "ordered_week_units": 4,
+          "deposit_week_units": 2,
+          "signed_week_units": 65,
+          "signed_week_amount": 145876.0,
+          "cancelled_week_units": 24,
+          "signed_cum_units": 67,
+          "signed_cum_amount": 67.0,
+          "deals_week": 0,
+          "remain_units": 129,
+          "remain_parking": 151,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 1522.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 119942.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0519-0525",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 138,
+              "cum_deals": 12,
+              "conv_rate": 11.5
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 156,
+              "cum_deals": 15,
+              "conv_rate": 10.4
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2026-05-25": {
+          "week_start": "2026-05-25",
+          "week_end": "2026-05-31",
+          "week_no": 83,
+          "visitors_week": 11,
+          "visitors_cum": 1149,
+          "calls_week": 4,
+          "ordered_week_units": null,
+          "deposit_week_units": 1,
+          "signed_week_units": 2,
+          "signed_week_amount": 3603.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 134,
+          "signed_cum_amount": 294343.0,
+          "deals_week": 1,
+          "remain_units": 112,
+          "remain_parking": 117,
+          "budget_media": 69399.7667,
+          "budget_personnel": 54374.1935,
+          "budget_onsite": 3624.0,
+          "budget_company": null,
+          "budget_bonus": 252210.0,
+          "budget_total": 379607.9602,
+          "exec_rate_budget": 0.6187,
+          "exec_rate_sales": 0.463,
+          "billable_fee": 92.0,
+          "billed_fee": 91.0,
+          "this_month_request": 1.0,
+          "sheet": "0525-0531",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 315,
+              "cum_deals": 40,
+              "conv_rate": 7.875
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 261,
+              "cum_deals": 17,
+              "conv_rate": 15.3529
+            },
+            {
+              "name": "林湘晴",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-05-26": {
+          "week_start": "2025-05-26",
+          "week_end": "2025-06-01",
+          "week_no": 31,
+          "visitors_week": 15,
+          "visitors_cum": 702,
+          "calls_week": 5,
+          "ordered_week_units": 3,
+          "deposit_week_units": 2,
+          "signed_week_units": 66,
+          "signed_week_amount": 147856.0,
+          "cancelled_week_units": 24,
+          "signed_cum_units": 68,
+          "signed_cum_amount": 68.0,
+          "deals_week": 0,
+          "remain_units": 128,
+          "remain_parking": 150,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 2962.0,
+          "budget_company": 0.0,
+          "budget_bonus": 338310.0,
+          "budget_total": 459692.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0526-0601",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 142,
+              "cum_deals": 13,
+              "conv_rate": 10.9231
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 158,
+              "cum_deals": 15,
+              "conv_rate": 10.5333
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-06-02": {
+          "week_start": "2025-06-02",
+          "week_end": "2025-06-08",
+          "week_no": 32,
+          "visitors_week": 8,
+          "visitors_cum": 710,
+          "calls_week": 6,
+          "ordered_week_units": 1,
+          "deposit_week_units": 1,
+          "signed_week_units": 68,
+          "signed_week_amount": 153223.0,
+          "cancelled_week_units": 24,
+          "signed_cum_units": 69,
+          "signed_cum_amount": 69.0,
+          "deals_week": 0,
+          "remain_units": 127,
+          "remain_parking": 149,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 4244.0,
+          "budget_company": 150000.0,
+          "budget_bonus": 138600.0,
+          "budget_total": 411264.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0602-0608",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 144,
+              "cum_deals": 13,
+              "conv_rate": 11.0769
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 160,
+              "cum_deals": 15,
+              "conv_rate": 10.6667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-06-09": {
+          "week_start": "2025-06-09",
+          "week_end": "2025-06-15",
+          "week_no": 33,
+          "visitors_week": 9,
+          "visitors_cum": 719,
+          "calls_week": 6,
+          "ordered_week_units": 3,
+          "deposit_week_units": 3,
+          "signed_week_units": 68,
+          "signed_week_amount": 153223.0,
+          "cancelled_week_units": 24,
+          "signed_cum_units": 71,
+          "signed_cum_amount": 71.0,
+          "deals_week": 0,
+          "remain_units": 125,
+          "remain_parking": 147,
+          "budget_media": 40366.4333,
+          "budget_personnel": 67441.0,
+          "budget_onsite": 3657.0,
+          "budget_company": 0.0,
+          "budget_bonus": 375690.0,
+          "budget_total": 487154.4333,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0609-0615",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 145,
+              "cum_deals": 13,
+              "conv_rate": 11.1538
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 161,
+              "cum_deals": 17,
+              "conv_rate": 9.4706
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-06-16": {
+          "week_start": "2025-06-16",
+          "week_end": "2025-06-22",
+          "week_no": 34,
+          "visitors_week": 18,
+          "visitors_cum": 737,
+          "calls_week": 5,
+          "ordered_week_units": 2,
+          "deposit_week_units": 2,
+          "signed_week_units": 71,
+          "signed_week_amount": 159761.0,
+          "cancelled_week_units": 24,
+          "signed_cum_units": 73,
+          "signed_cum_amount": 73.0,
+          "deals_week": 0,
+          "remain_units": 123,
+          "remain_parking": 145,
+          "budget_media": 40366.4333,
+          "budget_personnel": 67440.8602,
+          "budget_onsite": 4971.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 112778.2935,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0616-0622",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 148,
+              "cum_deals": 13,
+              "conv_rate": 11.3846
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 163,
+              "cum_deals": 18,
+              "conv_rate": 9.0556
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-06-23": {
+          "week_start": "2025-06-23",
+          "week_end": "2025-06-29",
+          "week_no": 35,
+          "visitors_week": 8,
+          "visitors_cum": 745,
+          "calls_week": 3,
+          "ordered_week_units": 0,
+          "deposit_week_units": 1,
+          "signed_week_units": 72,
+          "signed_week_amount": 162529.0,
+          "cancelled_week_units": 25,
+          "signed_cum_units": 73,
+          "signed_cum_amount": 73.0,
+          "deals_week": 0,
+          "remain_units": 123,
+          "remain_parking": 145,
+          "budget_media": 40366.4333,
+          "budget_personnel": 76924.7312,
+          "budget_onsite": 953.0,
+          "budget_company": 0.0,
+          "budget_bonus": 457660.0,
+          "budget_total": 575904.1645,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0623-0629",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 148,
+              "cum_deals": 12,
+              "conv_rate": 12.3333
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 165,
+              "cum_deals": 18,
+              "conv_rate": 9.1667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-06-30": {
+          "week_start": "2025-06-30",
+          "week_end": "2025-07-06",
+          "week_no": 36,
+          "visitors_week": 7,
+          "visitors_cum": 752,
+          "calls_week": 4,
+          "ordered_week_units": 0,
+          "deposit_week_units": 0,
+          "signed_week_units": 73,
+          "signed_week_amount": 164877.0,
+          "cancelled_week_units": 25,
+          "signed_cum_units": 73,
+          "signed_cum_amount": 73.0,
+          "deals_week": 0,
+          "remain_units": 123,
+          "remain_parking": 145,
+          "budget_media": 40366.4333,
+          "budget_personnel": 76924.7312,
+          "budget_onsite": 2682.0,
+          "budget_company": 0.0,
+          "budget_bonus": 193760.0,
+          "budget_total": 313733.1645,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0630-0706",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 149,
+              "cum_deals": 12,
+              "conv_rate": 12.4167
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 167,
+              "cum_deals": 18,
+              "conv_rate": 9.2778
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-07-07": {
+          "week_start": "2025-07-07",
+          "week_end": "2025-07-13",
+          "week_no": 37,
+          "visitors_week": 8,
+          "visitors_cum": 760,
+          "calls_week": 4,
+          "ordered_week_units": 0,
+          "deposit_week_units": 0,
+          "signed_week_units": 73,
+          "signed_week_amount": 164877.0,
+          "cancelled_week_units": 25,
+          "signed_cum_units": 73,
+          "signed_cum_amount": 73.0,
+          "deals_week": 0,
+          "remain_units": 123,
+          "remain_parking": 145,
+          "budget_media": 40366.4333,
+          "budget_personnel": 76924.7312,
+          "budget_onsite": 2440.0,
+          "budget_company": 150000.0,
+          "budget_bonus": 164360.0,
+          "budget_total": 434091.1645,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0707-0713",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 150,
+              "cum_deals": 12,
+              "conv_rate": 12.5
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 169,
+              "cum_deals": 18,
+              "conv_rate": 9.3889
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-07-14": {
+          "week_start": "2025-07-14",
+          "week_end": "2025-07-20",
+          "week_no": 38,
+          "visitors_week": 5,
+          "visitors_cum": 765,
+          "calls_week": 2,
+          "ordered_week_units": 1,
+          "deposit_week_units": 0,
+          "signed_week_units": 73,
+          "signed_week_amount": 164877.0,
+          "cancelled_week_units": 25,
+          "signed_cum_units": 73,
+          "signed_cum_amount": 73.0,
+          "deals_week": 0,
+          "remain_units": 123,
+          "remain_parking": 145,
+          "budget_media": 40366.4333,
+          "budget_personnel": 76924.7312,
+          "budget_onsite": 5946.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 123237.1645,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0714-0720",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 151,
+              "cum_deals": 12,
+              "conv_rate": 12.5833
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 171,
+              "cum_deals": 18,
+              "conv_rate": 9.5
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-07-21": {
+          "week_start": "2025-07-21",
+          "week_end": "2025-07-27",
+          "week_no": 39,
+          "visitors_week": 6,
+          "visitors_cum": 771,
+          "calls_week": 3,
+          "ordered_week_units": 0,
+          "deposit_week_units": 3,
+          "signed_week_units": 73,
+          "signed_week_amount": 164877.0,
+          "cancelled_week_units": 25,
+          "signed_cum_units": 76,
+          "signed_cum_amount": 76.0,
+          "deals_week": 0,
+          "remain_units": 120,
+          "remain_parking": 142,
+          "budget_media": 40366.4333,
+          "budget_personnel": 76924.7312,
+          "budget_onsite": 1754.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 119045.1645,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0721-0727",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 152,
+              "cum_deals": 12,
+              "conv_rate": 12.6667
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 172,
+              "cum_deals": 18,
+              "conv_rate": 9.5556
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-07-28": {
+          "week_start": "2025-07-28",
+          "week_end": "2025-08-03",
+          "week_no": 40,
+          "visitors_week": 4,
+          "visitors_cum": 775,
+          "calls_week": 2,
+          "ordered_week_units": 1,
+          "deposit_week_units": 2,
+          "signed_week_units": 75,
+          "signed_week_amount": 167979.0,
+          "cancelled_week_units": 25,
+          "signed_cum_units": 77,
+          "signed_cum_amount": 77.0,
+          "deals_week": 0,
+          "remain_units": 119,
+          "remain_parking": 141,
+          "budget_media": 40366.0,
+          "budget_personnel": 77151.0,
+          "budget_onsite": 5747.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 123264.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0728-0803",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 153,
+              "cum_deals": 12,
+              "conv_rate": 12.75
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 174,
+              "cum_deals": 19,
+              "conv_rate": 9.1579
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-08-04": {
+          "week_start": "2025-08-04",
+          "week_end": "2025-08-10",
+          "week_no": 41,
+          "visitors_week": 8,
+          "visitors_cum": 783,
+          "calls_week": 5,
+          "ordered_week_units": 2,
+          "deposit_week_units": 3,
+          "signed_week_units": 75,
+          "signed_week_amount": 167979.0,
+          "cancelled_week_units": 26,
+          "signed_cum_units": 78,
+          "signed_cum_amount": 78.0,
+          "deals_week": 0,
+          "remain_units": 118,
+          "remain_parking": 140,
+          "budget_media": 40366.0,
+          "budget_personnel": 77151.0,
+          "budget_onsite": 1460.0,
+          "budget_company": 150000.0,
+          "budget_bonus": 217140.0,
+          "budget_total": 486117.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0804-0810",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 155,
+              "cum_deals": 12,
+              "conv_rate": 12.9167
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 176,
+              "cum_deals": 19,
+              "conv_rate": 9.2632
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-08-11": {
+          "week_start": "2025-08-11",
+          "week_end": "2025-08-17",
+          "week_no": 42,
+          "visitors_week": 3,
+          "visitors_cum": 786,
+          "calls_week": 2,
+          "ordered_week_units": 2,
+          "deposit_week_units": 1,
+          "signed_week_units": 75,
+          "signed_week_amount": 167979.0,
+          "cancelled_week_units": 28,
+          "signed_cum_units": 76,
+          "signed_cum_amount": 76.0,
+          "deals_week": 0,
+          "remain_units": 120,
+          "remain_parking": 142,
+          "budget_media": 40366.0,
+          "budget_personnel": 76699.0,
+          "budget_onsite": 6391.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 123456.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0811-0817",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 156,
+              "cum_deals": 11,
+              "conv_rate": 14.1818
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 177,
+              "cum_deals": 19,
+              "conv_rate": 9.3158
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-08-18": {
+          "week_start": "2025-08-18",
+          "week_end": "2025-08-24",
+          "week_no": 43,
+          "visitors_week": 11,
+          "visitors_cum": 797,
+          "calls_week": 4,
+          "ordered_week_units": 2,
+          "deposit_week_units": 0,
+          "signed_week_units": 75,
+          "signed_week_amount": 167979.0,
+          "cancelled_week_units": 29,
+          "signed_cum_units": 75,
+          "signed_cum_amount": 75.0,
+          "deals_week": 0,
+          "remain_units": 121,
+          "remain_parking": 143,
+          "budget_media": 40366.0,
+          "budget_personnel": 76699.0,
+          "budget_onsite": 2810.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 119875.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0818-0824",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 158,
+              "cum_deals": 11,
+              "conv_rate": 14.3636
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 179,
+              "cum_deals": 19,
+              "conv_rate": 9.4211
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-08-25": {
+          "week_start": "2025-08-25",
+          "week_end": "2025-08-31",
+          "week_no": 44,
+          "visitors_week": 9,
+          "visitors_cum": 806,
+          "calls_week": 2,
+          "ordered_week_units": 1,
+          "deposit_week_units": 1,
+          "signed_week_units": 76,
+          "signed_week_amount": 169824.0,
+          "cancelled_week_units": 29,
+          "signed_cum_units": 76,
+          "signed_cum_amount": 76.0,
+          "deals_week": 0,
+          "remain_units": 120,
+          "remain_parking": 142,
+          "budget_media": 40366.0,
+          "budget_personnel": 76699.0,
+          "budget_onsite": 5652.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 122717.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0825-0831",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 159,
+              "cum_deals": 11,
+              "conv_rate": 14.4545
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 183,
+              "cum_deals": 19,
+              "conv_rate": 9.6316
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-09-01": {
+          "week_start": "2025-09-01",
+          "week_end": "2025-09-07",
+          "week_no": 45,
+          "visitors_week": 13,
+          "visitors_cum": 819,
+          "calls_week": 7,
+          "ordered_week_units": 0,
+          "deposit_week_units": 1,
+          "signed_week_units": 77,
+          "signed_week_amount": 172384.0,
+          "cancelled_week_units": 29,
+          "signed_cum_units": 77,
+          "signed_cum_amount": 77.0,
+          "deals_week": 0,
+          "remain_units": 119,
+          "remain_parking": 141,
+          "budget_media": 40366.0,
+          "budget_personnel": 76699.0,
+          "budget_onsite": 2967.0,
+          "budget_company": 0.0,
+          "budget_bonus": 129150.0,
+          "budget_total": 249182.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0901-0907",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 162,
+              "cum_deals": 12,
+              "conv_rate": 13.5
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 184,
+              "cum_deals": 19,
+              "conv_rate": 9.6842
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-09-08": {
+          "week_start": "2025-09-08",
+          "week_end": "2025-09-14",
+          "week_no": 46,
+          "visitors_week": 7,
+          "visitors_cum": 826,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 106,
+          "signed_cum_amount": 236061.0,
+          "deals_week": 0,
+          "remain_units": 135,
+          "remain_parking": 141,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0908-0914",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 202,
+              "cum_deals": 30,
+              "conv_rate": 6.7333
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 185,
+              "cum_deals": 12,
+              "conv_rate": 15.4167
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 163,
+              "cum_deals": 12,
+              "conv_rate": 13.5833
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 186,
+              "cum_deals": 19,
+              "conv_rate": 9.7895
+            }
+          ]
+        },
+        "2025-09-15": {
+          "week_start": "2025-09-15",
+          "week_end": "2025-09-21",
+          "week_no": 47,
+          "visitors_week": 7,
+          "visitors_cum": 833,
+          "calls_week": 2,
+          "ordered_week_units": 1,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 106,
+          "signed_cum_amount": 236061.0,
+          "deals_week": 0,
+          "remain_units": 135,
+          "remain_parking": 141,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0915-0921",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 204,
+              "cum_deals": 30,
+              "conv_rate": 6.8
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 186,
+              "cum_deals": 12,
+              "conv_rate": 15.5
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 164,
+              "cum_deals": 12,
+              "conv_rate": 13.6667
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 189,
+              "cum_deals": 19,
+              "conv_rate": 9.9474
+            }
+          ]
+        },
+        "2025-09-22": {
+          "week_start": "2025-09-22",
+          "week_end": "2025-09-28",
+          "week_no": 48,
+          "visitors_week": 12,
+          "visitors_cum": 845,
+          "calls_week": 2,
+          "ordered_week_units": 3,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 107,
+          "signed_cum_amount": 238840.0,
+          "deals_week": 1,
+          "remain_units": 134,
+          "remain_parking": 140,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0922-0928",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 204,
+              "cum_deals": 30,
+              "conv_rate": 6.8
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 190,
+              "cum_deals": 12,
+              "conv_rate": 15.8333
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 167,
+              "cum_deals": 13,
+              "conv_rate": 12.8462
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 192,
+              "cum_deals": 19,
+              "conv_rate": 10.1053
+            }
+          ]
+        },
+        "2025-09-29": {
+          "week_start": "2025-09-29",
+          "week_end": "2025-10-05",
+          "week_no": 49,
+          "visitors_week": 6,
+          "visitors_cum": 851,
+          "calls_week": 4,
+          "ordered_week_units": null,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 108,
+          "signed_cum_amount": 241253.0,
+          "deals_week": 1,
+          "remain_units": 133,
+          "remain_parking": 139,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0929-1005",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 205,
+              "cum_deals": 30,
+              "conv_rate": 6.8333
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 191,
+              "cum_deals": 12,
+              "conv_rate": 15.9167
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 168,
+              "cum_deals": 13,
+              "conv_rate": 12.9231
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 195,
+              "cum_deals": 20,
+              "conv_rate": 9.75
+            }
+          ]
+        },
+        "2025-10-06": {
+          "week_start": "2025-10-06",
+          "week_end": "2025-10-12",
+          "week_no": 50,
+          "visitors_week": 9,
+          "visitors_cum": 860,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 3,
+          "signed_week_amount": 7531.0,
+          "cancelled_week_units": 1,
+          "signed_cum_units": 110,
+          "signed_cum_amount": 246005.0,
+          "deals_week": 2,
+          "remain_units": 132,
+          "remain_parking": 138,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1006-1012",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 207,
+              "cum_deals": 31,
+              "conv_rate": 6.6774
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 194,
+              "cum_deals": 12,
+              "conv_rate": 16.1667
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 171,
+              "cum_deals": 13,
+              "conv_rate": 13.1538
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 196,
+              "cum_deals": 20,
+              "conv_rate": 9.8
+            }
+          ]
+        },
+        "2024-10-07": {
+          "week_start": "2024-10-07",
+          "week_end": "2024-10-13",
+          "week_no": 1,
+          "visitors_week": 0,
+          "visitors_cum": 0,
+          "calls_week": 8,
+          "ordered_week_units": 0,
+          "deposit_week_units": 0,
+          "signed_week_units": 0,
+          "signed_week_amount": 0.0,
+          "cancelled_week_units": 0,
+          "signed_cum_units": 0,
+          "signed_cum_amount": 0.0,
+          "deals_week": 0,
+          "remain_units": 198,
+          "remain_parking": 223,
+          "budget_media": 1296500.0,
+          "budget_personnel": null,
+          "budget_onsite": 57234.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 2313269.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "1007-1013",
+          "salespeople": [
+            {
+              "name": "黃愷婷",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "陳惠珍",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "黃品蓁",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-10-13": {
+          "week_start": "2025-10-13",
+          "week_end": "2025-10-19",
+          "week_no": 51,
+          "visitors_week": 6,
+          "visitors_cum": 866,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 111,
+          "signed_cum_amount": 247834.0,
+          "deals_week": 1,
+          "remain_units": 131,
+          "remain_parking": 137,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1013-1019",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 208,
+              "cum_deals": 32,
+              "conv_rate": 6.5
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 195,
+              "cum_deals": 12,
+              "conv_rate": 16.25
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 172,
+              "cum_deals": 13,
+              "conv_rate": 13.2308
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 199,
+              "cum_deals": 20,
+              "conv_rate": 9.95
+            }
+          ]
+        },
+        "2024-10-21": {
+          "week_start": "2024-10-21",
+          "week_end": "2024-10-27",
+          "week_no": 3,
+          "visitors_week": 47,
+          "visitors_cum": 47,
+          "calls_week": 6,
+          "ordered_week_units": 35,
+          "deposit_week_units": 0,
+          "signed_week_units": 0,
+          "signed_week_amount": 0.0,
+          "cancelled_week_units": 0,
+          "signed_cum_units": 0,
+          "signed_cum_amount": 0.0,
+          "deals_week": 0,
+          "remain_units": 198,
+          "remain_parking": 223,
+          "budget_media": 2053010.0,
+          "budget_personnel": null,
+          "budget_onsite": 1302827.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 20027161.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "1021-1027",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 1,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "陳惠珍",
+              "cum_visitors": 1,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 1,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "2025-10-20": {
+          "week_start": "2025-10-20",
+          "week_end": "2025-10-26",
+          "week_no": 52,
+          "visitors_week": 11,
+          "visitors_cum": 877,
+          "calls_week": 4,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 111,
+          "signed_cum_amount": 247834.0,
+          "deals_week": 0,
+          "remain_units": 131,
+          "remain_parking": 137,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1020-1026",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 213,
+              "cum_deals": 32,
+              "conv_rate": 6.6562
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 196,
+              "cum_deals": 12,
+              "conv_rate": 16.3333
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 174,
+              "cum_deals": 13,
+              "conv_rate": 13.3846
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 202,
+              "cum_deals": 20,
+              "conv_rate": 10.1
+            }
+          ]
+        },
+        "2025-10-27": {
+          "week_start": "2025-10-27",
+          "week_end": "2025-11-02",
+          "week_no": 53,
+          "visitors_week": 2,
+          "visitors_cum": 879,
+          "calls_week": 1,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 1829.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 111,
+          "signed_cum_amount": 247834.0,
+          "deals_week": 0,
+          "remain_units": 131,
+          "remain_parking": 137,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1027-1102",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 214,
+              "cum_deals": 32,
+              "conv_rate": 6.6875
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 196,
+              "cum_deals": 12,
+              "conv_rate": 16.3333
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 175,
+              "cum_deals": 13,
+              "conv_rate": 13.4615
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 202,
+              "cum_deals": 20,
+              "conv_rate": 10.1
+            }
+          ]
+        },
+        "2025-11-03": {
+          "week_start": "2025-11-03",
+          "week_end": "2025-11-09",
+          "week_no": 54,
+          "visitors_week": 5,
+          "visitors_cum": 884,
+          "calls_week": 4,
+          "ordered_week_units": 1,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 1530.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 112,
+          "signed_cum_amount": 249663.0,
+          "deals_week": 1,
+          "remain_units": 130,
+          "remain_parking": 136,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1103-1109",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 215,
+              "cum_deals": 33,
+              "conv_rate": 6.5152
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 178,
+              "cum_deals": 13,
+              "conv_rate": 13.6923
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 203,
+              "cum_deals": 20,
+              "conv_rate": 10.15
+            }
+          ]
+        },
+        "2025-11-10": {
+          "week_start": "2025-11-10",
+          "week_end": "2025-11-16",
+          "week_no": 55,
+          "visitors_week": 12,
+          "visitors_cum": 896,
+          "calls_week": 5,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 112,
+          "signed_cum_amount": 249663.0,
+          "deals_week": 0,
+          "remain_units": 130,
+          "remain_parking": 136,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1110-1116",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 218,
+              "cum_deals": 33,
+              "conv_rate": 6.6061
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 181,
+              "cum_deals": 13,
+              "conv_rate": 13.9231
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 209,
+              "cum_deals": 20,
+              "conv_rate": 10.45
+            }
+          ]
+        },
+        "2025-11-17": {
+          "week_start": "2025-11-17",
+          "week_end": "2025-11-23",
+          "week_no": 56,
+          "visitors_week": 15,
+          "visitors_cum": 911,
+          "calls_week": 8,
+          "ordered_week_units": 3,
+          "deposit_week_units": 1,
+          "signed_week_units": 1,
+          "signed_week_amount": 1880.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 114,
+          "signed_cum_amount": 253102.0,
+          "deals_week": 2,
+          "remain_units": 128,
+          "remain_parking": 134,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1117-1123",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 223,
+              "cum_deals": 33,
+              "conv_rate": 6.7576
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 185,
+              "cum_deals": 14,
+              "conv_rate": 13.2143
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 213,
+              "cum_deals": 21,
+              "conv_rate": 10.1429
+            }
+          ]
+        },
+        "2025-11-24": {
+          "week_start": "2025-11-24",
+          "week_end": "2025-11-30",
+          "week_no": 57,
+          "visitors_week": 10,
+          "visitors_cum": 921,
+          "calls_week": 1,
+          "ordered_week_units": null,
+          "deposit_week_units": 2,
+          "signed_week_units": 2,
+          "signed_week_amount": 3691.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 117,
+          "signed_cum_amount": 258767.0,
+          "deals_week": 3,
+          "remain_units": 125,
+          "remain_parking": 131,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1124-1130",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 227,
+              "cum_deals": 36,
+              "conv_rate": 6.3056
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 186,
+              "cum_deals": 14,
+              "conv_rate": 13.2857
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 217,
+              "cum_deals": 21,
+              "conv_rate": 10.3333
+            }
+          ]
+        },
+        "2025-12-01": {
+          "week_start": "2025-12-01",
+          "week_end": "2025-12-07",
+          "week_no": 58,
+          "visitors_week": 6,
+          "visitors_cum": 927,
+          "calls_week": 1,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 1999.0,
+          "cancelled_week_units": 1,
+          "signed_cum_units": 117,
+          "signed_cum_amount": 258767.0,
+          "deals_week": 0,
+          "remain_units": 126,
+          "remain_parking": 132,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1201-1207",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 228,
+              "cum_deals": 35,
+              "conv_rate": 6.5143
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 189,
+              "cum_deals": 14,
+              "conv_rate": 13.5
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 219,
+              "cum_deals": 21,
+              "conv_rate": 10.4286
+            }
+          ]
+        },
+        "2025-12-08": {
+          "week_start": "2025-12-08",
+          "week_end": "2025-12-14",
+          "week_no": 59,
+          "visitors_week": 6,
+          "visitors_cum": 933,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 117,
+          "signed_cum_amount": 258767.0,
+          "deals_week": 0,
+          "remain_units": 126,
+          "remain_parking": 132,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1208-1214",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 230,
+              "cum_deals": 35,
+              "conv_rate": 6.5714
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 191,
+              "cum_deals": 14,
+              "conv_rate": 13.6429
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 221,
+              "cum_deals": 21,
+              "conv_rate": 10.5238
+            }
+          ]
+        },
+        "2025-12-15": {
+          "week_start": "2025-12-15",
+          "week_end": "2025-12-21",
+          "week_no": 60,
+          "visitors_week": 11,
+          "visitors_cum": 944,
+          "calls_week": 5,
+          "ordered_week_units": null,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 118,
+          "signed_cum_amount": 260627.0,
+          "deals_week": 0,
+          "remain_units": 125,
+          "remain_parking": 131,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1215-1221",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 234,
+              "cum_deals": 35,
+              "conv_rate": 6.6857
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 196,
+              "cum_deals": 14,
+              "conv_rate": 14.0
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 223,
+              "cum_deals": 22,
+              "conv_rate": 10.1364
+            }
+          ]
+        },
+        "2025-12-22": {
+          "week_start": "2025-12-22",
+          "week_end": "2025-12-28",
+          "week_no": 61,
+          "visitors_week": 14,
+          "visitors_cum": 958,
+          "calls_week": 4,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": 1,
+          "signed_cum_units": 118,
+          "signed_cum_amount": 260627.0,
+          "deals_week": 0,
+          "remain_units": 126,
+          "remain_parking": 132,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1222-1228",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 239,
+              "cum_deals": 35,
+              "conv_rate": 6.8286
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 202,
+              "cum_deals": 14,
+              "conv_rate": 14.4286
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 226,
+              "cum_deals": 21,
+              "conv_rate": 10.7619
+            }
+          ]
+        },
+        "2025-12-29": {
+          "week_start": "2025-12-29",
+          "week_end": "2026-01-04",
+          "week_no": 62,
+          "visitors_week": 6,
+          "visitors_cum": 964,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 118,
+          "signed_cum_amount": 260627.0,
+          "deals_week": 0,
+          "remain_units": 126,
+          "remain_parking": 132,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1229-0104",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 242,
+              "cum_deals": 35,
+              "conv_rate": 6.9143
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 204,
+              "cum_deals": 14,
+              "conv_rate": 14.5714
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 227,
+              "cum_deals": 21,
+              "conv_rate": 10.8095
+            }
+          ]
+        }
+      },
+      "unit_status": {
+        "matrix": [
+          {
+            "floor": "14F",
+            "unit": "A1",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "B1",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "B2",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "B3",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "B4",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "B5",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "C2",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "C5",
+            "status": "未售"
+          },
+          {
+            "floor": "14F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "13F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "13F",
+            "unit": "A4",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "13F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "B2",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "B3",
+            "status": "未售"
+          },
+          {
+            "floor": "13F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "C1",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "C2",
+            "status": "未售"
+          },
+          {
+            "floor": "13F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "13F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "13F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "13F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "12F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "12F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "12F",
+            "unit": "B2",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "B3",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "12F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "12F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "C2",
+            "status": "簽約"
+          },
+          {
+            "floor": "12F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "12F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "12F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "11F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "11F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "11F",
+            "unit": "A3",
+            "status": "簽約"
+          },
+          {
+            "floor": "11F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "11F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "11F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "11F",
+            "unit": "B2",
+            "status": "未售"
+          },
+          {
+            "floor": "11F",
+            "unit": "B3",
+            "status": "未售"
+          },
+          {
+            "floor": "11F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "11F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "11F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "11F",
+            "unit": "C2",
+            "status": "簽約"
+          },
+          {
+            "floor": "11F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "11F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "11F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "11F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "10F",
+            "unit": "A1",
+            "status": "業"
+          },
+          {
+            "floor": "10F",
+            "unit": "A2",
+            "status": "補足"
+          },
+          {
+            "floor": "10F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "10F",
+            "unit": "A4",
+            "status": "簽約"
+          },
+          {
+            "floor": "10F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "10F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "10F",
+            "unit": "B2",
+            "status": "未售"
+          },
+          {
+            "floor": "10F",
+            "unit": "B3",
+            "status": "簽約"
+          },
+          {
+            "floor": "10F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "10F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "10F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "10F",
+            "unit": "C2",
+            "status": "未售"
+          },
+          {
+            "floor": "10F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "10F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "10F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "10F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "9F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "9F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "9F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "9F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "B2",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "B3",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "9F",
+            "unit": "C2",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "9F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "9F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "9F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "8F",
+            "unit": "A3",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "8F",
+            "unit": "A5",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "B2",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "B3",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "8F",
+            "unit": "C2",
+            "status": "簽約"
+          },
+          {
+            "floor": "8F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "8F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "8F",
+            "unit": "C5",
+            "status": "業"
+          },
+          {
+            "floor": "8F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "7F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "7F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "7F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "7F",
+            "unit": "A4",
+            "status": "補足"
+          },
+          {
+            "floor": "7F",
+            "unit": "A5",
+            "status": "簽約"
+          },
+          {
+            "floor": "7F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "7F",
+            "unit": "B2",
+            "status": "未售"
+          },
+          {
+            "floor": "7F",
+            "unit": "B3",
+            "status": "未售"
+          },
+          {
+            "floor": "7F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "7F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "7F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "7F",
+            "unit": "C2",
+            "status": "簽約"
+          },
+          {
+            "floor": "7F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "7F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "7F",
+            "unit": "C5",
+            "status": "業"
+          },
+          {
+            "floor": "7F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "6F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "6F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "6F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "6F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "B2",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "B3",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "6F",
+            "unit": "C2",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "C3",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "C4",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "6F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "5F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "5F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "5F",
+            "unit": "A5",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "B2",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "B3",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "5F",
+            "unit": "C2",
+            "status": "未售"
+          },
+          {
+            "floor": "5F",
+            "unit": "C3",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "C4",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "5F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "4F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "4F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "4F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "4F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "4F",
+            "unit": "A5",
+            "status": "簽約"
+          },
+          {
+            "floor": "4F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "4F",
+            "unit": "B2",
+            "status": "未售"
+          },
+          {
+            "floor": "4F",
+            "unit": "B3",
+            "status": "未售"
+          },
+          {
+            "floor": "4F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "4F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "4F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "4F",
+            "unit": "C2",
+            "status": "未售"
+          },
+          {
+            "floor": "4F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "4F",
+            "unit": "C4",
+            "status": "簽約"
+          },
+          {
+            "floor": "4F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "4F",
+            "unit": "C6",
+            "status": "業"
+          },
+          {
+            "floor": "3F",
+            "unit": "A1",
+            "status": "簽約"
+          },
+          {
+            "floor": "3F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "B1",
+            "status": "簽約"
+          },
+          {
+            "floor": "3F",
+            "unit": "B2",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "B3",
+            "status": "簽約"
+          },
+          {
+            "floor": "3F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "3F",
+            "unit": "B5",
+            "status": "簽約"
+          },
+          {
+            "floor": "3F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "C2",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "3F",
+            "unit": "C5",
+            "status": "簽約"
+          },
+          {
+            "floor": "3F",
+            "unit": "C6",
+            "status": "簽約"
+          },
+          {
+            "floor": "2F",
+            "unit": "A1",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "A2",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "A3",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "A4",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "A5",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "B1",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "B2",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "B3",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "B4",
+            "status": "簽約"
+          },
+          {
+            "floor": "2F",
+            "unit": "B5",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "C1",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "C2",
+            "status": "簽約"
+          },
+          {
+            "floor": "2F",
+            "unit": "C3",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "C4",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "C5",
+            "status": "未售"
+          },
+          {
+            "floor": "2F",
+            "unit": "C6",
+            "status": "未售"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "A1",
+            "status": "A3"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "A2",
+            "status": "A4"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "A3",
+            "status": "A5"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "A4",
+            "status": "B1"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "A5",
+            "status": "B2"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "B1",
+            "status": "B3"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "B2",
+            "status": "C1"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "B3",
+            "status": "C2"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "B4",
+            "status": "C3"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "B5",
+            "status": "C4"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "C1",
+            "status": "C5"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "C2",
+            "status": "C6"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "C3",
+            "status": "C7"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "C4",
+            "status": "C8"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "C5",
+            "status": "C9"
+          },
+          {
+            "floor": "店面\n1F",
+            "unit": "C6",
+            "status": "C10"
+          }
+        ],
+        "absorption": {
+          "B": 19.2,
+          "C": 62.5,
+          "D": 54.0,
+          "E": 53.8,
+          "F": 11.1,
+          "G": 48.1
+        },
+        "remain": {
+          "B": 21,
+          "C": 18,
+          "D": 51,
+          "E": 6,
+          "F": 16,
+          "G": 112,
+          "P": 7
+        }
+      },
+      "monthly": {
+        "113.10": {
+          "week_start": "2024-10-21",
+          "week_end": "2024-10-27",
+          "week_no": 3,
+          "visitors_week": 47,
+          "visitors_cum": 47,
+          "calls_week": 6,
+          "ordered_week_units": 35,
+          "deposit_week_units": 0,
+          "signed_week_units": 0,
+          "signed_week_amount": 0.0,
+          "cancelled_week_units": 0,
+          "signed_cum_units": 0,
+          "signed_cum_amount": 0.0,
+          "deals_week": 0,
+          "remain_units": 198,
+          "remain_parking": 223,
+          "budget_media": 2053010.0,
+          "budget_personnel": null,
+          "budget_onsite": 1302827.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 20027161.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "1021-1027",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 1,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "陳惠珍",
+              "cum_visitors": 1,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 1,
+              "cum_deals": null,
+              "conv_rate": null
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.01": {
+          "week_start": "2025-01-27",
+          "week_end": "2025-02-02",
+          "week_no": 14,
+          "visitors_week": 15,
+          "visitors_cum": 408,
+          "calls_week": 10,
+          "ordered_week_units": 2,
+          "deposit_week_units": 5,
+          "signed_week_units": 36,
+          "signed_week_amount": 82255.0,
+          "cancelled_week_units": 13,
+          "signed_cum_units": 41,
+          "signed_cum_amount": 41.0,
+          "deals_week": 0,
+          "remain_units": 155,
+          "remain_parking": 177,
+          "budget_media": 3125008.4333,
+          "budget_personnel": 157033.3333,
+          "budget_onsite": 1307696.0,
+          "budget_company": 157500.0,
+          "budget_bonus": 5757850.0,
+          "budget_total": 13610620.7667,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0127-0202",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 73,
+              "cum_deals": 6,
+              "conv_rate": 12.1667
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 92,
+              "cum_deals": 11,
+              "conv_rate": 8.3636
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.02": {
+          "week_start": "2025-02-24",
+          "week_end": "2025-03-02",
+          "week_no": 18,
+          "visitors_week": 33,
+          "visitors_cum": 514,
+          "calls_week": 11,
+          "ordered_week_units": 1,
+          "deposit_week_units": 7,
+          "signed_week_units": 52,
+          "signed_week_amount": 115676.0,
+          "cancelled_week_units": 18,
+          "signed_cum_units": 59,
+          "signed_cum_amount": 59.0,
+          "deals_week": 0,
+          "remain_units": 137,
+          "remain_parking": 159,
+          "budget_media": 52966.4333,
+          "budget_personnel": 82166.6667,
+          "budget_onsite": 3748.0,
+          "budget_company": 0.0,
+          "budget_bonus": 893060.0,
+          "budget_total": 1031941.1,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0224-0302",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 96,
+              "cum_deals": 9,
+              "conv_rate": 10.6667
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 116,
+              "cum_deals": 15,
+              "conv_rate": 7.7333
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.03": {
+          "week_start": "2025-03-31",
+          "week_end": "2025-04-06",
+          "week_no": 23,
+          "visitors_week": 14,
+          "visitors_cum": 611,
+          "calls_week": 10,
+          "ordered_week_units": 1,
+          "deposit_week_units": 1,
+          "signed_week_units": 60,
+          "signed_week_amount": 133739.0,
+          "cancelled_week_units": 19,
+          "signed_cum_units": 61,
+          "signed_cum_amount": 61.0,
+          "deals_week": 0,
+          "remain_units": 135,
+          "remain_parking": 157,
+          "budget_media": 52966.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 1301.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 132321.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0331-0406",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 119,
+              "cum_deals": 10,
+              "conv_rate": 11.9
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 139,
+              "cum_deals": 15,
+              "conv_rate": 9.2667
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.04": {
+          "week_start": "2025-04-28",
+          "week_end": "2025-05-04",
+          "week_no": 27,
+          "visitors_week": 13,
+          "visitors_cum": 664,
+          "calls_week": 6,
+          "ordered_week_units": 1,
+          "deposit_week_units": 2,
+          "signed_week_units": 62,
+          "signed_week_amount": 138470.0,
+          "cancelled_week_units": 23,
+          "signed_cum_units": 64,
+          "signed_cum_amount": 64.0,
+          "deals_week": 0,
+          "remain_units": 132,
+          "remain_parking": 154,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 5152.0,
+          "budget_company": 0.0,
+          "budget_bonus": 165200.0,
+          "budget_total": 288772.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0428-0504",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 132,
+              "cum_deals": 11,
+              "conv_rate": 12.0
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 149,
+              "cum_deals": 15,
+              "conv_rate": 9.9333
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.05": {
+          "week_start": "2025-05-26",
+          "week_end": "2025-06-01",
+          "week_no": 31,
+          "visitors_week": 15,
+          "visitors_cum": 702,
+          "calls_week": 5,
+          "ordered_week_units": 3,
+          "deposit_week_units": 2,
+          "signed_week_units": 66,
+          "signed_week_amount": 147856.0,
+          "cancelled_week_units": 24,
+          "signed_cum_units": 68,
+          "signed_cum_amount": 68.0,
+          "deals_week": 0,
+          "remain_units": 128,
+          "remain_parking": 150,
+          "budget_media": 40366.4333,
+          "budget_personnel": 78053.7634,
+          "budget_onsite": 2962.0,
+          "budget_company": 0.0,
+          "budget_bonus": 338310.0,
+          "budget_total": 459692.1968,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0526-0601",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 142,
+              "cum_deals": 13,
+              "conv_rate": 10.9231
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 158,
+              "cum_deals": 15,
+              "conv_rate": 10.5333
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.06": {
+          "week_start": "2025-06-30",
+          "week_end": "2025-07-06",
+          "week_no": 36,
+          "visitors_week": 7,
+          "visitors_cum": 752,
+          "calls_week": 4,
+          "ordered_week_units": 0,
+          "deposit_week_units": 0,
+          "signed_week_units": 73,
+          "signed_week_amount": 164877.0,
+          "cancelled_week_units": 25,
+          "signed_cum_units": 73,
+          "signed_cum_amount": 73.0,
+          "deals_week": 0,
+          "remain_units": 123,
+          "remain_parking": 145,
+          "budget_media": 40366.4333,
+          "budget_personnel": 76924.7312,
+          "budget_onsite": 2682.0,
+          "budget_company": 0.0,
+          "budget_bonus": 193760.0,
+          "budget_total": 313733.1645,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0630-0706",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 149,
+              "cum_deals": 12,
+              "conv_rate": 12.4167
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 167,
+              "cum_deals": 18,
+              "conv_rate": 9.2778
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.07": {
+          "week_start": "2025-07-28",
+          "week_end": "2025-08-03",
+          "week_no": 40,
+          "visitors_week": 4,
+          "visitors_cum": 775,
+          "calls_week": 2,
+          "ordered_week_units": 1,
+          "deposit_week_units": 2,
+          "signed_week_units": 75,
+          "signed_week_amount": 167979.0,
+          "cancelled_week_units": 25,
+          "signed_cum_units": 77,
+          "signed_cum_amount": 77.0,
+          "deals_week": 0,
+          "remain_units": 119,
+          "remain_parking": 141,
+          "budget_media": 40366.0,
+          "budget_personnel": 77151.0,
+          "budget_onsite": 5747.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 123264.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0728-0803",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 153,
+              "cum_deals": 12,
+              "conv_rate": 12.75
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 174,
+              "cum_deals": 19,
+              "conv_rate": 9.1579
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.08": {
+          "week_start": "2025-08-25",
+          "week_end": "2025-08-31",
+          "week_no": 44,
+          "visitors_week": 9,
+          "visitors_cum": 806,
+          "calls_week": 2,
+          "ordered_week_units": 1,
+          "deposit_week_units": 1,
+          "signed_week_units": 76,
+          "signed_week_amount": 169824.0,
+          "cancelled_week_units": 29,
+          "signed_cum_units": 76,
+          "signed_cum_amount": 76.0,
+          "deals_week": 0,
+          "remain_units": 120,
+          "remain_parking": 142,
+          "budget_media": 40366.0,
+          "budget_personnel": 76699.0,
+          "budget_onsite": 5652.0,
+          "budget_company": 0.0,
+          "budget_bonus": 0.0,
+          "budget_total": 122717.0,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": 0.0,
+          "this_month_request": 0.0,
+          "sheet": "0825-0831",
+          "salespeople": [
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 159,
+              "cum_deals": 11,
+              "conv_rate": 14.4545
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 183,
+              "cum_deals": 19,
+              "conv_rate": 9.6316
+            },
+            {
+              "name": "工務:",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        },
+        "114.09": {
+          "week_start": "2025-09-29",
+          "week_end": "2025-10-05",
+          "week_no": 49,
+          "visitors_week": 6,
+          "visitors_cum": 851,
+          "calls_week": 4,
+          "ordered_week_units": null,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 108,
+          "signed_cum_amount": 241253.0,
+          "deals_week": 1,
+          "remain_units": 133,
+          "remain_parking": 139,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0929-1005",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 205,
+              "cum_deals": 30,
+              "conv_rate": 6.8333
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 191,
+              "cum_deals": 12,
+              "conv_rate": 15.9167
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 168,
+              "cum_deals": 13,
+              "conv_rate": 12.9231
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 195,
+              "cum_deals": 20,
+              "conv_rate": 9.75
+            }
+          ]
+        },
+        "114.10": {
+          "week_start": "2025-10-27",
+          "week_end": "2025-11-02",
+          "week_no": 53,
+          "visitors_week": 2,
+          "visitors_cum": 879,
+          "calls_week": 1,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 1829.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 111,
+          "signed_cum_amount": 247834.0,
+          "deals_week": 0,
+          "remain_units": 131,
+          "remain_parking": 137,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1027-1102",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 214,
+              "cum_deals": 32,
+              "conv_rate": 6.6875
+            },
+            {
+              "name": "陳怡安",
+              "cum_visitors": 196,
+              "cum_deals": 12,
+              "conv_rate": 16.3333
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 175,
+              "cum_deals": 13,
+              "conv_rate": 13.4615
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 202,
+              "cum_deals": 20,
+              "conv_rate": 10.1
+            }
+          ]
+        },
+        "114.11": {
+          "week_start": "2025-11-24",
+          "week_end": "2025-11-30",
+          "week_no": 57,
+          "visitors_week": 10,
+          "visitors_cum": 921,
+          "calls_week": 1,
+          "ordered_week_units": null,
+          "deposit_week_units": 2,
+          "signed_week_units": 2,
+          "signed_week_amount": 3691.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 117,
+          "signed_cum_amount": 258767.0,
+          "deals_week": 3,
+          "remain_units": 125,
+          "remain_parking": 131,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1124-1130",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 227,
+              "cum_deals": 36,
+              "conv_rate": 6.3056
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 186,
+              "cum_deals": 14,
+              "conv_rate": 13.2857
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 217,
+              "cum_deals": 21,
+              "conv_rate": 10.3333
+            }
+          ]
+        },
+        "114.12": {
+          "week_start": "2025-12-29",
+          "week_end": "2026-01-04",
+          "week_no": 62,
+          "visitors_week": 6,
+          "visitors_cum": 964,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 118,
+          "signed_cum_amount": 260627.0,
+          "deals_week": 0,
+          "remain_units": 126,
+          "remain_parking": 132,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "1229-0104",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 242,
+              "cum_deals": 35,
+              "conv_rate": 6.9143
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 204,
+              "cum_deals": 14,
+              "conv_rate": 14.5714
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 227,
+              "cum_deals": 21,
+              "conv_rate": 10.8095
+            }
+          ]
+        },
+        "115.01": {
+          "week_start": "2026-01-19",
+          "week_end": "2026-01-25",
+          "week_no": 65,
+          "visitors_week": 14,
+          "visitors_cum": 998,
+          "calls_week": 3,
+          "ordered_week_units": 1,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 120,
+          "signed_cum_amount": 264503.0,
+          "deals_week": 0,
+          "remain_units": 125,
+          "remain_parking": 131,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null,
+          "budget_total": null,
+          "exec_rate_budget": null,
+          "exec_rate_sales": null,
+          "billable_fee": null,
+          "billed_fee": null,
+          "this_month_request": null,
+          "sheet": "0119-0125",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 253,
+              "cum_deals": 35,
+              "conv_rate": 7.2286
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 213,
+              "cum_deals": 14,
+              "conv_rate": 15.2143
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 241,
+              "cum_deals": 22,
+              "conv_rate": 10.9545
+            }
+          ]
+        },
+        "115.02": {
+          "week_start": "2026-02-23",
+          "week_end": "2026-03-01",
+          "week_no": 70,
+          "visitors_week": 6,
+          "visitors_cum": 1031,
+          "calls_week": 2,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": 1,
+          "signed_week_amount": 2345.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 123,
+          "signed_cum_amount": 270575.0,
+          "deals_week": 0,
+          "remain_units": 122,
+          "remain_parking": 128,
+          "budget_media": 99741.8719,
+          "budget_personnel": 66850.0,
+          "budget_onsite": 2241.0,
+          "budget_company": null,
+          "budget_bonus": 164150.0,
+          "budget_total": 332982.8719,
+          "exec_rate_budget": 0.5774,
+          "exec_rate_sales": 0.4167,
+          "billable_fee": 87.0,
+          "billed_fee": 87.0,
+          "this_month_request": 0.0,
+          "sheet": "0223-0301",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 265,
+              "cum_deals": 36,
+              "conv_rate": 7.3611
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 225,
+              "cum_deals": 15,
+              "conv_rate": 15.0
+            },
+            {
+              "name": "黃品榛",
+              "cum_visitors": 251,
+              "cum_deals": 23,
+              "conv_rate": 10.913
+            }
+          ]
+        },
+        "115.03": {
+          "week_start": "2026-03-30",
+          "week_end": "2026-04-05",
+          "week_no": 75,
+          "visitors_week": 9,
+          "visitors_cum": 1067,
+          "calls_week": 7,
+          "ordered_week_units": 1,
+          "deposit_week_units": 1,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 125,
+          "signed_cum_amount": 275414.0,
+          "deals_week": 1,
+          "remain_units": 120,
+          "remain_parking": 125,
+          "budget_media": 65599.7667,
+          "budget_personnel": 54088.172,
+          "budget_onsite": 5579.0,
+          "budget_company": null,
+          "budget_bonus": 0.0,
+          "budget_total": 125266.9387,
+          "exec_rate_budget": 0.5842,
+          "exec_rate_sales": 0.4259,
+          "billable_fee": 89.0,
+          "billed_fee": 87.0,
+          "this_month_request": 2.0,
+          "sheet": "0330-0405",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 283,
+              "cum_deals": 36,
+              "conv_rate": 7.8611
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 233,
+              "cum_deals": 16,
+              "conv_rate": 14.5625
+            }
+          ]
+        },
+        "115.04": {
+          "week_start": "2026-04-20",
+          "week_end": "2026-04-26",
+          "week_no": 78,
+          "visitors_week": 9,
+          "visitors_cum": 1093,
+          "calls_week": 3,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "signed_cum_units": 126,
+          "signed_cum_amount": 277726.0,
+          "deals_week": 0,
+          "remain_units": 119,
+          "remain_parking": 124,
+          "budget_media": 58600.0,
+          "budget_personnel": 45055.914,
+          "budget_onsite": 4971.0,
+          "budget_company": null,
+          "budget_bonus": 0.0,
+          "budget_total": 108626.914,
+          "exec_rate_budget": 0.6054,
+          "exec_rate_sales": 0.4306,
+          "billable_fee": 91.0,
+          "billed_fee": 91.0,
+          "this_month_request": 0.0,
+          "sheet": "0420-0426",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 292,
+              "cum_deals": 37,
+              "conv_rate": 7.8919
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 243,
+              "cum_deals": 16,
+              "conv_rate": 15.1875
+            }
+          ]
+        },
+        "115.05": {
+          "week_start": "2026-05-25",
+          "week_end": "2026-05-31",
+          "week_no": 83,
+          "visitors_week": 11,
+          "visitors_cum": 1149,
+          "calls_week": 4,
+          "ordered_week_units": null,
+          "deposit_week_units": 1,
+          "signed_week_units": 2,
+          "signed_week_amount": 3603.0,
+          "cancelled_week_units": null,
+          "signed_cum_units": 134,
+          "signed_cum_amount": 294343.0,
+          "deals_week": 1,
+          "remain_units": 112,
+          "remain_parking": 117,
+          "budget_media": 69399.7667,
+          "budget_personnel": 54374.1935,
+          "budget_onsite": 3624.0,
+          "budget_company": null,
+          "budget_bonus": 252210.0,
+          "budget_total": 379607.9602,
+          "exec_rate_budget": 0.6187,
+          "exec_rate_sales": 0.463,
+          "billable_fee": 92.0,
+          "billed_fee": 91.0,
+          "this_month_request": 1.0,
+          "sheet": "0525-0531",
+          "salespeople": [
+            {
+              "name": "張語喬",
+              "cum_visitors": 315,
+              "cum_deals": 40,
+              "conv_rate": 7.875
+            },
+            {
+              "name": "黃楷婷",
+              "cum_visitors": 261,
+              "cum_deals": 17,
+              "conv_rate": 15.3529
+            },
+            {
+              "name": "林湘晴",
+              "cum_visitors": null,
+              "cum_deals": null,
+              "conv_rate": null
+            }
+          ]
+        }
+      },
+      "updated_at": "2026-06-15 14:14"
+    }
+  }
 }

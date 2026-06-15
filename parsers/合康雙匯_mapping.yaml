@@ -1,0 +1,105 @@
+# ============================================================
+# 翊鼎國際廣告 · 單案週檢討 對映設定檔
+# 建案：合康雙匯
+# 版型：v1（2024/10 進場起）
+# 維護：版型若改動，只改此 YAML，不動解析器程式碼
+# ============================================================
+
+project_name: "合康雙匯"
+workbook_pattern: "合康雙匯"      # 檔名包含此字串即匹配
+layout_version: "v1"
+
+# ── 版型識別指紋（用於自動偵測版本）──
+fingerprint:
+  sheet_pattern: "^\\d{4}-\\d{4}$"   # 週表命名，如 0525-0531
+  anchor_cell: "A1"
+  anchor_contains: "合康雙匯"
+
+# ── 每週表（週次資料）的座標對映 ──
+weekly:
+  # 基本資訊
+  week_start:    { cell: "Q3", type: date }
+  week_end:      { cell: "S3", type: date }
+  week_no:       { cell: "O3", type: int  }
+
+  # 來人來電（section 二）
+  visitors_week: { cell: "O6", type: int }    # 本週來人
+  visitors_prev: { cell: "O7", type: int }    # 上週來人
+  visitors_cum:  { cell: "O8", type: int }    # 累計來人
+  calls_week:    { cell: "S6", type: int }    # 本週來電（row6 S欄）
+
+  # 銷售檢討（section 三，row 20-24）
+  ordered_week_units:   { cell: "B22", type: int   }   # 本週小訂戶數
+  ordered_week_parking: { cell: "C22", type: int   }   # 本週小訂車位
+  ordered_week_amount:  { cell: "D22", type: float }   # 本週小訂金額
+  deposit_week_units:   { cell: "F22", type: int   }   # 本週補足戶數
+  deposit_week_parking: { cell: "G22", type: int   }   # 本週補足車位
+  deposit_week_amount:  { cell: "H22", type: float }   # 本週補足金額
+  signed_week_units:    { cell: "J22", type: int   }   # 本週簽約戶數
+  signed_week_parking:  { cell: "K22", type: int   }   # 本週簽約車位
+  signed_week_amount:   { cell: "L22", type: float }   # 本週簽約金額
+  cancelled_week_units: { cell: "N22", type: int   }   # 本週退戶
+
+  # 累計成交（row 24）
+  signed_cum_units:     { cell: "R24", type: int   }   # 累計成交戶數
+  signed_cum_parking:   { cell: "S24", type: int   }   # 累計成交車位
+  signed_cum_amount:    { cell: "T24", type: float }   # 累計成交金額
+
+  # 週成交（row 14）
+  deals_week:           { cell: "V14", type: int }     # 本週成交（含退戶後）
+
+  # 剩餘可售（row 31，版型有新舊差異用 fallback 處理）
+  remain_units:         { cell: "T31", type: int, label_guard: { cell: "S31", not_contains: "未售" } }
+  remain_parking:       { cell: "X31", type: int, label_guard: { cell: "X31", is_label: true, fallback: "T31+2" } }
+  # remain_parking 備用座標（新版 label 在 X31，值：AA31=住宅車, AB31=店面車, AC31=合計）
+  remain_parking_alt:   { cell: "AC31", type: int }   # AC31 = 車位合計
+
+  # 預算執行（section 六，row 54 = 本週）
+  budget_media:         { cell: "E54", type: float }   # 媒體執行
+  budget_personnel:     { cell: "G54", type: float }   # 人事管銷
+  budget_onsite:        { cell: "I54", type: float }   # 現場管銷
+  budget_company:       { cell: "K54", type: float }   # 公司管銷
+  budget_bonus:         { cell: "M54", type: float }   # 銷售獎金
+  budget_total:         { cell: "O54", type: float }   # 小計
+
+  # 預算執行率（row 58）
+  exec_rate_budget:     { cell: "Q58", type: float }   # 預算執行率
+  exec_rate_sales:      { cell: "R58", type: float }   # 銷售進度
+
+  # 業主請款（row 60-63，section 七）
+  billable_fee:         { cell: "B61", type: float }   # 可請服務費（戶）
+  billed_fee:           { cell: "D61", type: float }   # 已請服務費（戶）
+  pending_fee:          { cell: "F61", type: float }   # 未請服務費（戶）
+  this_month_request:   { cell: "L61", type: float }   # 本月欲請款
+
+# ── 銷況表 ──
+unit_status:
+  sheet_name: "銷況表"
+  header_row: 3        # 戶別（A1、A2…）
+  floor_col: "A"       # 樓層（6F、7F…）
+  data_start_row: 6
+  data_start_col: "D"  # 第一個戶別欄
+  data_end_col:   "S"  # 最後一個戶別欄
+  # 圖例統計在 row 28-36
+  legend_start_row: 28
+  absorption_row: 36   # 去化率 row
+  remain_row: 35       # 剩餘可售 row
+
+# ── 銷售人員業績（row 38-46）──
+salespeople:
+  header_row: 38
+  data_start_row: 39
+  data_end_row: 46     # '合計' 列
+  col_name: "A"
+  col_cum_visitors: "K"
+  col_cum_deals: "L"
+  col_conv_rate: "M"
+
+# ── 版型版本判斷規則 ──
+layout_detection:
+  # S31 有「未售」字樣 → 新版，remain_parking 在 AA31
+  # S31 為空 → 舊版，remain_parking 在 X31
+  - rule: "S31_has_label"
+    condition: { cell: "S31", contains: "未售" }
+    overrides:
+      remain_parking: { cell: "AA31", type: int }
