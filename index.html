@@ -9,354 +9,447 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --page:#EBEEF3; --card:#FFFFFF; --line:#E1E5EC; --line2:#EDEFF4;
-  --ink:#161A22; --mut:#626B7C; --faint:#909AAB;
-  --brand:#27345E; --brand2:#36487C;
-  --pos:#15795A; --posbg:#E4F1EB; --neg:#C0392B; --negbg:#F8E7E4;
-  --blue:#2C6FB3; --bluebg:#E5EEF7; --amber:#B07914;
+  --page:#EBEEF3;--card:#FFF;--line:#E1E5EC;--line2:#EDEFF4;
+  --ink:#161A22;--mut:#626B7C;--faint:#909AAB;
+  --brand:#27345E;--brand2:#36487C;
+  --pos:#15795A;--posbg:#E4F1EB;--neg:#C0392B;--negbg:#F8E7E4;
+  --blue:#2C6FB3;--bluebg:#E5EEF7;--amber:#B07914;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{background:var(--page);color:var(--ink);font-family:"Noto Sans TC",system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;-webkit-font-smoothing:antialiased}
+html,body{background:var(--page);color:var(--ink);font-family:"Noto Sans TC",system-ui,"PingFang TC","Microsoft JhengHei",sans-serif;-webkit-font-smoothing:antialiased}
 .num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
-.wrap{max-width:1180px;margin:0 auto;padding:0 20px 56px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px 60px}
 
-/* header */
+/* ── header ── */
 header{background:var(--brand);color:#fff;margin-bottom:22px}
-.hd{max-width:1180px;margin:0 auto;padding:18px 20px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.htitle h1{font-size:20px;font-weight:700;letter-spacing:.5px}
-.htitle p{font-size:12.5px;color:#B9C2DC;margin-top:3px}
+.hd{max-width:1180px;margin:0 auto;padding:16px 20px 14px;display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.htitle .co{font-size:11px;color:#B9C2DC;letter-spacing:1.8px;font-weight:500;margin-bottom:4px}
+.htitle h1{font-size:19px;font-weight:700;letter-spacing:.4px}
+.htitle p{font-size:12px;color:#B9C2DC;margin-top:3px}
+.hright{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
 .seg{display:flex;background:rgba(255,255,255,.10);border-radius:9px;padding:3px}
-.seg button{font-family:inherit;border:0;background:transparent;color:#C5CDE3;font-size:13px;font-weight:500;padding:7px 14px;border-radius:7px;cursor:pointer;transition:.15s}
-.seg button:hover{color:#fff}
-.seg button.on{background:#fff;color:var(--brand)}
-.scope{font-size:11.5px;color:#9FA9C6;text-align:right;line-height:1.5}
+.seg button{font-family:inherit;border:0;background:transparent;color:#C5CDE3;font-size:13px;font-weight:500;padding:7px 13px;border-radius:7px;cursor:pointer;transition:.15s}
+.seg button:hover{color:#fff}.seg button.on{background:#fff;color:var(--brand)}
+.scope{font-size:11px;color:#9FA9C6;text-align:right;line-height:1.7}
 
-/* kpi */
-.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:20px}
+/* ── loader ── */
+.loader{text-align:center;padding:72px 0;color:var(--faint);font-size:13.5px}
+.spinner{width:28px;height:28px;border:3px solid var(--line);border-top-color:var(--brand);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── KPI row ── */
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:18px}
 .kpi{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:14px 15px}
-.kpi .k{font-size:11.5px;color:var(--mut);font-weight:500;letter-spacing:.2px}
-.kpi .v{font-size:23px;font-weight:700;margin-top:7px;line-height:1.05}
-.kpi .u{font-size:12px;color:var(--faint);font-weight:400;margin-left:3px}
-.kpi .d{font-size:11px;margin-top:5px;font-weight:500}
-.up{color:var(--pos)} .dn{color:var(--neg)}
+.kpi .k{font-size:11px;color:var(--mut);font-weight:500;letter-spacing:.2px}
+.kpi .v{font-size:22px;font-weight:700;margin-top:6px;line-height:1.1}
+.kpi .u{font-size:12px;color:var(--faint);font-weight:400;margin-left:2px}
+.kpi .d{font-size:11px;margin-top:4px;font-weight:500}
+.up{color:var(--pos)}.dn{color:var(--neg)}
 
-/* grid */
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+/* ── 2-col grid ── */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
-.panel h2{font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:space-between}
-.panel h2 .sub{font-size:11.5px;color:var(--faint);font-weight:400}
+.panel h2{font-size:13.5px;font-weight:700;display:flex;align-items:center;justify-content:space-between}
+.sub{font-size:11px;color:var(--faint);font-weight:400}
 
-/* diverging bars */
-.bars{margin-top:14px}
-.barrow{display:grid;grid-template-columns:118px 1fr 86px;align-items:center;gap:8px;padding:3px 0;cursor:pointer;border-radius:6px}
+/* ── diverging bars ── */
+.bars{margin-top:13px}
+.barrow{display:grid;grid-template-columns:115px 1fr 84px;align-items:center;gap:8px;padding:3px 2px;cursor:pointer;border-radius:6px}
 .barrow:hover{background:var(--line2)}
-.barrow .nm{font-size:12.5px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.track{position:relative;height:17px}
-.track .zero{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--line)}
-.bar{position:absolute;top:2px;height:13px;border-radius:3px}
+.barrow .nm{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.track{position:relative;height:16px}
+.zero{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--line)}
+.bar{position:absolute;top:2px;height:12px;border-radius:3px}
 .barrow .val{font-size:12px;text-align:right;font-weight:500}
 
-/* dehua progress */
+/* ── dehua ── */
 .plist{margin-top:12px;max-height:300px;overflow:auto}
-.prow{padding:7px 0;border-bottom:1px solid var(--line2)}
+.prow{padding:7px 0;border-bottom:1px solid var(--line2);cursor:pointer}
+.prow:hover{background:var(--line2);margin:0 -4px;padding:7px 4px;border-radius:6px}
 .prow:last-child{border-bottom:0}
-.ptop{display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:5px}
-.ptop .pct{font-weight:700;color:var(--blue)}
+.ptop{display:flex;justify-content:space-between;font-size:12px;margin-bottom:5px}
+.pct{font-weight:700;color:var(--blue)}
 .ptrack{height:7px;background:#EDF0F5;border-radius:4px;overflow:hidden}
 .pfill{height:100%;background:var(--blue);border-radius:4px}
-.pmeta{font-size:11px;color:var(--faint);margin-top:3px}
+.pmeta{font-size:10.5px;color:var(--faint);margin-top:3px}
 
-/* trend svg */
+/* ── trend + legend ── */
 .trendwrap{margin-top:10px}
-.legend{display:flex;gap:16px;font-size:11.5px;color:var(--mut);margin-top:8px}
+.legend{display:flex;gap:14px;font-size:11px;color:var(--mut);margin-top:8px}
 .legend span{display:inline-flex;align-items:center;gap:5px}
-.dot{width:9px;height:9px;border-radius:50%}
+.dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
 
-/* conversion */
-.conv{display:flex;gap:14px;margin-top:14px}
-.convcard{flex:1;background:var(--line2);border-radius:10px;padding:13px}
-.convcard .cl{font-size:11.5px;color:var(--mut)}
-.convcard .cv{font-size:21px;font-weight:700;margin-top:4px}
-.funnel{margin-top:14px}
-.fbar{height:30px;border-radius:6px;display:flex;align-items:center;padding:0 11px;color:#fff;font-size:12.5px;font-weight:500;margin-bottom:7px}
+/* ── conversion ── */
+.conv-cards{display:flex;gap:12px;margin-top:13px}
+.convcard{flex:1;background:var(--line2);border-radius:9px;padding:12px}
+.convcard .cl{font-size:11px;color:var(--mut)}
+.convcard .cv{font-size:20px;font-weight:700;margin-top:3px}
+.funnel{margin-top:13px}
+.fbar{height:28px;border-radius:6px;display:flex;align-items:center;padding:0 11px;color:#fff;font-size:12px;font-weight:500;margin-bottom:6px}
 
-/* table */
-.tablepanel{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.tablehead{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
-.tablehead h2{font-size:14px;font-weight:700}
-.tablehead .hint{font-size:11.5px;color:var(--faint)}
+/* ── table ── */
+.tablepanel{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:16px}
+.tablehead{padding:13px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.tablehead h2{font-size:13.5px;font-weight:700}
+.hint{font-size:11px;color:var(--faint)}
 table{width:100%;border-collapse:collapse}
-th,td{padding:9px 12px;font-size:12.5px;text-align:right;white-space:nowrap}
-th{background:#F7F8FB;color:var(--mut);font-weight:500;font-size:11.5px;cursor:pointer;user-select:none;border-bottom:1px solid var(--line)}
+th,td{padding:8px 12px;font-size:12px;text-align:right;white-space:nowrap}
+th{background:#F7F8FB;color:var(--mut);font-weight:500;font-size:11px;cursor:pointer;user-select:none;border-bottom:1px solid var(--line)}
 th:first-child,td:first-child{text-align:left;padding-left:18px}
-th.arrow::after{content:" \25BE";color:var(--brand)}
-th.arrow.asc::after{content:" \25B4"}
+th.arrow::after{content:" ▾";color:var(--brand)}
+th.arrow.asc::after{content:" ▴"}
 tbody tr{border-bottom:1px solid var(--line2);cursor:pointer}
 tbody tr:hover{background:#F4F7FB}
 tbody tr:last-child{border-bottom:0}
-.tag{font-size:10.5px;padding:2px 7px;border-radius:5px;font-weight:500}
-.chip{display:inline-block;min-width:54px;text-align:center;padding:2px 6px;border-radius:5px;font-weight:500;font-size:11.5px}
+.chip{display:inline-block;min-width:52px;text-align:center;padding:2px 6px;border-radius:5px;font-weight:500;font-size:11px}
 
-/* drawer */
+/* ── drawer ── */
 .scrim{position:fixed;inset:0;background:rgba(20,24,35,.42);opacity:0;pointer-events:none;transition:.2s;z-index:40}
 .scrim.show{opacity:1;pointer-events:auto}
-.drawer{position:fixed;top:0;right:0;bottom:0;width:420px;max-width:92vw;background:var(--card);transform:translateX(100%);transition:.25s cubic-bezier(.4,0,.2,1);z-index:50;overflow:auto;box-shadow:-8px 0 28px rgba(20,24,35,.16)}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:420px;max-width:92vw;background:var(--card);transform:translateX(100%);transition:.25s cubic-bezier(.4,0,.2,1);z-index:50;overflow:auto;box-shadow:-6px 0 24px rgba(20,24,35,.16)}
 .drawer.show{transform:none}
-.dhd{background:var(--brand);color:#fff;padding:18px 20px;position:sticky;top:0}
-.dhd .x{position:absolute;top:16px;right:16px;background:rgba(255,255,255,.14);border:0;color:#fff;width:28px;height:28px;border-radius:7px;cursor:pointer;font-size:16px;line-height:1}
-.dhd h3{font-size:18px;font-weight:700}
-.dhd p{font-size:12px;color:#B9C2DC;margin-top:3px}
+.dhd{background:var(--brand);color:#fff;padding:18px 20px;position:sticky;top:0;z-index:1}
+.dhd .x{position:absolute;top:16px;right:16px;background:rgba(255,255,255,.14);border:0;color:#fff;width:28px;height:28px;border-radius:7px;cursor:pointer;font-size:17px;line-height:28px;text-align:center}
+.dhd h3{font-size:17px;font-weight:700;padding-right:40px}
+.dhd p{font-size:11.5px;color:#B9C2DC;margin-top:3px}
 .dbody{padding:18px 20px}
-.dstat{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
+.dstat{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
 .dstat .s{background:var(--line2);border-radius:9px;padding:11px 13px}
 .dstat .sl{font-size:11px;color:var(--mut)}
-.dstat .sv{font-size:17px;font-weight:700;margin-top:3px}
-.dsec{font-size:12.5px;font-weight:700;margin:18px 0 9px;color:var(--ink)}
-.spark{background:var(--line2);border-radius:9px;padding:14px 12px 8px}
-.wkrow{display:flex;justify-content:space-between;font-size:11.5px;color:var(--mut);margin-top:8px}
-@media(max-width:900px){.kpis{grid-template-columns:repeat(3,1fr)}.grid{grid-template-columns:1fr}}
-@media(max-width:560px){.kpis{grid-template-columns:repeat(2,1fr)}.hd{flex-direction:column;align-items:stretch}.scope{text-align:left}}
+.dstat .sv{font-size:16px;font-weight:700;margin-top:3px}
+.dsec{font-size:12px;font-weight:700;margin:16px 0 8px;color:var(--ink)}
+.spark{background:var(--line2);border-radius:9px;padding:12px 10px 8px}
+
+/* ── responsive ── */
+@media(max-width:900px){.kpis{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}}
+@media(max-width:560px){.kpis{grid-template-columns:repeat(2,1fr)}.hd{flex-direction:column;align-items:stretch}.hright{align-items:flex-start}}
 </style>
 </head>
 <body>
+
 <header>
   <div class="hd">
     <div class="htitle">
-      <div style="font-size:12px;color:#B9C2DC;letter-spacing:1.5px;font-weight:500;margin-bottom:4px">翊鼎國際廣告</div>
+      <div class="co">翊鼎國際廣告</div>
       <h1>代銷投組控制台</h1>
-      <p>逐建案業績與財務檢視 · Portfolio overview prototype</p>
+      <p>逐建案業績與財務檢視</p>
     </div>
-    <div class="seg" id="seg"></div>
-    <div class="scope">翊鼎國際廣告 · 2025 每周盈虧<br>在售建案 · 損益單位：萬元</div>
+    <div class="hright">
+      <div class="seg" id="seg"><span style="color:#9FA9C6;font-size:13px;padding:8px 12px">載入中…</span></div>
+      <div class="scope" id="scope">連線中…</div>
+    </div>
   </div>
 </header>
 
 <div class="wrap">
-  <div class="kpis" id="kpis"></div>
-
-  <div class="grid">
-    <div class="panel">
-      <h2>建案損益排行 <span class="sub" id="rankSub"></span></h2>
-      <div class="bars" id="bars"></div>
-    </div>
-    <div class="panel">
-      <h2>去化進度 <span class="sub">已售 / 規劃戶數</span></h2>
-      <div class="plist" id="dehua"></div>
-    </div>
-  </div>
-
-  <div class="grid">
-    <div class="panel">
-      <h2>月損益趨勢 <span class="sub">114.01 – 114.04 · 投組合計</span></h2>
-      <div class="trendwrap" id="trend"></div>
-      <div class="legend">
-        <span><i class="dot" style="background:var(--brand)"></i>損益(萬元)</span>
-        <span><i class="dot" style="background:var(--blue)"></i>來人</span>
-        <span><i class="dot" style="background:var(--amber)"></i>成交</span>
-      </div>
-    </div>
-    <div class="panel">
-      <h2>來人 → 成交 <span class="sub" id="convSub"></span></h2>
-      <div class="conv" id="convStats"></div>
-      <div class="funnel" id="funnel"></div>
-    </div>
-  </div>
-
-  <div class="tablepanel">
-    <div class="tablehead">
-      <h2>建案明細</h2>
-      <span class="hint">點欄位排序 · 點列查看單案細節</span>
-    </div>
-    <div style="overflow-x:auto">
-      <table id="tbl">
-        <thead><tr id="thr"></tr></thead>
-        <tbody id="tbody"></tbody>
-      </table>
-    </div>
-  </div>
+  <div id="main"><div class="loader"><div class="spinner"></div>正在載入資料…</div></div>
 </div>
 
 <div class="scrim" id="scrim" onclick="closeDrawer()"></div>
 <div class="drawer" id="drawer">
   <div class="dhd">
-    <button class="x" onclick="closeDrawer()">&times;</button>
-    <h3 id="dName"></h3>
-    <p id="dMeta"></p>
+    <button class="x" onclick="closeDrawer()">×</button>
+    <h3 id="dName"></h3><p id="dMeta"></p>
   </div>
   <div class="dbody" id="dBody"></div>
 </div>
 
 <script>
-const DATA = {"monthly": {"114.01": [{"project": "合康雙匯", "agency": "誼鼎廣告", "units": 216.0, "parking": 223.0, "license": "結構預售", "entry": "113/10/1", "volume": 492220.0, "w": [2893184.0, 544752.0, 1791281.0, 1419667.0, -168737.0], "month_pnl": 6480147.0, "remain_units": 171.0, "remain_parking": 177.0, "company_oh": 472500.0}, {"project": "耀時代", "agency": "禾義行銷", "units": 140.0, "parking": 140.0, "license": "結構預售", "entry": "113/05/01", "volume": 147192.0, "w": [850027.0, -114056.0, 318927.0, null, 1499430.0], "month_pnl": 2554328.0, "remain_units": 25.0, "remain_parking": 25.0, "company_oh": 1260000.0}, {"project": "大觀富琚", "agency": "禾義行銷", "units": 131.0, "parking": 123.0, "license": "結構預售", "entry": "113/5/1", "volume": 134601.0, "w": [-200279.0, -98054.0, 883912.0, -95512.0, -210689.0], "month_pnl": 279378.0, "remain_units": 63.0, "remain_parking": 60.0, "company_oh": 504000.0}, {"project": "氧之森", "agency": "和誼廣告", "units": 237.0, "parking": 194.0, "license": "結構預售", "entry": "112/5/15", "volume": 250329.0, "w": [-273904.0, 482433.0, -110124.0, null, 336758.0], "month_pnl": 435163.0, "remain_units": 32.0, "remain_parking": 32.0, "company_oh": 3150000.0}, {"project": "傳佳緻", "agency": "禾翊國際", "units": 225.0, "parking": 227.0, "license": "113.09", "entry": "112/3/1", "volume": 290205.0, "w": [327865.0, -121101.0, -123914.0, -109377.0, -276077.0], "month_pnl": -302604.0, "remain_units": 10.0, "remain_parking": 14.0, "company_oh": 3622500.0}, {"project": "閣美學", "agency": "禾翊國際", "units": 92.0, "parking": 93.0, "license": "結構預售", "entry": "113/1/26", "volume": 131446.0, "w": [-71866.0, -83362.0, -63488.0, -47083.0, -60883.0], "month_pnl": -326682.0, "remain_units": 17.0, "remain_parking": 17.0, "company_oh": 1638000.0}, {"project": "傳佳樂", "agency": "宇開廣告", "units": 127.0, "parking": 149.0, "license": "結構預售", "entry": "113/6/1", "volume": 150181.0, "w": [405925.0, 594657.0, -66956.0, -59788.0, -221001.0], "month_pnl": 652837.0, "remain_units": 67.0, "remain_parking": 81.0, "company_oh": 1260000.0}, {"project": "合新城峰", "agency": "寶毅廣告", "units": 146.0, "parking": 144.0, "license": "結構預售", "entry": "113/1/27", "volume": 166115.0, "w": [-246986.0, 531181.0, 1023857.0, -48883.0, 560103.0], "month_pnl": 1868155.0, "remain_units": 12.0, "remain_parking": 12.0, "company_oh": 2362500.0}, {"project": "捷運湛", "agency": "寶毅廣告", "units": 171.0, "parking": 171.0, "license": "結構預售", "entry": "113/2/24", "volume": 193878.0, "w": [440880.0, 613625.0, -122248.0, -108754.0, -131570.0], "month_pnl": 691933.0, "remain_units": 33.0, "remain_parking": 33.0, "company_oh": 2362500.0}, {"project": "寶佳淳青", "agency": "寶鼎國際", "units": 240.0, "parking": 249.0, "license": "結構預售", "entry": "113/5/1", "volume": 441145.0, "w": [-273477.0, -117217.0, -117127.0, null, -224817.0], "month_pnl": -732638.0, "remain_units": 120.0, "remain_parking": 119.0, "company_oh": 1732500.0}, {"project": "大景旭", "agency": "正群廣告", "units": 161.0, "parking": 106.0, "license": "結構預售", "entry": "112/2/10", "volume": 282538.0, "w": [-223663.0, -73392.0, -72640.0, null, -210863.0], "month_pnl": -580558.0, "remain_units": 39.0, "remain_parking": 39.0, "company_oh": 4050000.0}, {"project": "大景閱", "agency": "正群廣告", "units": 90.0, "parking": 91.0, "license": "結構預售", "entry": "112/7/25", "volume": 99033.0, "w": [-123554.0, -33083.0, -34090.0, -31145.0, 342738.0], "month_pnl": 120866.0, "remain_units": 9.0, "remain_parking": 9.0, "company_oh": 1890000.0}, {"project": "幸福成", "agency": "正群廣告", "units": 102.0, "parking": 88.0, "license": "結構預售", "entry": "112/1/31", "volume": 141877.0, "w": [-210414.0, -57122.0, -55991.0, -54516.0, -53434.0], "month_pnl": -431477.0, "remain_units": 7.0, "remain_parking": 7.0, "company_oh": 3360000.0}, {"project": "昕暉詠翠", "agency": "正群廣告", "units": 132.0, "parking": 145.0, "license": "結構預售", "entry": "112/4/6", "volume": 167856.0, "w": [-224861.0, -73842.0, 463082.0, -57498.0, -54938.0], "month_pnl": 51943.0, "remain_units": 66.0, "remain_parking": 77.0, "company_oh": 3750000.0}, {"project": "虹韻", "agency": "正群廣告", "units": 31.0, "parking": 25.0, "license": "預售", "entry": "113/05/01", "volume": 45309.0, "w": [-164002.0, -58335.0, -60310.0, 588215.0, -155413.0], "month_pnl": 150155.0, "remain_units": 29.0, "remain_parking": 22.0, "company_oh": 450000.0}, {"project": "僑家大院", "agency": "翊鼎國際", "units": 54.0, "parking": 56.0, "license": "結構預售", "entry": "113/06/24", "volume": 93263.0, "w": [-85338.0, -83278.0, -83348.0, null, -159876.0], "month_pnl": -411840.0, "remain_units": 53.0, "remain_parking": 55.0, "company_oh": 200000.0}], "114.02": [{"project": "合康雙匯", "agency": "誼鼎廣告", "units": 216.0, "parking": 223.0, "license": "結構預售", "entry": "113/10/1", "volume": 492220.0, "w": [1757672.0, 2190243.0, 4709159.0, 3290810.0, null], "month_pnl": 11947884.0, "remain_units": 153.0, "remain_parking": 159.0, "company_oh": 472500.0}, {"project": "耀時代", "agency": "禾義行銷", "units": 140.0, "parking": 140.0, "license": "結構預售", "entry": "113/05/01", "volume": 147192.0, "w": [-119167.0, -114891.0, 947912.0, 918876.0, null], "month_pnl": 1632730.0, "remain_units": 21.0, "remain_parking": 21.0, "company_oh": 1260000.0}, {"project": "大觀富琚", "agency": "禾義行銷", "units": 131.0, "parking": 123.0, "license": "結構預售", "entry": "113/5/1", "volume": 134601.0, "w": [374304.0, -77970.0, -118022.0, -278478.0, null], "month_pnl": -100166.0, "remain_units": 63.0, "remain_parking": 60.0, "company_oh": 504000.0}, {"project": "氧之森", "agency": "和誼廣告", "units": 237.0, "parking": 194.0, "license": "結構預售", "entry": "112/5/15", "volume": 250329.0, "w": [716077.0, 1420989.0, 2199831.0, -311699.0, null], "month_pnl": 4025198.0, "remain_units": 26.0, "remain_parking": 26.0, "company_oh": 3150000.0}, {"project": "傳佳緻", "agency": "禾翊國際", "units": 225.0, "parking": 227.0, "license": "113.09", "entry": "112/3/1", "volume": 290205.0, "w": [617268.0, 437769.0, -117312.0, -273311.0, null], "month_pnl": 664414.0, "remain_units": 9.0, "remain_parking": 13.0, "company_oh": 3622500.0}, {"project": "閣美學", "agency": "禾翊國際", "units": 92.0, "parking": 93.0, "license": "結構預售", "entry": "113/1/26", "volume": 131446.0, "w": [-71464.0, -65583.0, -64083.0, -118641.0, null], "month_pnl": -319771.0, "remain_units": 17.0, "remain_parking": 17.0, "company_oh": 1638000.0}, {"project": "傳佳樂", "agency": "宇開廣告", "units": 127.0, "parking": 149.0, "license": "結構預售", "entry": "113/6/1", "volume": 150181.0, "w": [-115634.0, -62937.0, 408506.0, -250899.0, null], "month_pnl": -20964.0, "remain_units": 65.0, "remain_parking": 79.0, "company_oh": 1260000.0}, {"project": "合新城峰", "agency": "寶毅廣告", "units": 146.0, "parking": 144.0, "license": "結構預售", "entry": "113/1/27", "volume": 166115.0, "w": [-63708.0, -56388.0, -61212.0, 360765.0, null], "month_pnl": 179457.0, "remain_units": 7.0, "remain_parking": 7.0, "company_oh": 2362500.0}, {"project": "捷運湛", "agency": "寶毅廣告", "units": 171.0, "parking": 171.0, "license": "結構預售", "entry": "113/2/24", "volume": 193878.0, "w": [336425.0, 614591.0, -106993.0, 1292839.0, null], "month_pnl": 2136862.0, "remain_units": 29.0, "remain_parking": 29.0, "company_oh": 2362500.0}, {"project": "寶佳淳青", "agency": "寶鼎國際", "units": 240.0, "parking": 249.0, "license": "結構預售", "entry": "113/5/1", "volume": 441145.0, "w": [651713.0, 645333.0, 596893.0, 640623.0, null], "month_pnl": 2534562.0, "remain_units": 118.0, "remain_parking": 117.0, "company_oh": 1732500.0}, {"project": "大景旭", "agency": "正群廣告", "units": 161.0, "parking": 106.0, "license": "結構預售", "entry": "112/2/10", "volume": 282538.0, "w": [-80886.0, -75015.0, -73159.0, 562158.0, null], "month_pnl": 333098.0, "remain_units": 39.0, "remain_parking": 39.0, "company_oh": 4200000.0}, {"project": "大景閱", "agency": "正群廣告", "units": 90.0, "parking": 91.0, "license": "結構預售", "entry": "112/7/25", "volume": 99033.0, "w": [-36206.0, -34996.0, -33679.0, -123679.0, null], "month_pnl": -228560.0, "remain_units": 7.0, "remain_parking": 7.0, "company_oh": 1890000.0}, {"project": "幸福成", "agency": "正群廣告", "units": 102.0, "parking": 88.0, "license": "結構預售", "entry": "112/1/31", "volume": 141877.0, "w": [-185383.0, 605047.0, -42319.0, -177484.0, null], "month_pnl": 199861.0, "remain_units": 5.0, "remain_parking": 5.0, "company_oh": 3640000.0}, {"project": "昕暉詠翠", "agency": "正群廣告", "units": 132.0, "parking": 145.0, "license": "結構預售", "entry": "112/4/6", "volume": 167856.0, "w": [387141.0, -64997.0, -66950.0, -64918.0, null], "month_pnl": 190276.0, "remain_units": 66.0, "remain_parking": 77.0, "company_oh": 3750000.0}, {"project": "虹韻", "agency": "正群廣告", "units": 31.0, "parking": 25.0, "license": "預售", "entry": "113/05/01", "volume": 45309.0, "w": [-53741.0, -54337.0, -52009.0, -104618.0, null], "month_pnl": -264705.0, "remain_units": 29.0, "remain_parking": 22.0, "company_oh": 500000.0}, {"project": "僑家大院", "agency": "翊鼎國際", "units": 54.0, "parking": 56.0, "license": "結構預售", "entry": "113/06/24", "volume": 93263.0, "w": [-76832.0, -71012.0, -153652.0, -72867.0, null], "month_pnl": -374363.0, "remain_units": 52.0, "remain_parking": 53.0, "company_oh": 3045000.0}], "114.03": [{"project": "合康雙匯", "agency": "誼鼎廣告", "units": 216.0, "parking": 223.0, "license": "結構預售", "entry": "113/10/1", "volume": 492220.0, "w": [4806396.0, 756896.0, -135369.0, -132231.0, null], "month_pnl": 5295692.0, "remain_units": 152.0, "remain_parking": 158.0, "company_oh": 900000.0}, {"project": "耀時代", "agency": "禾義行銷", "units": 140.0, "parking": 140.0, "license": "結構預售", "entry": "113/05/01", "volume": 147192.0, "w": [-112616.0, -175490.0, -127925.0, 588376.0, null], "month_pnl": 172345.0, "remain_units": 20.0, "remain_parking": 19.0, "company_oh": 1260000.0}, {"project": "大觀富琚", "agency": "禾義行銷", "units": 131.0, "parking": 123.0, "license": "結構預售", "entry": "113/5/1", "volume": 134601.0, "w": [-152746.0, -161083.0, -165021.0, -228605.0, null], "month_pnl": -1004308.0, "remain_units": 63.0, "remain_parking": 60.0, "company_oh": 504000.0}, {"project": "氧之森", "agency": "和誼廣告", "units": 237.0, "parking": 194.0, "license": "結構預售", "entry": "112/5/15", "volume": 250329.0, "w": [785170.0, 590590.0, -100323.0, -257613.0, null], "month_pnl": 1017824.0, "remain_units": 22.0, "remain_parking": 22.0, "company_oh": 3150000.0}, {"project": "傳佳緻", "agency": "禾翊國際", "units": 225.0, "parking": 227.0, "license": "113.09", "entry": "112/3/1", "volume": 290205.0, "w": [-105143.0, 1196214.0, -107515.0, 332677.0, null], "month_pnl": 1316233.0, "remain_units": 6.0, "remain_parking": 10.0, "company_oh": 3622500.0}, {"project": "閣美學", "agency": "禾翊國際", "units": 92.0, "parking": 93.0, "license": "結構預售", "entry": "113/1/26", "volume": 131446.0, "w": [-137981.0, -139080.0, -142847.0, -111697.0, null], "month_pnl": -531605.0, "remain_units": 17.0, "remain_parking": 17.0, "company_oh": 1638000.0}, {"project": "傳佳樂", "agency": "宇開廣告", "units": 127.0, "parking": 149.0, "license": "結構預售", "entry": "113/6/1", "volume": 150181.0, "w": [419395.0, -73506.0, 472393.0, 399912.0, null], "month_pnl": 1218194.0, "remain_units": 62.0, "remain_parking": 76.0, "company_oh": 1260000.0}, {"project": "合新城峰", "agency": "寶毅廣告", "units": 146.0, "parking": 144.0, "license": "結構預售", "entry": "113/1/27", "volume": 166115.0, "w": [530905.0, -59562.0, 556242.0, 521088.0, null], "month_pnl": 1391173.0, "remain_units": 6.0, "remain_parking": 6.0, "company_oh": 2362500.0}, {"project": "捷運湛", "agency": "寶毅廣告", "units": 171.0, "parking": 171.0, "license": "結構預售", "entry": "113/2/24", "volume": 193878.0, "w": [846576.0, -134945.0, 1160324.0, -162177.0, null], "month_pnl": 1709778.0, "remain_units": 28.0, "remain_parking": 28.0, "company_oh": 2362500.0}, {"project": "寶佳淳青", "agency": "寶鼎國際", "units": 240.0, "parking": 249.0, "license": "結構預售", "entry": "113/5/1", "volume": 441145.0, "w": [739373.0, -126847.0, -359566.0, 484553.0, null], "month_pnl": 798847.0, "remain_units": 117.0, "remain_parking": 116.0, "company_oh": 1890000.0}, {"project": "大景旭", "agency": "正群廣告", "units": 161.0, "parking": 106.0, "license": "結構預售", "entry": "112/2/10", "volume": 282538.0, "w": [-61058.0, 888987.0, -77946.0, -67558.0, null], "month_pnl": 682425.0, "remain_units": 37.0, "remain_parking": 37.0, "company_oh": 4200000.0}, {"project": "大景閱", "agency": "正群廣告", "units": 90.0, "parking": 91.0, "license": "結構預售", "entry": "112/7/25", "volume": 99033.0, "w": [1195581.0, -38426.0, -30945.0, -40717.0, null], "month_pnl": 961814.0, "remain_units": 6.0, "remain_parking": 6.0, "company_oh": 1890000.0}, {"project": "幸福成", "agency": "正群廣告", "units": 102.0, "parking": 88.0, "license": "結構預售", "entry": "112/1/31", "volume": 141877.0, "w": [-39506.0, 435162.0, 426419.0, -28898.0, null], "month_pnl": 793177.0, "remain_units": 4.0, "remain_parking": 4.0, "company_oh": 3640000.0}, {"project": "昕暉詠翠", "agency": "正群廣告", "units": 132.0, "parking": 145.0, "license": "結構預售", "entry": "112/4/6", "volume": 167856.0, "w": [-235067.0, -65188.0, -68251.0, -64313.0, null], "month_pnl": -432819.0, "remain_units": 65.0, "remain_parking": 76.0, "company_oh": 4050000.0}, {"project": "虹韻", "agency": "正群廣告", "units": 31.0, "parking": 25.0, "license": "預售", "entry": "113/05/01", "volume": 45309.0, "w": [-51538.0, -47789.0, -59718.0, -49141.0, null], "month_pnl": -312804.0, "remain_units": 29.0, "remain_parking": 22.0, "company_oh": 500000.0}, {"project": "春宜5", "agency": "正群廣告", "units": 15.0, "parking": 15.0, "license": "預售", "entry": "114/03/01", "volume": 13713.0, "w": [-47777.0, -39452.0, 259676.0, -29814.0, null], "month_pnl": 142633.0, "remain_units": 14.0, "remain_parking": 14.0, "company_oh": 50000.0}, {"project": "僑家大院", "agency": "翊鼎國際", "units": 54.0, "parking": 56.0, "license": "結構預售", "entry": "113/06/24", "volume": 93263.0, "w": [-135906.0, -128488.0, -75986.0, -172233.0, null], "month_pnl": -512613.0, "remain_units": 51.0, "remain_parking": 52.0, "company_oh": 3045000.0}], "114.04": [{"project": "合康雙匯", "agency": "誼鼎廣告", "units": 216.0, "parking": 223.0, "license": "結構預售", "entry": "113/10/1", "volume": 492220.0, "w": [600715.0, 780058.0, null, null, null], "month_pnl": 1380773.0, "remain_units": 147.0, "remain_parking": 153.0, "company_oh": 1050000.0}, {"project": "耀時代", "agency": "禾義行銷", "units": 140.0, "parking": 140.0, "license": "結構預售", "entry": "113/05/01", "volume": 147192.0, "w": [402652.0, 1547602.0, null, null, null], "month_pnl": 1950254.0, "remain_units": 15.0, "remain_parking": 14.0, "company_oh": 1260000.0}, {"project": "大觀富琚", "agency": "禾義行銷", "units": 131.0, "parking": 123.0, "license": "結構預售", "entry": "113/5/1", "volume": 134601.0, "w": [-232530.0, -284682.0, null, null, null], "month_pnl": -517212.0, "remain_units": 63.0, "remain_parking": 60.0, "company_oh": 504000.0}, {"project": "氧之森", "agency": "和誼廣告", "units": 237.0, "parking": 194.0, "license": "結構預售", "entry": "112/5/15", "volume": 250329.0, "w": [-211764.0, 866541.0, null, null, null], "month_pnl": 654777.0, "remain_units": 19.0, "remain_parking": 19.0, "company_oh": 3150000.0}, {"project": "傳佳緻", "agency": "禾翊國際", "units": 225.0, "parking": 227.0, "license": "113.09", "entry": "112/3/1", "volume": 290205.0, "w": [575045.0, -120691.0, null, null, null], "month_pnl": 454354.0, "remain_units": 4.0, "remain_parking": 7.0, "company_oh": 4095000.0}, {"project": "閣美學", "agency": "禾翊國際", "units": 92.0, "parking": 93.0, "license": "結構預售", "entry": "113/1/26", "volume": 131446.0, "w": [-74247.0, -71097.0, null, null, null], "month_pnl": -145344.0, "remain_units": 17.0, "remain_parking": 17.0, "company_oh": 1638000.0}, {"project": "傳佳樂", "agency": "宇開廣告", "units": 127.0, "parking": 149.0, "license": "結構預售", "entry": "113/6/1", "volume": 150181.0, "w": [-234658.0, -126104.0, null, null, null], "month_pnl": -360762.0, "remain_units": 62.0, "remain_parking": 76.0, "company_oh": 1732500.0}, {"project": "合新城峰", "agency": "寶毅廣告", "units": 146.0, "parking": 144.0, "license": "結構預售", "entry": "113/1/27", "volume": 166115.0, "w": [-216289.0, -84112.0, null, null, null], "month_pnl": -300401.0, "remain_units": 5.0, "remain_parking": 5.0, "company_oh": 2835000.0}, {"project": "捷運湛", "agency": "寶毅廣告", "units": 171.0, "parking": 171.0, "license": "結構預售", "entry": "113/2/24", "volume": 193878.0, "w": [-286385.0, -129447.0, null, null, null], "month_pnl": -415832.0, "remain_units": 28.0, "remain_parking": 28.0, "company_oh": 2520000.0}, {"project": "寶佳淳青", "agency": "寶鼎國際", "units": 240.0, "parking": 249.0, "license": "結構預售", "entry": "113/5/1", "volume": 441145.0, "w": [-297867.0, -295647.0, null, null, null], "month_pnl": -593514.0, "remain_units": 118.0, "remain_parking": 119.0, "company_oh": 1890000.0}, {"project": "大景旭", "agency": "正群廣告", "units": 161.0, "parking": 106.0, "license": "結構預售", "entry": "112/2/10", "volume": 282538.0, "w": [634573.0, 672469.0, null, null, null], "month_pnl": 1307042.0, "remain_units": 36.0, "remain_parking": 36.0, "company_oh": 4350000.0}, {"project": "大景閱", "agency": "正群廣告", "units": 90.0, "parking": 91.0, "license": "結構預售", "entry": "112/7/25", "volume": 99033.0, "w": [-130469.0, -41316.0, null, null, null], "month_pnl": -171785.0, "remain_units": 6.0, "remain_parking": 6.0, "company_oh": 1890000.0}, {"project": "幸福成", "agency": "正群廣告", "units": 102.0, "parking": 88.0, "license": "結構預售", "entry": "112/1/31", "volume": 141877.0, "w": [-166422.0, 604448.0, null, null, null], "month_pnl": 438026.0, "remain_units": 3.0, "remain_parking": 3.0, "company_oh": 3780000.0}, {"project": "昕暉詠翠", "agency": "正群廣告", "units": 132.0, "parking": 145.0, "license": "結構預售", "entry": "112/4/6", "volume": 167856.0, "w": [-236257.0, -56809.0, null, null, null], "month_pnl": -293066.0, "remain_units": 65.0, "remain_parking": 76.0, "company_oh": 4050000.0}, {"project": "虹韻", "agency": "正群廣告", "units": 31.0, "parking": 25.0, "license": "預售", "entry": "113/05/01", "volume": 45309.0, "w": [-99195.0, -50170.0, null, null, null], "month_pnl": -149365.0, "remain_units": 29.0, "remain_parking": 22.0, "company_oh": 500000.0}, {"project": "春宜5", "agency": "正群廣告", "units": 15.0, "parking": 15.0, "license": "預售", "entry": "114/03/01", "volume": 13713.0, "w": [-40267.0, -35514.0, null, null, null], "month_pnl": -75781.0, "remain_units": 13.0, "remain_parking": 15.0, "company_oh": 60000.0}, {"project": "僑家大院", "agency": "翊鼎國際", "units": 54.0, "parking": 56.0, "license": "結構預售", "entry": "113/06/24", "volume": 93263.0, "w": [-89981.0, 559760.0, null, null, null], "month_pnl": 469779.0, "remain_units": 51.0, "remain_parking": 51.0, "company_oh": 3129000.0}]}, "visitors": {"114.01": {"合康雙匯": {"visitors": 65.0, "deals": 12.0}, "耀時代": {"visitors": 50.0, "deals": 8.0}, "大觀富琚": {"visitors": 9.0, "deals": 3.0}, "氧之森": {"visitors": 28.0, "deals": 6.0}, "傳佳緻": {"visitors": 28.0, "deals": 2.0}, "閣美學": {"visitors": 12.0, "deals": 0.0}, "傳佳樂": {"visitors": 16.0, "deals": 3.0}, "合新城峰": {"visitors": 25.0, "deals": 4.0}, "捷運湛": {"visitors": 34.0, "deals": 7.0}, "寶佳淳青": {"visitors": 28.0, "deals": 1.0}, "大景旭": {"visitors": 21.0, "deals": 0.0}, "大景閱": {"visitors": 9.0, "deals": 1.0}, "幸福成": {"visitors": 22.0, "deals": 1.0}, "昕暉詠翠": {"visitors": 22.0, "deals": 1.0}, "虹韻": {"visitors": 23.0, "deals": 1.0}, "僑家大院": {"visitors": 18.0, "deals": 2.0}}, "114.02": {"合康雙匯": {"visitors": 106.0, "deals": 23.0}, "耀時代": {"visitors": 59.0, "deals": 5.0}, "大觀富琚": {"visitors": 11.0, "deals": 0.0}, "氧之森": {"visitors": 39.0, "deals": 6.0}, "傳佳緻": {"visitors": 45.0, "deals": 1.0}, "閣美學": {"visitors": 19.0, "deals": 0.0}, "傳佳樂": {"visitors": 19.0, "deals": 2.0}, "合新城峰": {"visitors": 23.0, "deals": 2.0}, "捷運湛": {"visitors": 44.0, "deals": 4.0}, "寶佳淳青": {"visitors": 42.0, "deals": 3.0}, "大景旭": {"visitors": 28.0, "deals": 0.0}, "大景閱": {"visitors": 20.0, "deals": 2.0}, "幸福成": {"visitors": 31.0, "deals": 3.0}, "昕暉詠翠": {"visitors": 23.0, "deals": 0.0}, "虹韻": {"visitors": 15.0, "deals": 0.0}, "僑家大院": {"visitors": 18.0, "deals": 0.0}}, "114.03": {"合康雙匯": {"visitors": 83.0, "deals": 2.0}, "耀時代": {"visitors": 60.0, "deals": 3.0}, "大觀富琚": {"visitors": 23.0, "deals": 0.0}, "氧之森": {"visitors": 27.0, "deals": 5.0}, "傳佳緻": {"visitors": 35.0, "deals": 3.0}, "閣美學": {"visitors": 10.0, "deals": 0.0}, "傳佳樂": {"visitors": 17.0, "deals": 6.0}, "合新城峰": {"visitors": 31.0, "deals": 2.0}, "捷運湛": {"visitors": 36.0, "deals": 2.0}, "寶佳淳青": {"visitors": 48.0, "deals": 2.0}, "大景旭": {"visitors": 25.0, "deals": 2.0}, "大景閱": {"visitors": 19.0, "deals": 1.0}, "幸福成": {"visitors": 29.0, "deals": 1.0}, "昕暉詠翠": {"visitors": 27.0, "deals": 1.0}, "虹韻": {"visitors": 25.0, "deals": 0.0}, "春宜5": {"visitors": 43.0, "deals": 1.0}, "僑家大院": {"visitors": 22.0, "deals": 1.0}}, "114.04": {"合康雙匯": {"visitors": 25.0, "deals": 5.0}, "耀時代": {"visitors": 33.0, "deals": 5.0}, "大觀富琚": {"visitors": 16.0, "deals": 0.0}, "氧之森": {"visitors": 16.0, "deals": 3.0}, "傳佳緻": {"visitors": 19.0, "deals": 2.0}, "閣美學": {"visitors": 9.0, "deals": 0.0}, "傳佳樂": {"visitors": 2.0, "deals": 1.0}, "合新城峰": {"visitors": 6.0, "deals": 1.0}, "捷運湛": {"visitors": 20.0, "deals": 0.0}, "寶佳淳青": {"visitors": 29.0, "deals": 1.0}, "大景旭": {"visitors": 12.0, "deals": 1.0}, "大景閱": {"visitors": 7.0, "deals": 0.0}, "幸福成": {"visitors": 14.0, "deals": 1.0}, "昕暉詠翠": {"visitors": 12.0, "deals": 1.0}, "虹韻": {"visitors": 7.0, "deals": 0.0}, "春宜5": {"visitors": 12.0, "deals": 1.0}, "僑家大院": {"visitors": 14.0, "deals": 1.0}}}, "rollup": [{"month": "1月", "visitors": 410.0, "units_sold": 40.0, "parking_sold": 41.0, "pnl": 32103212.0, "deals": 22.0}, {"month": "2月", "visitors": 542.0, "units_sold": 43.0, "parking_sold": 43.0, "pnl": 68469945.0, "deals": 12.0}, {"month": "3月", "visitors": 477.0, "units_sold": 21.0, "parking_sold": 22.0, "pnl": 12705986.0, "deals": 0.0}, {"month": "4月", "visitors": 228.0, "units_sold": 21.0, "parking_sold": 22.0, "pnl": 55446905.0, "deals": 18.0}, {"month": "5月", "visitors": null, "units_sold": null, "parking_sold": null, "pnl": 97771500.0, "deals": 34.0}, {"month": "6月", "visitors": null, "units_sold": null, "parking_sold": null, "pnl": 118057091.0, "deals": 44.0}, {"month": "7月", "visitors": null, "units_sold": null, "parking_sold": null, "pnl": 91481012.0, "deals": 23.0}, {"month": "8月", "visitors": null, "units_sold": null, "parking_sold": null, "pnl": null, "deals": null}, {"month": "9月", "visitors": null, "units_sold": null, "parking_sold": null, "pnl": null, "deals": null}, {"month": "10月", "visitors": null, "units_sold": null, "parking_sold": null, "pnl": null, "deals": null}, {"month": "11月", "visitors": null, "units_sold": null, "parking_sold": null, "pnl": -11249887.0, "deals": 0.0}, {"month": "12月", "visitors": null, "units_sold": null, "parking_sold": null, "pnl": null, "deals": null}]};
-const MONTHS = ["114.01","114.02","114.03","114.04"];
-const fmtW = n => (n/10000).toLocaleString("zh-TW",{maximumFractionDigits:1,minimumFractionDigits:1});
-const fmtN = n => Math.round(n).toLocaleString("zh-TW");
-const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
-let cur = "114.04";
-let sortKey = "month_pnl", sortDir = -1;
+/* ── helpers ── */
+const fmtW = n => n==null ? "—" : (n/10000).toLocaleString("zh-TW",{minimumFractionDigits:1,maximumFractionDigits:1});
+const fmtN = n => n==null ? "—" : Math.round(n).toLocaleString("zh-TW");
+const css  = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el   = id => document.getElementById(id);
 
-function rows(m){
-  return DATA.monthly[m].map(r=>{
-    const v = (DATA.visitors[m]||{})[r.project] || {};
-    const sold = (r.units||0) - (r.remain_units||0);
-    return {...r, sold, rate: r.units? sold/r.units : 0,
-      visitors: v.visitors||0, deals: v.deals||0};
-  });
+/* ── state ── */
+let DB={}, CUR="", sortKey="month_pnl", sortDir=-1;
+
+/* ── boot ── */
+async function init(){
+  try{
+    const res = await fetch("db.json?v="+Date.now());
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    DB = await res.json();
+    if(!DB.months||!DB.months.length){
+      el("main").innerHTML='<div class="loader">尚無資料。請先執行 update_data.py 並 git push。</div>';
+      return;
+    }
+    CUR = DB.months[DB.months.length-1];
+    renderAll();
+  } catch(e){
+    el("main").innerHTML=`<div class="loader" style="color:var(--neg)">載入 db.json 失敗：${e.message}<br><small>請確認 db.json 在同一個 repo 根目錄。</small></div>`;
+  }
 }
-function agg(m){
-  const rs = rows(m);
-  return {
-    count: rs.length,
-    units: rs.reduce((a,r)=>a+(r.units||0),0),
-    remain: rs.reduce((a,r)=>a+(r.remain_units||0),0),
-    pnl: rs.reduce((a,r)=>a+(r.month_pnl||0),0),
-    visitors: rs.reduce((a,r)=>a+r.visitors,0),
-    deals: rs.reduce((a,r)=>a+r.deals,0),
+
+/* ── aggregation ── */
+function agg(rows){
+  const units=rows.reduce((a,r)=>a+(r.units||0),0);
+  const remain=rows.reduce((a,r)=>a+(r.remain_units||0),0);
+  return{ units, remain,
+    pnl:     rows.reduce((a,r)=>a+(r.month_pnl||0),0),
+    visitors:rows.reduce((a,r)=>a+(r.visitors||0),0),
+    deals:   rows.reduce((a,r)=>a+(r.deals||0),0),
   };
 }
 
-function renderSeg(){
-  const s = document.getElementById("seg");
-  s.innerHTML = MONTHS.map(m=>`<button class="${m===cur?'on':''}" onclick="setMonth('${m}')">${m}</button>`).join("");
-}
-function setMonth(m){ cur=m; renderSeg(); renderAll(); }
+/* ── render ── */
+function renderAll(){
+  const rows = DB.portfolio[CUR]||[];
+  const idx  = DB.months.indexOf(CUR);
+  const prevM= idx>0?DB.months[idx-1]:null;
+  const prevRows = prevM?(DB.portfolio[prevM]||[]):[];
+  const a=agg(rows), pa=prevRows.length?agg(prevRows):null;
 
-function renderKpis(){
-  const a=agg(cur), pm=MONTHS[MONTHS.indexOf(cur)-1], pa=pm?agg(pm):null;
+  /* seg buttons */
+  el("seg").innerHTML = DB.months.map(m=>
+    `<button class="${m===CUR?'on':''}" onclick="setMonth('${m}')">${m}</button>`).join("");
+  el("scope").textContent=`在售 ${rows.length} 案 · 損益萬元 · 更新 ${DB.updated_at||""}`;
+
+  /* delta helper */
+  const delta=(cv,pv,fmt,inv)=>{
+    if(!pa)return"";
+    const d=cv-pv, pos=d>=0;
+    const cls=(inv?!pos:pos)?"up":"dn";
+    return`<div class="d ${cls}">${pos?"▲":"▼"} ${fmt(Math.abs(d))} vs ${prevM}</div>`;
+  };
+
+  /* KPIs */
   const rate=(a.units-a.remain)/a.units;
-  const delta=(cur,prev,fmt)=>{ if(prev==null)return ""; const d=cur-prev; const s=d>=0?"up":"dn"; const sign=d>=0?"▲":"▼"; return `<div class="d ${s}">${sign} ${fmt(Math.abs(d))} vs ${pm}</div>`;};
-  const cards=[
-    {k:"在售建案",v:fmtN(a.count),u:"案",d:""},
-    {k:"規劃戶數",v:fmtN(a.units),u:"戶",d:""},
-    {k:"剩餘可售",v:fmtN(a.remain),u:"戶",d:pa?delta(a.remain,pa.remain,fmtN):""},
-    {k:"本月損益合計",v:fmtW(a.pnl),u:"萬",d:pa?delta(a.pnl,pa.pnl,fmtW):""},
-    {k:"本月來人",v:fmtN(a.visitors),u:"組",d:pa?delta(a.visitors,pa.visitors,fmtN):""},
-    {k:"本月成交",v:fmtN(a.deals),u:"戶",d:pa?delta(a.deals,pa.deals,fmtN):""},
+  const kpis=[
+    {k:"在售建案",   v:fmtN(rows.length),u:"案",d:""},
+    {k:"規劃戶數",   v:fmtN(a.units),    u:"戶",d:""},
+    {k:"剩餘可售",   v:fmtN(a.remain),   u:"戶",d:delta(a.remain,pa?.remain||0,fmtN,true)},
+    {k:"本月損益合計",v:fmtW(a.pnl),     u:"萬", d:delta(a.pnl,pa?.pnl||0,fmtW,false)},
+    {k:"本月來人",   v:fmtN(a.visitors), u:"組", d:delta(a.visitors,pa?.visitors||0,fmtN,false)},
+    {k:"本月成交",   v:fmtN(a.deals),    u:"戶", d:delta(a.deals,pa?.deals||0,fmtN,false)},
   ];
-  document.getElementById("kpis").innerHTML = cards.map(c=>
-    `<div class="kpi"><div class="k">${c.k}</div><div class="v num">${c.v}<span class="u">${c.u}</span></div>${c.d}</div>`).join("");
-}
 
-function renderBars(){
-  const rs=rows(cur).slice().sort((a,b)=>(b.month_pnl||0)-(a.month_pnl||0));
-  const max=Math.max(...rs.map(r=>Math.abs(r.month_pnl||0)),1);
-  document.getElementById("rankSub").textContent = `${cur} · 單位萬元`;
-  document.getElementById("bars").innerHTML = rs.map(r=>{
-    const v=r.month_pnl||0, w=Math.abs(v)/max*50, pos=v>=0;
-    const bar=pos
-      ? `<div class="bar" style="left:50%;width:${w}%;background:var(--pos)"></div>`
-      : `<div class="bar" style="right:50%;width:${w}%;background:var(--neg)"></div>`;
-    return `<div class="barrow" onclick="openDrawer('${r.project}')">
-      <div class="nm" title="${r.project}">${r.project}</div>
-      <div class="track"><div class="zero"></div>${bar}</div>
-      <div class="val num" style="color:${pos?'var(--pos)':'var(--neg)'}">${pos?'':'-'}${fmtW(Math.abs(v))}</div></div>`;
+  el("main").innerHTML=`
+    <div class="kpis" id="kpis"></div>
+    <div class="grid2">
+      <div class="panel"><h2>建案損益排行 <span class="sub">${CUR} · 萬元</span></h2><div class="bars" id="bars"></div></div>
+      <div class="panel"><h2>去化進度 <span class="sub">已售 / 規劃戶數</span></h2><div class="plist" id="dehua"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <h2>月損益趨勢 <span class="sub">投組合計</span></h2>
+        <div class="trendwrap" id="trend"></div>
+        <div class="legend">
+          <span><i class="dot" style="background:var(--brand)"></i>損益(萬)</span>
+          <span><i class="dot" style="background:var(--blue)"></i>來人</span>
+          <span><i class="dot" style="background:var(--amber)"></i>成交</span>
+        </div>
+      </div>
+      <div class="panel"><h2>來人 → 成交 <span class="sub">${CUR}</span></h2><div id="conv"></div></div>
+    </div>
+    <div class="tablepanel">
+      <div class="tablehead"><h2>建案明細</h2><span class="hint">點欄位排序 · 點列查看單案</span></div>
+      <div style="overflow-x:auto"><table><thead><tr id="thr"></tr></thead><tbody id="tbody"></tbody></table></div>
+    </div>`;
+
+  /* KPI cards */
+  el("kpis").innerHTML=kpis.map(c=>
+    `<div class="kpi"><div class="k">${c.k}</div><div class="v num">${c.v}<span class="u">${c.u}</span></div>${c.d}</div>`
+  ).join("");
+
+  /* diverging bars */
+  const bRows=[...rows].sort((a,b)=>(b.month_pnl||0)-(a.month_pnl||0));
+  const mx=Math.max(...bRows.map(r=>Math.abs(r.month_pnl||0)),1);
+  el("bars").innerHTML=bRows.map(r=>{
+    const v=r.month_pnl||0, w=Math.abs(v)/mx*50, pos=v>=0;
+    return`<div class="barrow" onclick="openDrawer('${r.project_name}')">
+      <div class="nm" title="${r.project_name}">${r.project_name}</div>
+      <div class="track"><div class="zero"></div>
+        <div class="bar" style="${pos?`left:50%;width:${w}%;background:var(--pos)`:`right:50%;width:${w}%;background:var(--neg)`}"></div>
+      </div>
+      <div class="val num" style="color:${pos?'var(--pos)':'var(--neg)'}">${pos?'':'-'}${fmtW(Math.abs(v))}</div>
+    </div>`;
   }).join("");
-}
 
-function renderDehua(){
-  const rs=rows(cur).slice().sort((a,b)=>b.rate-a.rate);
-  document.getElementById("dehua").innerHTML = rs.map(r=>{
-    const pct=(r.rate*100);
-    return `<div class="prow" onclick="openDrawer('${r.project}')">
-      <div class="ptop"><span>${r.project}</span><span class="pct num">${pct.toFixed(1)}%</span></div>
+  /* dehua */
+  const dRows=[...rows].sort((a,b)=>{
+    const ra=a.units?(a.units-a.remain_units)/a.units:0;
+    const rb=b.units?(b.units-b.remain_units)/b.units:0;
+    return rb-ra;
+  });
+  el("dehua").innerHTML=dRows.map(r=>{
+    const sold=(r.units||0)-(r.remain_units||0);
+    const pct=r.units?sold/r.units*100:0;
+    return`<div class="prow" onclick="openDrawer('${r.project_name}')">
+      <div class="ptop"><span>${r.project_name}</span><span class="pct num">${pct.toFixed(1)}%</span></div>
       <div class="ptrack"><div class="pfill" style="width:${Math.min(pct,100)}%"></div></div>
-      <div class="pmeta num">已售 ${fmtN(r.sold)} / ${fmtN(r.units)} 戶 · 剩 ${fmtN(r.remain_units)}</div></div>`;
+      <div class="pmeta num">已售 ${fmtN(sold)} / ${fmtN(r.units)} 戶 · 剩 ${fmtN(r.remain_units)}</div>
+    </div>`;
   }).join("");
+
+  /* trend SVG */
+  const tData=DB.months.map(m=>{
+    const rs=DB.portfolio[m]||[];
+    if(!rs.length)return null;
+    return{m,pnl:rs.reduce((a,x)=>a+(x.month_pnl||0),0)/10000,
+            vis:rs.reduce((a,x)=>a+(x.visitors||0),0),
+            deals:rs.reduce((a,x)=>a+(x.deals||0),0)};
+  }).filter(Boolean);
+  el("trend").innerHTML=buildTrend(tData);
+
+  /* conversion */
+  const cr=a.visitors?a.deals/a.visitors*100:0;
+  const dw=a.visitors?Math.max(a.deals/a.visitors*100,6):6;
+  el("conv").innerHTML=`
+    <div class="conv-cards">
+      <div class="convcard"><div class="cl">來人</div><div class="cv num">${fmtN(a.visitors)}<span style="font-size:12px;color:var(--faint);font-weight:400"> 組</span></div></div>
+      <div class="convcard"><div class="cl">成交</div><div class="cv num">${fmtN(a.deals)}<span style="font-size:12px;color:var(--faint);font-weight:400"> 戶</span></div></div>
+      <div class="convcard"><div class="cl">成交轉換率</div><div class="cv num" style="color:var(--blue)">${cr.toFixed(1)}%</div></div>
+    </div>
+    <div class="funnel">
+      <div class="fbar num" style="width:100%;background:var(--blue)">來人 ${fmtN(a.visitors)}</div>
+      <div class="fbar num" style="width:${dw}%;background:var(--brand);min-width:90px">成交 ${fmtN(a.deals)}</div>
+    </div>`;
+
+  renderTable(rows);
 }
 
-function renderTrend(){
-  const W=520,H=180,pl=40,pr=40,pt=16,pb=26;
-  const series=MONTHS.map(m=>{const a=agg(m);return{m,pnl:a.pnl/10000,vis:a.visitors,deals:a.deals};});
-  const xs=i=>pl+(W-pl-pr)*(i/(series.length-1));
-  const mk=(arr,key)=>{const mx=Math.max(...arr.map(d=>d[key]),1);return arr.map((d,i)=>[xs(i),H-pb-(H-pt-pb)*(d[key]/mx)]);};
-  const line=(pts,col,wd)=>`<polyline fill="none" stroke="${col}" stroke-width="${wd}" stroke-linejoin="round" points="${pts.map(p=>p.join(',')).join(' ')}"/>`+
-    pts.map(p=>`<circle cx="${p[0]}" cy="${p[1]}" r="3.2" fill="${col}"/>`).join("");
-  const pnlP=mk(series,"pnl"),visP=mk(series,"vis"),dealP=mk(series,"deals");
+function buildTrend(tData){
+  const W=500,H=170,pl=38,pr=30,pt=16,pb=26;
+  const n=tData.length, xs=i=>pl+(W-pl-pr)*(n>1?i/(n-1):0.5);
+  const mkL=(key,col,wd)=>{
+    const vs=tData.map(d=>d[key]);
+    const mx=Math.max(...vs.map(Math.abs),1);
+    const pts=tData.map((d,i)=>`${xs(i)},${H-pb-(H-pt-pb)*(d[key]/mx)}`).join(' ');
+    const circles=tData.map((d,i)=>`<circle cx="${xs(i)}" cy="${H-pb-(H-pt-pb)*(d[key]/mx)}" r="3" fill="${col}"/>`).join('');
+    return`<polyline fill="none" stroke="${col}" stroke-width="${wd}" stroke-linejoin="round" points="${pts}"/>${circles}`;
+  };
   let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%">`;
   for(let g=0;g<=3;g++){const y=pt+(H-pt-pb)*g/3;svg+=`<line x1="${pl}" y1="${y}" x2="${W-pr}" y2="${y}" stroke="${css('--line')}" stroke-width="1"/>`;}
-  series.forEach((d,i)=>{svg+=`<text x="${xs(i)}" y="${H-8}" font-size="11" fill="${css('--mut')}" text-anchor="middle" font-family="Noto Sans TC">${d.m}</text>`;});
-  svg+=line(pnlP,css('--brand'),2.4)+line(visP,css('--blue'),1.8)+line(dealP,css('--amber'),1.8);
-  series.forEach((d,i)=>{svg+=`<text x="${xs(i)}" y="${pnlP[i][1]-9}" font-size="10.5" fill="${css('--brand')}" text-anchor="middle" font-family="Noto Sans TC" font-weight="700">${fmtW(d.pnl*10000)}</text>`;});
-  svg+=`</svg>`;
-  document.getElementById("trend").innerHTML=svg;
+  tData.forEach((d,i)=>{svg+=`<text x="${xs(i)}" y="${H-7}" font-size="10.5" fill="${css('--mut')}" text-anchor="middle" font-family="Noto Sans TC">${d.m}</text>`;});
+  svg+=mkL('pnl',css('--brand'),2.2)+mkL('vis',css('--blue'),1.8)+mkL('deals',css('--amber'),1.8);
+  const pnlMax=Math.max(...tData.map(d=>Math.abs(d.pnl)),1);
+  tData.forEach((d,i)=>{
+    const y=H-pb-(H-pt-pb)*(d.pnl/pnlMax);
+    svg+=`<text x="${xs(i)}" y="${y-8}" font-size="10" fill="${css('--brand')}" text-anchor="middle" font-weight="700" font-family="Noto Sans TC">${fmtW(d.pnl*10000)}</text>`;
+  });
+  return svg+'</svg>';
 }
 
-function renderConv(){
-  const a=agg(cur), rate=a.visitors? a.deals/a.visitors*100:0;
-  document.getElementById("convSub").textContent=cur;
-  document.getElementById("convStats").innerHTML=
-    `<div class="convcard"><div class="cl">來人</div><div class="cv num">${fmtN(a.visitors)}<span class="u" style="font-size:12px;color:var(--faint)"> 組</span></div></div>
-     <div class="convcard"><div class="cl">成交</div><div class="cv num">${fmtN(a.deals)}<span class="u" style="font-size:12px;color:var(--faint)"> 戶</span></div></div>
-     <div class="convcard"><div class="cl">成交轉換率</div><div class="cv num" style="color:var(--blue)">${rate.toFixed(1)}%</div></div>`;
-  const vw=100, dw=a.visitors?Math.max(a.deals/a.visitors*100,8):8;
-  document.getElementById("funnel").innerHTML=
-    `<div class="fbar num" style="width:${vw}%;background:var(--blue)">來人 ${fmtN(a.visitors)}</div>
-     <div class="fbar num" style="width:${dw}%;background:var(--brand);min-width:90px">成交 ${fmtN(a.deals)}</div>`;
-}
-
+/* ── table ── */
 const COLS=[
-  {k:"project",t:"建案",fmt:r=>r.project,al:"left"},
-  {k:"agency",t:"承接",fmt:r=>r.agency,al:"left"},
-  {k:"units",t:"戶數",fmt:r=>fmtN(r.units)},
-  {k:"rate",t:"去化率",fmt:r=>`<span class="chip" style="background:var(--bluebg);color:var(--blue)">${(r.rate*100).toFixed(1)}%</span>`},
-  {k:"remain_units",t:"剩餘戶",fmt:r=>fmtN(r.remain_units)},
-  {k:"month_pnl",t:"本月損益",fmt:r=>{const p=r.month_pnl>=0;return `<span class="num" style="color:${p?'var(--pos)':'var(--neg)'}">${p?'':'-'}${fmtW(Math.abs(r.month_pnl))}</span>`;}},
-  {k:"visitors",t:"來人",fmt:r=>fmtN(r.visitors)},
-  {k:"deals",t:"成交",fmt:r=>fmtN(r.deals)},
-  {k:"company_oh",t:"公司管銷",fmt:r=>fmtW(r.company_oh||0)},
+  {k:"project_name",t:"建案",al:"left",  fmt:r=>r.project_name},
+  {k:"agency_name", t:"承接",al:"left",  fmt:r=>r.agency_name||"—"},
+  {k:"units",       t:"戶數",             fmt:r=>fmtN(r.units)},
+  {k:"rate",        t:"去化率",           fmt:r=>{const p=r.units?(r.units-r.remain_units)/r.units*100:0;return`<span class="chip" style="background:var(--bluebg);color:var(--blue)">${p.toFixed(1)}%</span>`;}},
+  {k:"remain_units",t:"剩餘戶",           fmt:r=>fmtN(r.remain_units)},
+  {k:"month_pnl",   t:"本月損益(萬)",     fmt:r=>{const pos=(r.month_pnl||0)>=0;return`<span class="num" style="color:${pos?'var(--pos)':'var(--neg)'}">${pos?'':'-'}${fmtW(Math.abs(r.month_pnl||0))}</span>`;}},
+  {k:"visitors",    t:"來人",             fmt:r=>fmtN(r.visitors)},
+  {k:"deals",       t:"成交",             fmt:r=>fmtN(r.deals)},
+  {k:"company_oh",  t:"公司管銷(萬)",     fmt:r=>fmtW(r.company_oh||0)},
 ];
-function renderTable(){
-  document.getElementById("thr").innerHTML=COLS.map(c=>{
+function renderTable(rows){
+  el("thr").innerHTML=COLS.map(c=>{
     const cls=c.k===sortKey?`arrow ${sortDir>0?'asc':''}`:"";
-    return `<th class="${cls}" onclick="sortBy('${c.k}')">${c.t}</th>`;}).join("");
-  const rs=rows(cur).slice().sort((a,b)=>{
-    let x=a[sortKey],y=b[sortKey];
+    return`<th class="${cls}" onclick="sortBy('${c.k}')">${c.t}</th>`;}).join("");
+  const rs=[...rows].sort((a,b)=>{
+    const getV=(r,k)=>k==="rate"?( r.units?(r.units-r.remain_units)/r.units:0 ):(r[k]??0);
+    const x=getV(a,sortKey), y=getV(b,sortKey);
     if(typeof x==="string")return sortDir*x.localeCompare(y,"zh-TW");
-    return sortDir*((x||0)-(y||0));});
-  document.getElementById("tbody").innerHTML=rs.map(r=>
-    `<tr onclick="openDrawer('${r.project}')">${COLS.map(c=>`<td>${c.fmt(r)}</td>`).join("")}</tr>`).join("");
+    return sortDir*((x||0)-(y||0));
+  });
+  el("tbody").innerHTML=rs.map(r=>
+    `<tr onclick="openDrawer('${r.project_name}')">${COLS.map(c=>`<td>${c.fmt(r)}</td>`).join("")}</tr>`
+  ).join("");
 }
-function sortBy(k){ if(sortKey===k)sortDir*=-1; else{sortKey=k;sortDir=(k==="project"||k==="agency")?1:-1;} renderTable(); }
+function sortBy(k){
+  sortKey===k?sortDir*=-1:(sortKey=k,sortDir=(k==="project_name"||k==="agency_name")?1:-1);
+  renderTable(DB.portfolio[CUR]||[]);
+}
+function setMonth(m){ CUR=m; renderAll(); }
 
+/* ── drawer ── */
 function openDrawer(name){
-  const r=rows(cur).find(x=>x.project===name); if(!r)return;
-  document.getElementById("dName").textContent=r.project;
-  document.getElementById("dMeta").textContent=`${r.agency} · ${r.license} · 進場 ${r.entry}`;
-  const wk=r.w.map(x=>x||0), labels=["W1","W2","W3","W4","W5"];
-  const W=380,H=120,pl=8,pr=8,pt=14,pb=20;
-  const mx=Math.max(...wk.map(Math.abs),1);
-  const xs=i=>pl+(W-pl-pr)*(i/(wk.length-1));
-  const ys=v=>{const mid=(H-pt-pb)/2+pt;return mid-(v/mx)*((H-pt-pb)/2);};
-  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%">`;
-  svg+=`<line x1="${pl}" y1="${ys(0)}" x2="${W-pr}" y2="${ys(0)}" stroke="${css('--line')}" stroke-width="1"/>`;
-  wk.forEach((v,i)=>{const x=xs(i),y=ys(v),y0=ys(0),pos=v>=0;
-    svg+=`<rect x="${x-16}" y="${Math.min(y,y0)}" width="32" height="${Math.abs(y-y0)||1}" rx="2" fill="${pos?css('--pos'):css('--neg')}"/>`;
-    svg+=`<text x="${x}" y="${H-6}" font-size="10" fill="${css('--mut')}" text-anchor="middle" font-family="Noto Sans TC">${labels[i]}</text>`;});
-  svg+=`</svg>`;
-  document.getElementById("dBody").innerHTML=`
+  const pr=(DB.portfolio[CUR]||[]).find(r=>r.project_name===name); if(!pr)return;
+  el("dName").textContent=name;
+  el("dMeta").textContent=`${pr.agency_name||""} · ${pr.license_status||""} · 進場 ${pr.entry_date||""}`;
+
+  const sold=(pr.units||0)-(pr.remain_units||0);
+  const rate=pr.units?sold/pr.units*100:0;
+
+  /* weekly bars for current month */
+  const allWk=(DB.weekly||{})[name]||[];
+  const wk=allWk.filter(r=>r.year_month===CUR).sort((a,b)=>a.week_label.localeCompare(b.week_label));
+  const wkSvg=buildWeeklyBars(wk);
+
+  /* monthly trend for this project */
+  const mthData=DB.months.map(m=>{
+    const r=(DB.portfolio[m]||[]).find(x=>x.project_name===name);
+    return r?{m, pnl:(r.month_pnl||0)/10000}:null;
+  }).filter(Boolean);
+  const mthSvg=buildMiniTrend(mthData);
+
+  el("dBody").innerHTML=`
     <div class="dstat">
-      <div class="s"><div class="sl">本月損益</div><div class="sv num" style="color:${r.month_pnl>=0?'var(--pos)':'var(--neg)'}">${r.month_pnl>=0?'':'-'}${fmtW(Math.abs(r.month_pnl))} 萬</div></div>
-      <div class="s"><div class="sl">去化率</div><div class="sv num" style="color:var(--blue)">${(r.rate*100).toFixed(1)}%</div></div>
-      <div class="s"><div class="sl">已售 / 規劃</div><div class="sv num">${fmtN(r.sold)} / ${fmtN(r.units)}</div></div>
-      <div class="s"><div class="sl">剩餘戶 / 車</div><div class="sv num">${fmtN(r.remain_units)} / ${fmtN(r.remain_parking)}</div></div>
-      <div class="s"><div class="sl">本月來人</div><div class="sv num">${fmtN(r.visitors)} 組</div></div>
-      <div class="s"><div class="sl">本月成交</div><div class="sv num">${fmtN(r.deals)} 戶</div></div>
+      <div class="s"><div class="sl">本月損益</div><div class="sv num" style="color:${(pr.month_pnl||0)>=0?'var(--pos)':'var(--neg)'}">${fmtW(pr.month_pnl||0)} 萬</div></div>
+      <div class="s"><div class="sl">去化率</div><div class="sv num" style="color:var(--blue)">${rate.toFixed(1)}%</div></div>
+      <div class="s"><div class="sl">已售 / 規劃</div><div class="sv num">${fmtN(sold)} / ${fmtN(pr.units)}</div></div>
+      <div class="s"><div class="sl">剩餘戶 / 車</div><div class="sv num">${fmtN(pr.remain_units)} / ${fmtN(pr.remain_parking)}</div></div>
+      <div class="s"><div class="sl">本月來人</div><div class="sv num">${fmtN(pr.visitors)} 組</div></div>
+      <div class="s"><div class="sl">本月成交</div><div class="sv num">${fmtN(pr.deals)} 戶</div></div>
     </div>
-    <div class="dsec">當月各週損益（萬元）</div>
-    <div class="spark">${svg}</div>
+    <div class="dsec">當月各週損益（${CUR} · 萬元）</div>
+    <div class="spark">${wkSvg}</div>
+    <div class="dsec">歷月損益趨勢（萬元）</div>
+    <div class="spark">${mthSvg}</div>
     <div class="dsec">財務</div>
     <div class="dstat">
-      <div class="s"><div class="sl">案量</div><div class="sv num">${fmtN(r.volume)}</div></div>
-      <div class="s"><div class="sl">公司管銷</div><div class="sv num">${fmtW(r.company_oh||0)} 萬</div></div>
+      <div class="s"><div class="sl">案量</div><div class="sv num">${fmtN(pr.total_volume)}</div></div>
+      <div class="s"><div class="sl">公司管銷</div><div class="sv num">${fmtW(pr.company_oh||0)} 萬</div></div>
+      <div class="s"><div class="sl">累積損益</div><div class="sv num" style="color:${(pr.cumulative_pnl||0)>=0?'var(--pos)':'var(--neg)'}">${fmtW(pr.cumulative_pnl||0)} 萬</div></div>
+      <div class="s"><div class="sl">剩餘車位</div><div class="sv num">${fmtN(pr.remain_parking)}</div></div>
     </div>`;
-  document.getElementById("drawer").classList.add("show");
-  document.getElementById("scrim").classList.add("show");
+
+  el("drawer").classList.add("show");
+  el("scrim").classList.add("show");
 }
-function closeDrawer(){document.getElementById("drawer").classList.remove("show");document.getElementById("scrim").classList.remove("show");}
+
+function buildWeeklyBars(wk){
+  if(!wk.length)return'<div style="font-size:11px;color:var(--faint);padding:8px">本月尚無週資料</div>';
+  const W=370,H=120,pl=6,pr=6,pt=14,pb=22;
+  const labels=["W1","W2","W3","W4","W5"];
+  const vals=labels.map(l=>{const r=wk.find(x=>x.week_label===l);return r?.pnl??null;});
+  const mx=Math.max(...vals.map(v=>Math.abs(v??0)),1);
+  const xs=i=>pl+(W-pl-pr)*(i/4);
+  const ys=v=>{ const mid=(H-pt-pb)/2+pt; return mid-((v??0)/mx)*((H-pt-pb)/2); };
+  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%">`;
+  svg+=`<line x1="${pl}" y1="${ys(0)}" x2="${W-pr}" y2="${ys(0)}" stroke="${css('--line')}" stroke-width="1"/>`;
+  vals.forEach((v,i)=>{
+    const x=xs(i), y=ys(v??0), y0=ys(0), pos=(v??0)>=0;
+    const bh=Math.max(Math.abs(y-y0),1);
+    svg+=`<rect x="${x-14}" y="${Math.min(y,y0)}" width="28" height="${bh}" rx="2" fill="${pos?css('--pos'):css('--neg')}" opacity="${v==null?0.25:1}"/>`;
+    svg+=`<text x="${x}" y="${H-5}" font-size="10" fill="${css('--mut')}" text-anchor="middle" font-family="Noto Sans TC">${labels[i]}</text>`;
+    if(v!=null) svg+=`<text x="${x}" y="${Math.min(y,y0)-4}" font-size="9.5" fill="${pos?css('--pos'):css('--neg')}" text-anchor="middle" font-family="Noto Sans TC">${fmtW(v)}</text>`;
+  });
+  return svg+'</svg>';
+}
+
+function buildMiniTrend(data){
+  if(!data.length)return'<div style="font-size:11px;color:var(--faint);padding:8px">無資料</div>';
+  const W=370,H=90,pl=6,pr=6,pt=12,pb=22;
+  const mx=Math.max(...data.map(d=>Math.abs(d.pnl)),1);
+  const xs=i=>pl+(W-pl-pr)*(data.length>1?i/(data.length-1):0.5);
+  const ys=v=>H-pb-(H-pt-pb)*(v/mx);
+  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%">`;
+  for(let g=0;g<=2;g++){const y=pt+(H-pt-pb)*g/2;svg+=`<line x1="${pl}" y1="${y}" x2="${W-pr}" y2="${y}" stroke="${css('--line')}" stroke-width="1"/>`;}
+  data.forEach((d,i)=>{svg+=`<text x="${xs(i)}" y="${H-5}" font-size="9.5" fill="${css('--mut')}" text-anchor="middle" font-family="Noto Sans TC">${d.m}</text>`;});
+  svg+=`<polyline fill="none" stroke="${css('--brand')}" stroke-width="2" stroke-linejoin="round" points="${data.map((d,i)=>`${xs(i)},${ys(d.pnl)}`).join(' ')}"/>`;
+  data.forEach((d,i)=>{svg+=`<circle cx="${xs(i)}" cy="${ys(d.pnl)}" r="3" fill="${css('--brand')}"/>`});
+  return svg+'</svg>';
+}
+
+function closeDrawer(){
+  el("drawer").classList.remove("show");
+  el("scrim").classList.remove("show");
+}
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDrawer();});
 
-function renderAll(){renderKpis();renderBars();renderDehua();renderTrend();renderConv();renderTable();}
-renderSeg();renderAll();
+init();
 </script>
 </body>
 </html>

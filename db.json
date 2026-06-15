@@ -1,0 +1,2835 @@
+{
+  "months": [
+    "114.01",
+    "114.02",
+    "114.03",
+    "114.04"
+  ],
+  "portfolio": {
+    "114.01": [
+      {
+        "project_name": "合康雙匯",
+        "agency_name": "誼鼎廣告",
+        "units": 216.0,
+        "parking": 223.0,
+        "license_status": "結構預售",
+        "entry_date": "113/10/1",
+        "total_volume": 492220.0,
+        "month_pnl": 6480147.0,
+        "cumulative_pnl": -3871135.0,
+        "remain_units": 171.0,
+        "remain_parking": 177.0,
+        "company_oh": 472500.0,
+        "visitors": 65.0,
+        "deals": 12.0
+      },
+      {
+        "project_name": "耀時代",
+        "agency_name": "禾義行銷",
+        "units": 140.0,
+        "parking": 140.0,
+        "license_status": "結構預售",
+        "entry_date": "113/05/01",
+        "total_volume": 147192.0,
+        "month_pnl": 2554328.0,
+        "cumulative_pnl": 34673285.0,
+        "remain_units": 25.0,
+        "remain_parking": 25.0,
+        "company_oh": 1260000.0,
+        "visitors": 50.0,
+        "deals": 8.0
+      },
+      {
+        "project_name": "大觀富琚",
+        "agency_name": "禾義行銷",
+        "units": 131.0,
+        "parking": 123.0,
+        "license_status": "結構預售",
+        "entry_date": "113/5/1",
+        "total_volume": 134601.0,
+        "month_pnl": 279378.0,
+        "cumulative_pnl": 15501333.0,
+        "remain_units": 63.0,
+        "remain_parking": 60.0,
+        "company_oh": 504000.0,
+        "visitors": 9.0,
+        "deals": 3.0
+      },
+      {
+        "project_name": "氧之森",
+        "agency_name": "和誼廣告",
+        "units": 237.0,
+        "parking": 194.0,
+        "license_status": "結構預售",
+        "entry_date": "112/5/15",
+        "total_volume": 250329.0,
+        "month_pnl": 435163.0,
+        "cumulative_pnl": 28009435.0,
+        "remain_units": 32.0,
+        "remain_parking": 32.0,
+        "company_oh": 3150000.0,
+        "visitors": 28.0,
+        "deals": 6.0
+      },
+      {
+        "project_name": "傳佳緻",
+        "agency_name": "禾翊國際",
+        "units": 225.0,
+        "parking": 227.0,
+        "license_status": "113.09",
+        "entry_date": "112/3/1",
+        "total_volume": 290205.0,
+        "month_pnl": -302604.0,
+        "cumulative_pnl": 52923064.0,
+        "remain_units": 10.0,
+        "remain_parking": 14.0,
+        "company_oh": 3622500.0,
+        "visitors": 28.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "閣美學",
+        "agency_name": "禾翊國際",
+        "units": 92.0,
+        "parking": 93.0,
+        "license_status": "結構預售",
+        "entry_date": "113/1/26",
+        "total_volume": 131446.0,
+        "month_pnl": -326682.0,
+        "cumulative_pnl": 29005337.0,
+        "remain_units": 17.0,
+        "remain_parking": 17.0,
+        "company_oh": 1638000.0,
+        "visitors": 12.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "傳佳樂",
+        "agency_name": "宇開廣告",
+        "units": 127.0,
+        "parking": 149.0,
+        "license_status": "結構預售",
+        "entry_date": "113/6/1",
+        "total_volume": 150181.0,
+        "month_pnl": 652837.0,
+        "cumulative_pnl": 4190781.0,
+        "remain_units": 67.0,
+        "remain_parking": 81.0,
+        "company_oh": 1260000.0,
+        "visitors": 16.0,
+        "deals": 3.0
+      },
+      {
+        "project_name": "合新城峰",
+        "agency_name": "寶毅廣告",
+        "units": 146.0,
+        "parking": 144.0,
+        "license_status": "結構預售",
+        "entry_date": "113/1/27",
+        "total_volume": 166115.0,
+        "month_pnl": 1868155.0,
+        "cumulative_pnl": 36192936.0,
+        "remain_units": 12.0,
+        "remain_parking": 12.0,
+        "company_oh": 2362500.0,
+        "visitors": 25.0,
+        "deals": 4.0
+      },
+      {
+        "project_name": "捷運湛",
+        "agency_name": "寶毅廣告",
+        "units": 171.0,
+        "parking": 171.0,
+        "license_status": "結構預售",
+        "entry_date": "113/2/24",
+        "total_volume": 193878.0,
+        "month_pnl": 691933.0,
+        "cumulative_pnl": 53326891.0,
+        "remain_units": 33.0,
+        "remain_parking": 33.0,
+        "company_oh": 2362500.0,
+        "visitors": 34.0,
+        "deals": 7.0
+      },
+      {
+        "project_name": "寶佳淳青",
+        "agency_name": "寶鼎國際",
+        "units": 240.0,
+        "parking": 249.0,
+        "license_status": "結構預售",
+        "entry_date": "113/5/1",
+        "total_volume": 441145.0,
+        "month_pnl": -732638.0,
+        "cumulative_pnl": 43334946.0,
+        "remain_units": 120.0,
+        "remain_parking": 119.0,
+        "company_oh": 1732500.0,
+        "visitors": 28.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "大景旭",
+        "agency_name": "正群廣告",
+        "units": 161.0,
+        "parking": 106.0,
+        "license_status": "結構預售",
+        "entry_date": "112/2/10",
+        "total_volume": 282538.0,
+        "month_pnl": -580558.0,
+        "cumulative_pnl": 18050013.0,
+        "remain_units": 39.0,
+        "remain_parking": 39.0,
+        "company_oh": 4050000.0,
+        "visitors": 21.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "大景閱",
+        "agency_name": "正群廣告",
+        "units": 90.0,
+        "parking": 91.0,
+        "license_status": "結構預售",
+        "entry_date": "112/7/25",
+        "total_volume": 99033.0,
+        "month_pnl": 120866.0,
+        "cumulative_pnl": 14108908.0,
+        "remain_units": 9.0,
+        "remain_parking": 9.0,
+        "company_oh": 1890000.0,
+        "visitors": 9.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "幸福成",
+        "agency_name": "正群廣告",
+        "units": 102.0,
+        "parking": 88.0,
+        "license_status": "結構預售",
+        "entry_date": "112/1/31",
+        "total_volume": 141877.0,
+        "month_pnl": -431477.0,
+        "cumulative_pnl": 12095738.0,
+        "remain_units": 7.0,
+        "remain_parking": 7.0,
+        "company_oh": 3360000.0,
+        "visitors": 22.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "昕暉詠翠",
+        "agency_name": "正群廣告",
+        "units": 132.0,
+        "parking": 145.0,
+        "license_status": "結構預售",
+        "entry_date": "112/4/6",
+        "total_volume": 167856.0,
+        "month_pnl": 51943.0,
+        "cumulative_pnl": -10097565.0,
+        "remain_units": 66.0,
+        "remain_parking": 77.0,
+        "company_oh": 3750000.0,
+        "visitors": 22.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "虹韻",
+        "agency_name": "正群廣告",
+        "units": 31.0,
+        "parking": 25.0,
+        "license_status": "預售",
+        "entry_date": "113/05/01",
+        "total_volume": 45309.0,
+        "month_pnl": 150155.0,
+        "cumulative_pnl": -8387614.0,
+        "remain_units": 29.0,
+        "remain_parking": 22.0,
+        "company_oh": 450000.0,
+        "visitors": 23.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "僑家大院",
+        "agency_name": "翊鼎國際",
+        "units": 54.0,
+        "parking": 56.0,
+        "license_status": "結構預售",
+        "entry_date": "113/06/24",
+        "total_volume": 93263.0,
+        "month_pnl": -411840.0,
+        "cumulative_pnl": -13663706.0,
+        "remain_units": 53.0,
+        "remain_parking": 55.0,
+        "company_oh": 200000.0,
+        "visitors": 18.0,
+        "deals": 2.0
+      }
+    ],
+    "114.02": [
+      {
+        "project_name": "合康雙匯",
+        "agency_name": "誼鼎廣告",
+        "units": 216.0,
+        "parking": 223.0,
+        "license_status": "結構預售",
+        "entry_date": "113/10/1",
+        "total_volume": 492220.0,
+        "month_pnl": 11947884.0,
+        "cumulative_pnl": -509878.0,
+        "remain_units": 153.0,
+        "remain_parking": 159.0,
+        "company_oh": 472500.0,
+        "visitors": 106.0,
+        "deals": 23.0
+      },
+      {
+        "project_name": "耀時代",
+        "agency_name": "禾義行銷",
+        "units": 140.0,
+        "parking": 140.0,
+        "license_status": "結構預售",
+        "entry_date": "113/05/01",
+        "total_volume": 147192.0,
+        "month_pnl": 1632730.0,
+        "cumulative_pnl": 38537244.0,
+        "remain_units": 21.0,
+        "remain_parking": 21.0,
+        "company_oh": 1260000.0,
+        "visitors": 59.0,
+        "deals": 5.0
+      },
+      {
+        "project_name": "大觀富琚",
+        "agency_name": "禾義行銷",
+        "units": 131.0,
+        "parking": 123.0,
+        "license_status": "結構預售",
+        "entry_date": "113/5/1",
+        "total_volume": 134601.0,
+        "month_pnl": -100166.0,
+        "cumulative_pnl": 15323108.0,
+        "remain_units": 63.0,
+        "remain_parking": 60.0,
+        "company_oh": 504000.0,
+        "visitors": 11.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "氧之森",
+        "agency_name": "和誼廣告",
+        "units": 237.0,
+        "parking": 194.0,
+        "license_status": "結構預售",
+        "entry_date": "112/5/15",
+        "total_volume": 250329.0,
+        "month_pnl": 4025198.0,
+        "cumulative_pnl": 31631218.0,
+        "remain_units": 26.0,
+        "remain_parking": 26.0,
+        "company_oh": 3150000.0,
+        "visitors": 39.0,
+        "deals": 6.0
+      },
+      {
+        "project_name": "傳佳緻",
+        "agency_name": "禾翊國際",
+        "units": 225.0,
+        "parking": 227.0,
+        "license_status": "113.09",
+        "entry_date": "112/3/1",
+        "total_volume": 290205.0,
+        "month_pnl": 664414.0,
+        "cumulative_pnl": 53419722.0,
+        "remain_units": 9.0,
+        "remain_parking": 13.0,
+        "company_oh": 3622500.0,
+        "visitors": 45.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "閣美學",
+        "agency_name": "禾翊國際",
+        "units": 92.0,
+        "parking": 93.0,
+        "license_status": "結構預售",
+        "entry_date": "113/1/26",
+        "total_volume": 131446.0,
+        "month_pnl": -319771.0,
+        "cumulative_pnl": 28685568.0,
+        "remain_units": 17.0,
+        "remain_parking": 17.0,
+        "company_oh": 1638000.0,
+        "visitors": 19.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "傳佳樂",
+        "agency_name": "宇開廣告",
+        "units": 127.0,
+        "parking": 149.0,
+        "license_status": "結構預售",
+        "entry_date": "113/6/1",
+        "total_volume": 150181.0,
+        "month_pnl": -20964.0,
+        "cumulative_pnl": 3483335.0,
+        "remain_units": 65.0,
+        "remain_parking": 79.0,
+        "company_oh": 1260000.0,
+        "visitors": 19.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "合新城峰",
+        "agency_name": "寶毅廣告",
+        "units": 146.0,
+        "parking": 144.0,
+        "license_status": "結構預售",
+        "entry_date": "113/1/27",
+        "total_volume": 166115.0,
+        "month_pnl": 179457.0,
+        "cumulative_pnl": 36106792.0,
+        "remain_units": 7.0,
+        "remain_parking": 7.0,
+        "company_oh": 2362500.0,
+        "visitors": 23.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "捷運湛",
+        "agency_name": "寶毅廣告",
+        "units": 171.0,
+        "parking": 171.0,
+        "license_status": "結構預售",
+        "entry_date": "113/2/24",
+        "total_volume": 193878.0,
+        "month_pnl": 2136862.0,
+        "cumulative_pnl": 55656529.0,
+        "remain_units": 29.0,
+        "remain_parking": 29.0,
+        "company_oh": 2362500.0,
+        "visitors": 44.0,
+        "deals": 4.0
+      },
+      {
+        "project_name": "寶佳淳青",
+        "agency_name": "寶鼎國際",
+        "units": 240.0,
+        "parking": 249.0,
+        "license_status": "結構預售",
+        "entry_date": "113/5/1",
+        "total_volume": 441145.0,
+        "month_pnl": 2534562.0,
+        "cumulative_pnl": 43315933.0,
+        "remain_units": 118.0,
+        "remain_parking": 117.0,
+        "company_oh": 1732500.0,
+        "visitors": 42.0,
+        "deals": 3.0
+      },
+      {
+        "project_name": "大景旭",
+        "agency_name": "正群廣告",
+        "units": 161.0,
+        "parking": 106.0,
+        "license_status": "結構預售",
+        "entry_date": "112/2/10",
+        "total_volume": 282538.0,
+        "month_pnl": 333098.0,
+        "cumulative_pnl": 16500415.0,
+        "remain_units": 39.0,
+        "remain_parking": 39.0,
+        "company_oh": 4200000.0,
+        "visitors": 28.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "大景閱",
+        "agency_name": "正群廣告",
+        "units": 90.0,
+        "parking": 91.0,
+        "license_status": "結構預售",
+        "entry_date": "112/7/25",
+        "total_volume": 99033.0,
+        "month_pnl": -228560.0,
+        "cumulative_pnl": 14054032.0,
+        "remain_units": 7.0,
+        "remain_parking": 7.0,
+        "company_oh": 1890000.0,
+        "visitors": 20.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "幸福成",
+        "agency_name": "正群廣告",
+        "units": 102.0,
+        "parking": 88.0,
+        "license_status": "結構預售",
+        "entry_date": "112/1/31",
+        "total_volume": 141877.0,
+        "month_pnl": 199861.0,
+        "cumulative_pnl": 11825138.0,
+        "remain_units": 5.0,
+        "remain_parking": 5.0,
+        "company_oh": 3640000.0,
+        "visitors": 31.0,
+        "deals": 3.0
+      },
+      {
+        "project_name": "昕暉詠翠",
+        "agency_name": "正群廣告",
+        "units": 132.0,
+        "parking": 145.0,
+        "license_status": "結構預售",
+        "entry_date": "112/4/6",
+        "total_volume": 167856.0,
+        "month_pnl": 190276.0,
+        "cumulative_pnl": -10113219.0,
+        "remain_units": 66.0,
+        "remain_parking": 77.0,
+        "company_oh": 3750000.0,
+        "visitors": 23.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "虹韻",
+        "agency_name": "正群廣告",
+        "units": 31.0,
+        "parking": 25.0,
+        "license_status": "預售",
+        "entry_date": "113/05/01",
+        "total_volume": 45309.0,
+        "month_pnl": -264705.0,
+        "cumulative_pnl": -8588774.0,
+        "remain_units": 29.0,
+        "remain_parking": 22.0,
+        "company_oh": 500000.0,
+        "visitors": 15.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "僑家大院",
+        "agency_name": "翊鼎國際",
+        "units": 54.0,
+        "parking": 56.0,
+        "license_status": "結構預售",
+        "entry_date": "113/06/24",
+        "total_volume": 93263.0,
+        "month_pnl": -374363.0,
+        "cumulative_pnl": -14142760.0,
+        "remain_units": 52.0,
+        "remain_parking": 53.0,
+        "company_oh": 3045000.0,
+        "visitors": 18.0,
+        "deals": 0.0
+      }
+    ],
+    "114.03": [
+      {
+        "project_name": "合康雙匯",
+        "agency_name": "誼鼎廣告",
+        "units": 216.0,
+        "parking": 223.0,
+        "license_status": "結構預售",
+        "entry_date": "113/10/1",
+        "total_volume": 492220.0,
+        "month_pnl": 5295692.0,
+        "cumulative_pnl": 11759853.0,
+        "remain_units": 152.0,
+        "remain_parking": 158.0,
+        "company_oh": 900000.0,
+        "visitors": 83.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "耀時代",
+        "agency_name": "禾義行銷",
+        "units": 140.0,
+        "parking": 140.0,
+        "license_status": "結構預售",
+        "entry_date": "113/05/01",
+        "total_volume": 147192.0,
+        "month_pnl": 172345.0,
+        "cumulative_pnl": 39250761.0,
+        "remain_units": 20.0,
+        "remain_parking": 19.0,
+        "company_oh": 1260000.0,
+        "visitors": 60.0,
+        "deals": 3.0
+      },
+      {
+        "project_name": "大觀富琚",
+        "agency_name": "禾義行銷",
+        "units": 131.0,
+        "parking": 123.0,
+        "license_status": "結構預售",
+        "entry_date": "113/5/1",
+        "total_volume": 134601.0,
+        "month_pnl": -1004308.0,
+        "cumulative_pnl": 15323108.0,
+        "remain_units": 63.0,
+        "remain_parking": 60.0,
+        "company_oh": 504000.0,
+        "visitors": 23.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "氧之森",
+        "agency_name": "和誼廣告",
+        "units": 237.0,
+        "parking": 194.0,
+        "license_status": "結構預售",
+        "entry_date": "112/5/15",
+        "total_volume": 250329.0,
+        "month_pnl": 1017824.0,
+        "cumulative_pnl": 32197256.0,
+        "remain_units": 22.0,
+        "remain_parking": 22.0,
+        "company_oh": 3150000.0,
+        "visitors": 27.0,
+        "deals": 5.0
+      },
+      {
+        "project_name": "傳佳緻",
+        "agency_name": "禾翊國際",
+        "units": 225.0,
+        "parking": 227.0,
+        "license_status": "113.09",
+        "entry_date": "112/3/1",
+        "total_volume": 290205.0,
+        "month_pnl": 1316233.0,
+        "cumulative_pnl": 54445555.0,
+        "remain_units": 6.0,
+        "remain_parking": 10.0,
+        "company_oh": 3622500.0,
+        "visitors": 35.0,
+        "deals": 3.0
+      },
+      {
+        "project_name": "閣美學",
+        "agency_name": "禾翊國際",
+        "units": 92.0,
+        "parking": 93.0,
+        "license_status": "結構預售",
+        "entry_date": "113/1/26",
+        "total_volume": 131446.0,
+        "month_pnl": -531605.0,
+        "cumulative_pnl": 28153963.0,
+        "remain_units": 17.0,
+        "remain_parking": 17.0,
+        "company_oh": 1638000.0,
+        "visitors": 10.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "傳佳樂",
+        "agency_name": "宇開廣告",
+        "units": 127.0,
+        "parking": 149.0,
+        "license_status": "結構預售",
+        "entry_date": "113/6/1",
+        "total_volume": 150181.0,
+        "month_pnl": 1218194.0,
+        "cumulative_pnl": 4671603.0,
+        "remain_units": 62.0,
+        "remain_parking": 76.0,
+        "company_oh": 1260000.0,
+        "visitors": 17.0,
+        "deals": 6.0
+      },
+      {
+        "project_name": "合新城峰",
+        "agency_name": "寶毅廣告",
+        "units": 146.0,
+        "parking": 144.0,
+        "license_status": "結構預售",
+        "entry_date": "113/1/27",
+        "total_volume": 166115.0,
+        "month_pnl": 1391173.0,
+        "cumulative_pnl": 37837892.0,
+        "remain_units": 6.0,
+        "remain_parking": 6.0,
+        "company_oh": 2362500.0,
+        "visitors": 31.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "捷運湛",
+        "agency_name": "寶毅廣告",
+        "units": 171.0,
+        "parking": 171.0,
+        "license_status": "結構預售",
+        "entry_date": "113/2/24",
+        "total_volume": 193878.0,
+        "month_pnl": 1709778.0,
+        "cumulative_pnl": 57437754.0,
+        "remain_units": 28.0,
+        "remain_parking": 28.0,
+        "company_oh": 2362500.0,
+        "visitors": 36.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "寶佳淳青",
+        "agency_name": "寶鼎國際",
+        "units": 240.0,
+        "parking": 249.0,
+        "license_status": "結構預售",
+        "entry_date": "113/5/1",
+        "total_volume": 441145.0,
+        "month_pnl": 798847.0,
+        "cumulative_pnl": 44427412.0,
+        "remain_units": 117.0,
+        "remain_parking": 116.0,
+        "company_oh": 1890000.0,
+        "visitors": 48.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "大景旭",
+        "agency_name": "正群廣告",
+        "units": 161.0,
+        "parking": 106.0,
+        "license_status": "結構預售",
+        "entry_date": "112/2/10",
+        "total_volume": 282538.0,
+        "month_pnl": 682425.0,
+        "cumulative_pnl": 16126914.0,
+        "remain_units": 37.0,
+        "remain_parking": 37.0,
+        "company_oh": 4200000.0,
+        "visitors": 25.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "大景閱",
+        "agency_name": "正群廣告",
+        "units": 90.0,
+        "parking": 91.0,
+        "license_status": "結構預售",
+        "entry_date": "112/7/25",
+        "total_volume": 99033.0,
+        "month_pnl": 961814.0,
+        "cumulative_pnl": 14744353.0,
+        "remain_units": 6.0,
+        "remain_parking": 6.0,
+        "company_oh": 1890000.0,
+        "visitors": 19.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "幸福成",
+        "agency_name": "正群廣告",
+        "units": 102.0,
+        "parking": 88.0,
+        "license_status": "結構預售",
+        "entry_date": "112/1/31",
+        "total_volume": 141877.0,
+        "month_pnl": 793177.0,
+        "cumulative_pnl": 12757572.0,
+        "remain_units": 4.0,
+        "remain_parking": 4.0,
+        "company_oh": 3640000.0,
+        "visitors": 29.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "昕暉詠翠",
+        "agency_name": "正群廣告",
+        "units": 132.0,
+        "parking": 145.0,
+        "license_status": "結構預售",
+        "entry_date": "112/4/6",
+        "total_volume": 167856.0,
+        "month_pnl": -432819.0,
+        "cumulative_pnl": -10609638.0,
+        "remain_units": 65.0,
+        "remain_parking": 76.0,
+        "company_oh": 4050000.0,
+        "visitors": 27.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "虹韻",
+        "agency_name": "正群廣告",
+        "units": 31.0,
+        "parking": 25.0,
+        "license_status": "預售",
+        "entry_date": "113/05/01",
+        "total_volume": 45309.0,
+        "month_pnl": -312804.0,
+        "cumulative_pnl": -9007350.0,
+        "remain_units": 29.0,
+        "remain_parking": 22.0,
+        "company_oh": 500000.0,
+        "visitors": 25.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "春宜5",
+        "agency_name": "正群廣告",
+        "units": 15.0,
+        "parking": 15.0,
+        "license_status": "預售",
+        "entry_date": "114/03/01",
+        "total_volume": 13713.0,
+        "month_pnl": 142633.0,
+        "cumulative_pnl": -2277890.0,
+        "remain_units": 14.0,
+        "remain_parking": 14.0,
+        "company_oh": 50000.0,
+        "visitors": 43.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "僑家大院",
+        "agency_name": "翊鼎國際",
+        "units": 54.0,
+        "parking": 56.0,
+        "license_status": "結構預售",
+        "entry_date": "113/06/24",
+        "total_volume": 93263.0,
+        "month_pnl": -512613.0,
+        "cumulative_pnl": -15163356.0,
+        "remain_units": 51.0,
+        "remain_parking": 52.0,
+        "company_oh": 3045000.0,
+        "visitors": 22.0,
+        "deals": 1.0
+      }
+    ],
+    "114.04": [
+      {
+        "project_name": "合康雙匯",
+        "agency_name": "誼鼎廣告",
+        "units": 216.0,
+        "parking": 223.0,
+        "license_status": "結構預售",
+        "entry_date": "113/10/1",
+        "total_volume": 492220.0,
+        "month_pnl": 1380773.0,
+        "cumulative_pnl": 14282082.0,
+        "remain_units": 147.0,
+        "remain_parking": 153.0,
+        "company_oh": 1050000.0,
+        "visitors": 25.0,
+        "deals": 5.0
+      },
+      {
+        "project_name": "耀時代",
+        "agency_name": "禾義行銷",
+        "units": 140.0,
+        "parking": 140.0,
+        "license_status": "結構預售",
+        "entry_date": "113/05/01",
+        "total_volume": 147192.0,
+        "month_pnl": 1950254.0,
+        "cumulative_pnl": 41635556.0,
+        "remain_units": 15.0,
+        "remain_parking": 14.0,
+        "company_oh": 1260000.0,
+        "visitors": 33.0,
+        "deals": 5.0
+      },
+      {
+        "project_name": "大觀富琚",
+        "agency_name": "禾義行銷",
+        "units": 131.0,
+        "parking": 123.0,
+        "license_status": "結構預售",
+        "entry_date": "113/5/1",
+        "total_volume": 134601.0,
+        "month_pnl": -517212.0,
+        "cumulative_pnl": 15323108.0,
+        "remain_units": 63.0,
+        "remain_parking": 60.0,
+        "company_oh": 504000.0,
+        "visitors": 16.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "氧之森",
+        "agency_name": "和誼廣告",
+        "units": 237.0,
+        "parking": 194.0,
+        "license_status": "結構預售",
+        "entry_date": "112/5/15",
+        "total_volume": 250329.0,
+        "month_pnl": 654777.0,
+        "cumulative_pnl": 33167536.0,
+        "remain_units": 19.0,
+        "remain_parking": 19.0,
+        "company_oh": 3150000.0,
+        "visitors": 16.0,
+        "deals": 3.0
+      },
+      {
+        "project_name": "傳佳緻",
+        "agency_name": "禾翊國際",
+        "units": 225.0,
+        "parking": 227.0,
+        "license_status": "113.09",
+        "entry_date": "112/3/1",
+        "total_volume": 290205.0,
+        "month_pnl": 454354.0,
+        "cumulative_pnl": 55128927.0,
+        "remain_units": 4.0,
+        "remain_parking": 7.0,
+        "company_oh": 4095000.0,
+        "visitors": 19.0,
+        "deals": 2.0
+      },
+      {
+        "project_name": "閣美學",
+        "agency_name": "禾翊國際",
+        "units": 92.0,
+        "parking": 93.0,
+        "license_status": "結構預售",
+        "entry_date": "113/1/26",
+        "total_volume": 131446.0,
+        "month_pnl": -145344.0,
+        "cumulative_pnl": 27999219.0,
+        "remain_units": 17.0,
+        "remain_parking": 17.0,
+        "company_oh": 1638000.0,
+        "visitors": 9.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "傳佳樂",
+        "agency_name": "宇開廣告",
+        "units": 127.0,
+        "parking": 149.0,
+        "license_status": "結構預售",
+        "entry_date": "113/6/1",
+        "total_volume": 150181.0,
+        "month_pnl": -360762.0,
+        "cumulative_pnl": 4174353.0,
+        "remain_units": 62.0,
+        "remain_parking": 76.0,
+        "company_oh": 1732500.0,
+        "visitors": 2.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "合新城峰",
+        "agency_name": "寶毅廣告",
+        "units": 146.0,
+        "parking": 144.0,
+        "license_status": "結構預售",
+        "entry_date": "113/1/27",
+        "total_volume": 166115.0,
+        "month_pnl": -300401.0,
+        "cumulative_pnl": 36789200.0,
+        "remain_units": 5.0,
+        "remain_parking": 5.0,
+        "company_oh": 2835000.0,
+        "visitors": 6.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "捷運湛",
+        "agency_name": "寶毅廣告",
+        "units": 171.0,
+        "parking": 171.0,
+        "license_status": "結構預售",
+        "entry_date": "113/2/24",
+        "total_volume": 193878.0,
+        "month_pnl": -415832.0,
+        "cumulative_pnl": 57865762.0,
+        "remain_units": 28.0,
+        "remain_parking": 28.0,
+        "company_oh": 2520000.0,
+        "visitors": 20.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "寶佳淳青",
+        "agency_name": "寶鼎國際",
+        "units": 240.0,
+        "parking": 249.0,
+        "license_status": "結構預售",
+        "entry_date": "113/5/1",
+        "total_volume": 441145.0,
+        "month_pnl": -593514.0,
+        "cumulative_pnl": 44131765.0,
+        "remain_units": 118.0,
+        "remain_parking": 119.0,
+        "company_oh": 1890000.0,
+        "visitors": 29.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "大景旭",
+        "agency_name": "正群廣告",
+        "units": 161.0,
+        "parking": 106.0,
+        "license_status": "結構預售",
+        "entry_date": "112/2/10",
+        "total_volume": 282538.0,
+        "month_pnl": 1307042.0,
+        "cumulative_pnl": 16850327.0,
+        "remain_units": 36.0,
+        "remain_parking": 36.0,
+        "company_oh": 4350000.0,
+        "visitors": 12.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "大景閱",
+        "agency_name": "正群廣告",
+        "units": 90.0,
+        "parking": 91.0,
+        "license_status": "結構預售",
+        "entry_date": "112/7/25",
+        "total_volume": 99033.0,
+        "month_pnl": -171785.0,
+        "cumulative_pnl": 14615302.0,
+        "remain_units": 6.0,
+        "remain_parking": 6.0,
+        "company_oh": 1890000.0,
+        "visitors": 7.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "幸福成",
+        "agency_name": "正群廣告",
+        "units": 102.0,
+        "parking": 88.0,
+        "license_status": "結構預售",
+        "entry_date": "112/1/31",
+        "total_volume": 141877.0,
+        "month_pnl": 438026.0,
+        "cumulative_pnl": 13145313.0,
+        "remain_units": 3.0,
+        "remain_parking": 3.0,
+        "company_oh": 3780000.0,
+        "visitors": 14.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "昕暉詠翠",
+        "agency_name": "正群廣告",
+        "units": 132.0,
+        "parking": 145.0,
+        "license_status": "結構預售",
+        "entry_date": "112/4/6",
+        "total_volume": 167856.0,
+        "month_pnl": -293066.0,
+        "cumulative_pnl": -10897839.0,
+        "remain_units": 65.0,
+        "remain_parking": 76.0,
+        "company_oh": 4050000.0,
+        "visitors": 12.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "虹韻",
+        "agency_name": "正群廣告",
+        "units": 31.0,
+        "parking": 25.0,
+        "license_status": "預售",
+        "entry_date": "113/05/01",
+        "total_volume": 45309.0,
+        "month_pnl": -149365.0,
+        "cumulative_pnl": -9111828.0,
+        "remain_units": 29.0,
+        "remain_parking": 22.0,
+        "company_oh": 500000.0,
+        "visitors": 7.0,
+        "deals": 0.0
+      },
+      {
+        "project_name": "春宜5",
+        "agency_name": "正群廣告",
+        "units": 15.0,
+        "parking": 15.0,
+        "license_status": "預售",
+        "entry_date": "114/03/01",
+        "total_volume": 13713.0,
+        "month_pnl": -75781.0,
+        "cumulative_pnl": -2277890.0,
+        "remain_units": 13.0,
+        "remain_parking": 15.0,
+        "company_oh": 60000.0,
+        "visitors": 12.0,
+        "deals": 1.0
+      },
+      {
+        "project_name": "僑家大院",
+        "agency_name": "翊鼎國際",
+        "units": 54.0,
+        "parking": 56.0,
+        "license_status": "結構預售",
+        "entry_date": "113/06/24",
+        "total_volume": 93263.0,
+        "month_pnl": 469779.0,
+        "cumulative_pnl": -14994026.0,
+        "remain_units": 51.0,
+        "remain_parking": 51.0,
+        "company_oh": 3129000.0,
+        "visitors": 14.0,
+        "deals": 1.0
+      }
+    ]
+  },
+  "weekly": {
+    "合康雙匯": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": 2893184.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": 544752.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": 1791281.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": 1419667.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -168737.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": 1757672.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": 2190243.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": 4709159.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": 3290810.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": 4806396.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": 756896.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -135369.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -132231.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": 600715.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": 780058.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "耀時代": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": 850027.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -114056.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": 318927.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": 1499430.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -119167.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -114891.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": 947912.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": 918876.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -112616.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -175490.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -127925.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": 588376.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": 402652.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": 1547602.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "大觀富琚": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -200279.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -98054.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": 883912.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -95512.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -210689.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": 374304.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -77970.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -118022.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -278478.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -152746.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -161083.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -165021.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -228605.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -232530.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -284682.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "氧之森": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -273904.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": 482433.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -110124.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": 336758.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": 716077.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": 1420989.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": 2199831.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -311699.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": 785170.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": 590590.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -100323.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -257613.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -211764.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": 866541.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "傳佳緻": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": 327865.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -121101.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -123914.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -109377.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -276077.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": 617268.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": 437769.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -117312.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -273311.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -105143.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": 1196214.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -107515.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": 332677.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": 575045.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -120691.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "閣美學": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -71866.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -83362.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -63488.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -47083.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -60883.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -71464.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -65583.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -64083.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -118641.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -137981.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -139080.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -142847.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -111697.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -74247.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -71097.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "傳佳樂": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": 405925.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": 594657.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -66956.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -59788.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -221001.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -115634.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -62937.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": 408506.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -250899.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": 419395.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -73506.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": 472393.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": 399912.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -234658.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -126104.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "合新城峰": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -246986.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": 531181.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": 1023857.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -48883.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": 560103.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -63708.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -56388.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -61212.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": 360765.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": 530905.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -59562.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": 556242.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": 521088.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -216289.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -84112.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "捷運湛": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": 440880.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": 613625.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -122248.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -108754.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -131570.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": 336425.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": 614591.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -106993.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": 1292839.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": 846576.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -134945.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": 1160324.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -162177.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -286385.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -129447.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "寶佳淳青": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -273477.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -117217.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -117127.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -224817.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": 651713.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": 645333.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": 596893.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": 640623.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": 739373.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -126847.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -359566.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": 484553.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -297867.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -295647.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "大景旭": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -223663.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -73392.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -72640.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -210863.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -80886.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -75015.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -73159.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": 562158.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -61058.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": 888987.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -77946.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -67558.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": 634573.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": 672469.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "大景閱": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -123554.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -33083.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -34090.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -31145.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": 342738.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -36206.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -34996.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -33679.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -123679.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": 1195581.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -38426.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -30945.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -40717.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -130469.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -41316.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "幸福成": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -210414.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -57122.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -55991.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -54516.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -53434.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -185383.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": 605047.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -42319.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -177484.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -39506.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": 435162.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": 426419.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -28898.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -166422.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": 604448.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "昕暉詠翠": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -224861.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -73842.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": 463082.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": -57498.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -54938.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": 387141.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -64997.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -66950.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -64918.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -235067.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -65188.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -68251.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -64313.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -236257.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -56809.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "虹韻": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -164002.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -58335.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -60310.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": 588215.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -155413.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -53741.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -54337.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -52009.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -104618.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -51538.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -47789.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -59718.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -49141.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -99195.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -50170.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "僑家大院": [
+      {
+        "year_month": "114.01",
+        "week_label": "W1",
+        "pnl": -85338.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W2",
+        "pnl": -83278.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W3",
+        "pnl": -83348.0
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.01",
+        "week_label": "W5",
+        "pnl": -159876.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W1",
+        "pnl": -76832.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W2",
+        "pnl": -71012.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W3",
+        "pnl": -153652.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W4",
+        "pnl": -72867.0
+      },
+      {
+        "year_month": "114.02",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -135906.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -128488.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": -75986.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -172233.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -89981.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": 559760.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ],
+    "春宜5": [
+      {
+        "year_month": "114.03",
+        "week_label": "W1",
+        "pnl": -47777.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W2",
+        "pnl": -39452.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W3",
+        "pnl": 259676.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W4",
+        "pnl": -29814.0
+      },
+      {
+        "year_month": "114.03",
+        "week_label": "W5",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W1",
+        "pnl": -40267.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W2",
+        "pnl": -35514.0
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W3",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W4",
+        "pnl": null
+      },
+      {
+        "year_month": "114.04",
+        "week_label": "W5",
+        "pnl": null
+      }
+    ]
+  },
+  "rollup": [
+    {
+      "year_month": "11月",
+      "visitors": null,
+      "units_sold": null,
+      "parking_sold": null,
+      "pnl": -11249887.0,
+      "deals": 0.0
+    },
+    {
+      "year_month": "1月",
+      "visitors": 410.0,
+      "units_sold": 40.0,
+      "parking_sold": 41.0,
+      "pnl": 32103212.0,
+      "deals": 22.0
+    },
+    {
+      "year_month": "2月",
+      "visitors": 542.0,
+      "units_sold": 43.0,
+      "parking_sold": 43.0,
+      "pnl": 68469945.0,
+      "deals": 12.0
+    },
+    {
+      "year_month": "3月",
+      "visitors": 477.0,
+      "units_sold": 21.0,
+      "parking_sold": 22.0,
+      "pnl": 12705986.0,
+      "deals": 0.0
+    },
+    {
+      "year_month": "4月",
+      "visitors": 228.0,
+      "units_sold": 21.0,
+      "parking_sold": 22.0,
+      "pnl": 55446905.0,
+      "deals": 18.0
+    },
+    {
+      "year_month": "5月",
+      "visitors": null,
+      "units_sold": null,
+      "parking_sold": null,
+      "pnl": 97771500.0,
+      "deals": 34.0
+    },
+    {
+      "year_month": "6月",
+      "visitors": null,
+      "units_sold": null,
+      "parking_sold": null,
+      "pnl": 118057091.0,
+      "deals": 44.0
+    },
+    {
+      "year_month": "7月",
+      "visitors": null,
+      "units_sold": null,
+      "parking_sold": null,
+      "pnl": 91481012.0,
+      "deals": 23.0
+    },
+    {
+      "year_month": "合計",
+      "visitors": 1657.0,
+      "units_sold": 125.0,
+      "parking_sold": 128.0,
+      "pnl": 464785764.0,
+      "deals": 153.0
+    }
+  ],
+  "updated_at": "2026-06-15 13:40"
+}
