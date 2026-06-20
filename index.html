@@ -106,23 +106,66 @@ tbody tr:last-child{border-bottom:0}
 /* ── drawer ── */
 .scrim{position:fixed;inset:0;background:rgba(20,24,35,.42);opacity:0;pointer-events:none;transition:.2s;z-index:40}
 .scrim.show{opacity:1;pointer-events:auto}
-.drawer{position:fixed;top:0;right:0;bottom:0;width:420px;max-width:92vw;background:var(--card);transform:translateX(100%);transition:.25s cubic-bezier(.4,0,.2,1);z-index:50;overflow:auto;box-shadow:-6px 0 24px rgba(20,24,35,.16)}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:780px;max-width:96vw;background:var(--card);transform:translateX(100%);transition:.25s cubic-bezier(.4,0,.2,1);z-index:50;overflow:auto;box-shadow:-6px 0 24px rgba(20,24,35,.16)}
 .drawer.show{transform:none}
-.dhd{background:var(--brand);color:#fff;padding:18px 20px;position:sticky;top:0;z-index:1}
-.dhd .x{position:absolute;top:16px;right:16px;background:rgba(255,255,255,.14);border:0;color:#fff;width:28px;height:28px;border-radius:7px;cursor:pointer;font-size:17px;line-height:28px;text-align:center}
-.dhd h3{font-size:17px;font-weight:700;padding-right:40px}
-.dhd p{font-size:11.5px;color:#B9C2DC;margin-top:3px}
-.dbody{padding:18px 20px}
-.dstat{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
-.dstat .s{background:var(--line2);border-radius:9px;padding:11px 13px}
+.dhd{background:var(--brand);color:#fff;padding:18px 24px;position:sticky;top:0;z-index:1}
+.dhd .x{position:absolute;top:16px;right:18px;background:rgba(255,255,255,.14);border:0;color:#fff;width:30px;height:30px;border-radius:7px;cursor:pointer;font-size:18px;line-height:30px;text-align:center}
+.dhd h3{font-size:18px;font-weight:700;padding-right:40px}
+.dhd p{font-size:12px;color:#B9C2DC;margin-top:3px}
+.dbody{padding:20px 24px}
+.dstat{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-bottom:16px}
+.dstat .s{background:var(--line2);border-radius:9px;padding:12px 14px}
 .dstat .sl{font-size:11px;color:var(--mut)}
-.dstat .sv{font-size:16px;font-weight:700;margin-top:3px}
-.dsec{font-size:12px;font-weight:700;margin:16px 0 8px;color:var(--ink)}
-.spark{background:var(--line2);border-radius:9px;padding:12px 10px 8px}
+.dstat .sv{font-size:17px;font-weight:700;margin-top:3px}
+.dsec{font-size:12.5px;font-weight:700;margin:18px 0 9px;color:var(--ink)}
+.spark{background:var(--line2);border-radius:9px;padding:14px 12px 8px}
+.dcharts{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.recon-warn{background:var(--warnbg);border:1px solid #E8C98A;border-radius:9px;padding:10px 14px;margin-bottom:14px;font-size:12.5px;color:var(--warn);display:flex;gap:8px;align-items:flex-start}
+.recon-warn .ri{flex-shrink:0;font-size:15px}
+.wflag{font-size:10px;color:var(--warn);margin-left:3px;cursor:help}
 
 /* ── responsive ── */
 @media(max-width:900px){.kpis{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}}
+@media(max-width:760px){.drawer{width:100vw}.dstat{grid-template-columns:repeat(2,1fr)}.dcharts{grid-template-columns:1fr}}
 @media(max-width:560px){.kpis{grid-template-columns:repeat(2,1fr)}.hd{flex-direction:column;align-items:stretch}.hright{align-items:flex-start}}
+
+/* ── view nav tabs ── */
+.viewnav{display:flex;gap:4px;margin-top:8px}
+.vtab{font-family:inherit;font-size:13px;font-weight:500;padding:5px 14px;border-radius:7px;border:0;cursor:pointer;background:rgba(255,255,255,.10);color:#C5CDE3;transition:.15s}
+.vtab:hover{color:#fff;background:rgba(255,255,255,.16)}
+.vtab.on{background:#fff;color:var(--brand)}
+
+/* ── weekly controls ── */
+.wkctrl{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+.wkctrl .grp{display:flex;flex-direction:column;gap:3px}
+.wkctrl label{font-size:11px;color:var(--mut);font-weight:500}
+.wkctrl select{font-family:inherit;font-size:13.5px;padding:8px 11px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);outline:none;cursor:pointer;min-width:200px}
+.wkctrl select:focus{border-color:var(--brand)}
+.wkcover{margin-left:auto;font-size:12px;color:var(--mut);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 13px}
+.wkcover b{color:var(--brand)}
+
+/* ── WoW metric cards ── */
+.wkkpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.wkkpi{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px 15px}
+.wkkpi .k{font-size:11px;color:var(--mut);font-weight:500}
+.wkkpi .v{font-size:21px;font-weight:700;margin-top:6px;line-height:1.05}
+.wkkpi .u{font-size:11.5px;color:var(--faint);font-weight:400;margin-left:2px}
+.wow{font-size:11px;margin-top:5px;font-weight:500;display:flex;align-items:center;gap:4px}
+.wow .nochg{color:var(--faint)}
+.wkup{color:var(--pos)}.wkdn{color:var(--neg)}
+
+/* ── weekly section ── */
+.wksec{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:16px}
+.wksec h2{font-size:13.5px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;justify-content:space-between}
+.wksec h2 .sub{font-size:11px;color:var(--faint);font-weight:400}
+.wkrow6{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.wkbudget{background:var(--line2);border-radius:9px;padding:11px 13px}
+.wkbudget .bl{font-size:11px;color:var(--mut)}
+.wkbudget .bv{font-size:15px;font-weight:700;margin-top:3px}
+
+/* WoW chart highlight */
+.wkgrid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:800px){.wkkpis{grid-template-columns:repeat(2,1fr)}.wkgrid2{grid-template-columns:1fr}.wkrow6{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
@@ -132,7 +175,10 @@ tbody tr:last-child{border-bottom:0}
     <div class="htitle">
       <div class="co">翊鼎國際廣告</div>
       <h1>代銷投組控制台</h1>
-      <p>逐建案業績與財務檢視</p>
+      <div class="viewnav">
+        <button class="vtab on" id="vtab-monthly" onclick="switchView('monthly')">投組總覽</button>
+        <button class="vtab" id="vtab-weekly" onclick="switchView('weekly')">週報</button>
+      </div>
     </div>
     <div class="hright">
       <div class="seg" id="seg"><span style="color:#9FA9C6;font-size:13px;padding:8px 12px">載入中…</span></div>
@@ -143,6 +189,7 @@ tbody tr:last-child{border-bottom:0}
 
 <div class="wrap">
   <div id="main"><div class="loader"><div class="spinner"></div>正在載入資料…</div></div>
+  <div id="weekly" style="display:none"></div>
 </div>
 
 <div class="scrim" id="scrim" onclick="closeDrawer()"></div>
@@ -163,6 +210,9 @@ const el   = id => document.getElementById(id);
 
 /* ── state ── */
 let DB={}, CUR="", sortKey="month_pnl", sortDir=-1;
+let SETTINGS={};  // project_settings from db.json
+let VIEW="monthly";
+let WEEKS=[], CURWEEK="", CURPROJ="__all__";   // weekly view state
 
 /* ── boot ── */
 async function init(){
@@ -175,10 +225,49 @@ async function init(){
       return;
     }
     CUR = DB.months[DB.months.length-1];
+    SETTINGS = DB.project_settings || {};
+    buildWeekCalendar();
     renderAll();
   } catch(e){
     el("main").innerHTML=`<div class="loader" style="color:var(--neg)">載入 db.json 失敗：${e.message}<br><small>請確認 db.json 在同一個 repo 根目錄。</small></div>`;
   }
+}
+
+/* ── weekly calendar: union of all projects' week_start ── */
+function buildWeekCalendar(){
+  const set=new Set();
+  const projects=DB.projects||{};
+  for(const name in projects){
+    const wk=projects[name].weekly||{};
+    for(const k in wk){ if(wk[k].week_start) set.add(wk[k].week_start); }
+  }
+  WEEKS=[...set].sort();
+  CURWEEK = WEEKS.length ? WEEKS[WEEKS.length-1] : "";
+}
+/* 取得某案在某週的記錄 */
+function projWeek(name, weekStart){
+  const wk=(DB.projects[name]||{}).weekly||{};
+  return Object.values(wk).find(w=>w.week_start===weekStart)||null;
+}
+/* 該案前一個有資料的週 */
+function prevWeekFor(name, weekStart){
+  const wk=(DB.projects[name]||{}).weekly||{};
+  const dates=Object.values(wk).map(w=>w.week_start).filter(Boolean).sort();
+  const i=dates.indexOf(weekStart);
+  return i>0?dates[i-1]:null;
+}
+/* 有單案週資料的建案清單 */
+function weeklyProjects(){
+  return Object.keys(DB.projects||{}).filter(n=>Object.keys((DB.projects[n].weekly)||{}).length);
+}
+/* 在售建案（動態）：取最新月報名單，排除完售（剩餘戶=0）。會隨月報更新自動增減 */
+function activeProjects(){
+  const latest=DB.months[DB.months.length-1];
+  const rows=DB.portfolio[latest]||[];
+  const active=rows.filter(r=>(r.remain_units==null||r.remain_units>0)).map(r=>r.project_name);
+  // 併入有週報但不在月報名單者（新承接、月報尚未更新）
+  weeklyProjects().forEach(n=>{ if(!active.includes(n)) active.push(n); });
+  return active;
 }
 
 /* ── aggregation ── */
@@ -337,7 +426,16 @@ const COLS=[
   {k:"agency_name", t:"承接",al:"left",  fmt:r=>r.agency_name||"—"},
   {k:"units",       t:"戶數",             fmt:r=>fmtN(r.units)},
   {k:"rate",        t:"去化率",           fmt:r=>{const p=r.units?(r.units-r.remain_units)/r.units*100:0;return`<span class="chip" style="background:var(--bluebg);color:var(--blue)">${p.toFixed(1)}%</span>`;}},
-  {k:"remain_units",t:"剩餘戶",           fmt:r=>fmtN(r.remain_units)},
+  {k:"remain_units",  t:"剩餘戶",           fmt:r=>fmtN(r.remain_units)},
+  {k:"total_volume",  t:"案量(萬)",         fmt:r=>r.total_volume!=null?fmtW(r.total_volume*10000):"—"},
+  {k:"commission", t:"請佣%(萬)", fmt:r=>{
+    const rate=getCommRate(r.project_name);
+    if(r.total_volume==null)return"—";
+    const val=r.total_volume*10000*rate;
+    return`<span class="num" style="color:var(--amber)">${fmtW(val)}</span>
+      <button class="edit-rate" title="修改佣金比率"
+        onclick="event.stopPropagation();editRate('${r.project_name}')" style="margin-left:5px;font-size:10px;background:var(--line2);border:1px solid var(--line);border-radius:4px;padding:1px 5px;cursor:pointer;color:var(--mut)">${(rate*100).toFixed(1)}%</button>`;
+  }},
   {k:"month_pnl",   t:"本月損益(萬)",     fmt:r=>{const pos=(r.month_pnl||0)>=0;return`<span class="num" style="color:${pos?'var(--pos)':'var(--neg)'}">${pos?'':'-'}${fmtW(Math.abs(r.month_pnl||0))}</span>`;}},
   {k:"visitors",    t:"來人",             fmt:r=>fmtN(r.visitors)},
   {k:"deals",       t:"成交",             fmt:r=>fmtN(r.deals)},
@@ -348,7 +446,7 @@ function renderTable(rows){
     const cls=c.k===sortKey?`arrow ${sortDir>0?'asc':''}`:"";
     return`<th class="${cls}" onclick="sortBy('${c.k}')">${c.t}</th>`;}).join("");
   const rs=[...rows].sort((a,b)=>{
-    const getV=(r,k)=>k==="rate"?( r.units?(r.units-r.remain_units)/r.units:0 ):(r[k]??0);
+    const getV=(r,k)=>k==="rate"?(r.units?(r.units-r.remain_units)/r.units:0):k==="commission"?(r.total_volume||0):(r[k]??0);
     const x=getV(a,sortKey), y=getV(b,sortKey);
     if(typeof x==="string")return sortDir*x.localeCompare(y,"zh-TW");
     return sortDir*((x||0)-(y||0));
@@ -357,6 +455,55 @@ function renderTable(rows){
     `<tr onclick="openDrawer('${r.project_name}')">${COLS.map(c=>`<td>${c.fmt(r)}</td>`).join("")}</tr>`
   ).join("");
 }
+/* ── commission rate helpers ── */
+function getCommRate(name){
+  return (SETTINGS[name]&&SETTINGS[name].commission_rate!=null)
+    ? SETTINGS[name].commission_rate : 0.05;
+}
+async function editRate(name){
+  const cur = getCommRate(name);
+  const raw = prompt(
+    `「${name}」佣金比率\n\n目前：${(cur*100).toFixed(2)}%\n\n請輸入新比率（%，例如 4.5）：`,
+    (cur*100).toFixed(2)
+  );
+  if(raw===null)return;
+  const val = parseFloat(raw);
+  if(isNaN(val)||val<=0||val>30){
+    alert("請輸入合理的比率（0~30 之間）");return;
+  }
+  SETTINGS[name]={...(SETTINGS[name]||{}), commission_rate:val/100};
+  DB.project_settings = SETTINGS;
+  // 寫回 db.json（下載更新版）
+  saveSettings();
+  renderTable(DB.portfolio[CUR]||[]);
+}
+function saveSettings(){
+  // 產生更新後的 db.json 供下載（GitHub Pages 無法直接寫檔）
+  DB.project_settings = SETTINGS;
+  const blob = new Blob([JSON.stringify(DB,null,2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'db.json';
+  a.style.display='none';
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1000);
+  showToast('✅ 已下載更新後的 db.json，請上傳至 GitHub repo 以儲存設定');
+}
+function showToast(msg,err=false){
+  const t=document.createElement('div');
+  t.textContent=msg;
+  Object.assign(t.style,{
+    position:'fixed',bottom:'22px',right:'22px',zIndex:'999',
+    background:err?'var(--neg)':'var(--pos)',color:'#fff',
+    padding:'10px 18px',borderRadius:'9px',fontSize:'13px',
+    fontWeight:'500',boxShadow:'0 4px 16px rgba(0,0,0,.18)',
+    fontFamily:'"Noto Sans TC",sans-serif',maxWidth:'380px',lineHeight:'1.4'
+  });
+  document.body.appendChild(t);
+  setTimeout(()=>t.remove(),3500);
+}
+
 function sortBy(k){
   sortKey===k?sortDir*=-1:(sortKey=k,sortDir=(k==="project_name"||k==="agency_name")?1:-1);
   renderTable(DB.portfolio[CUR]||[]);
@@ -435,6 +582,7 @@ function openDrawer(name){
   }
 
   el("dBody").innerHTML=`
+    ${reconHtml(name)}
     <div class="dstat">
       <div class="s"><div class="sl">本月損益</div><div class="sv num" style="color:${(pr.month_pnl||0)>=0?'var(--pos)':'var(--neg)'}">${fmtW(pr.month_pnl||0)} 萬</div></div>
       <div class="s"><div class="sl">去化率</div><div class="sv num" style="color:var(--blue)">${rate.toFixed(1)}%</div></div>
@@ -442,24 +590,51 @@ function openDrawer(name){
       <div class="s"><div class="sl">剩餘戶 / 車</div><div class="sv num">${fmtN(pr.remain_units)} / ${fmtN(pr.remain_parking)}</div></div>
       <div class="s"><div class="sl">本月來人</div><div class="sv num">${fmtN(pr.visitors)} 組</div></div>
       <div class="s"><div class="sl">本月成交</div><div class="sv num">${fmtN(pr.deals)} 戶</div></div>
-    </div>
-    <div class="dsec">當月各週（${CUR}）</div>
-    <div class="spark">${wkSvg}</div>
-    <div class="dsec">歷月損益趨勢（萬元）</div>
-    <div class="spark">${mthSvg}</div>
-    ${budgetHtml ? `<div class="dsec">本週預算執行</div><div class="spark">${budgetHtml}</div>` : ''}
-    ${spHtml     ? `<div class="dsec">銷售人員累計</div>${spHtml}` : ''}
-    ${statusHtml ? `<div class="dsec">銷況熱力圖</div>${statusHtml}` : ''}
-    <div class="dsec">財務</div>
-    <div class="dstat">
       <div class="s"><div class="sl">案量</div><div class="sv num">${fmtN(pr.total_volume)}</div></div>
       <div class="s"><div class="sl">公司管銷</div><div class="sv num">${fmtW(pr.company_oh||0)} 萬</div></div>
-      <div class="s"><div class="sl">累積損益</div><div class="sv num" style="color:${(pr.cumulative_pnl||0)>=0?'var(--pos)':'var(--neg)'}">${fmtW(pr.cumulative_pnl||0)} 萬</div></div>
-      <div class="s"><div class="sl">剩餘車位</div><div class="sv num">${fmtN(pr.remain_parking)}</div></div>
-    </div>`;
+    </div>
+    <div class="dcharts">
+      <div><div class="dsec">當月各週（${CUR}）</div><div class="spark">${wkSvg}</div></div>
+      <div><div class="dsec">歷月損益趨勢（萬元）</div><div class="spark">${mthSvg}</div></div>
+    </div>
+    ${budgetHtml ? `<div class="dsec">本週預算執行</div><div class="spark">${budgetHtml}</div>` : ''}
+    ${spHtml     ? `<div class="dsec">銷售人員累計</div>${spHtml}` : ''}
+    ${statusHtml ? `<div class="dsec">銷況熱力圖</div>${statusHtml}` : ''}`;
 
   el("drawer").classList.add("show");
   el("scrim").classList.add("show");
+}
+
+/* 週報 vs 月報 勾稽：比對單案週資料月末值與投組月報 */
+function reconcile(name){
+  const proj=(DB.projects||{})[name];
+  if(!proj||!proj.weekly) return null;
+  const diffs=[];
+  // 對每個有月報的月份，比對該月最後一週的剩餘戶 vs 月報剩餘戶
+  const byMonth={};
+  for(const k in proj.weekly){
+    const w=proj.weekly[k]; if(!w.week_start)continue;
+    const d=new Date(w.week_start); const ym=`${d.getFullYear()-1911}.${String(d.getMonth()+1).padStart(2,'0')}`;
+    if(!byMonth[ym]||w.week_start>byMonth[ym].week_start) byMonth[ym]=w;
+  }
+  for(const ym in byMonth){
+    const mRow=(DB.portfolio[ym]||[]).find(r=>r.project_name===name);
+    if(!mRow)continue;
+    const wkEnd=byMonth[ym];
+    if(mRow.remain_units!=null && wkEnd.remain_units!=null){
+      const diff=Math.abs(mRow.remain_units-wkEnd.remain_units);
+      if(diff>3) diffs.push(`${ym} 剩餘戶：週報 ${wkEnd.remain_units} vs 月報 ${mRow.remain_units}（差 ${diff} 戶）`);
+    }
+  }
+  return diffs.length?diffs:null;
+}
+function reconHtml(name){
+  const d=reconcile(name);
+  if(!d)return'';
+  return `<div class="recon-warn"><span class="ri">⚠</span><div>
+    <b>週報與月報數字不一致</b><br>${d.join('<br>')}
+    <div style="margin-top:4px;color:var(--mut);font-size:11.5px">請確認是退戶、買回或上傳錯誤所致。</div>
+  </div>`;
 }
 
 /* 週損益：使用深度資料（signed_week_amount 作為本週成交金額代理）+ visitors */
@@ -612,6 +787,219 @@ function closeDrawer(){
   el("scrim").classList.remove("show");
 }
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDrawer();});
+
+/* ════════════════ 週報 (Weekly Report) ════════════════ */
+function switchView(v){
+  VIEW=v;
+  el('vtab-monthly').classList.toggle('on', v==='monthly');
+  el('vtab-weekly').classList.toggle('on', v==='weekly');
+  el('main').style.display   = v==='monthly'?'':'none';
+  el('weekly').style.display = v==='weekly'?'':'none';
+  el('seg').style.display    = v==='monthly'?'':'none';
+  el('scope').style.display  = v==='monthly'?'':'none';
+  if(v==='weekly') renderWeekly();
+}
+
+function rocDate(iso){
+  if(!iso) return '';
+  const [y,m,d]=iso.split('-').map(Number);
+  return `${y-1911}/${String(m).padStart(2,'0')}/${String(d).padStart(2,'0')}`;
+}
+function wkLabel(weekStart){
+  let end=null;
+  for(const n of weeklyProjects()){ const r=projWeek(n,weekStart); if(r&&r.week_end){end=r.week_end;break;} }
+  const s=rocDate(weekStart);
+  const e=end?rocDate(end).slice(-5):'';
+  return e?`${s} – ${e}`:s;
+}
+function getUnits(name){
+  for(const m of DB.months){ const r=(DB.portfolio[m]||[]).find(x=>x.project_name===name); if(r&&r.units) return r.units; }
+  return null;
+}
+function wowSpan(cur, prev, fmt, mode='good_up'){
+  if(prev==null||cur==null) return '<span class="wow nochg" title="無上週資料">vs 上週 —</span>';
+  const d=cur-prev;
+  if(Math.abs(d)<1e-9) return '<span class="wow nochg">▬ 持平</span>';
+  const pos=d>0, arrow=pos?'▲':'▼';
+  let cls;
+  if(mode==='neutral') cls='nochg';
+  else { const good = mode==='good_down' ? !pos : pos; cls=good?'wkup':'wkdn'; }
+  // 劇變偵測：上週為正值且本週變動超過 ±200%（3 倍）→ 加警示
+  let flag='';
+  if(Math.abs(prev)>=3 && Math.abs(d) > Math.abs(prev)*2){
+    const ratio=(d/Math.abs(prev)*100).toFixed(0);
+    flag=`<span class="wflag" title="本週相對上週變動 ${ratio}%，幅度異常，請確認上傳數字">⚠</span>`;
+  }
+  return `<span class="wow ${cls}" title="vs 上週">${arrow} ${fmt(Math.abs(d))}${flag}</span>`;
+}
+
+function renderWeekly(){
+  if(!WEEKS.length){
+    el('weekly').innerHTML='<div class="loader">尚無單案週報資料。<br><small>請上傳單案週檢討 Excel（如合康雙匯），週報會自動建立。</small></div>';
+    return;
+  }
+  if(!CURWEEK) CURWEEK=WEEKS[WEEKS.length-1];
+  const wkProjs=weeklyProjects();
+  if(CURPROJ!=='__all__' && !wkProjs.includes(CURPROJ)) CURPROJ='__all__';
+
+  const weekOpts=[...WEEKS].reverse().map(w=>`<option value="${w}" ${w===CURWEEK?'selected':''}>${wkLabel(w)}</option>`).join('');
+  const projOpts=`<option value="__all__" ${CURPROJ==='__all__'?'selected':''}>全部彙總</option>`+
+    wkProjs.map(n=>`<option value="${n}" ${n===CURPROJ?'selected':''}>${n}</option>`).join('');
+
+  const activeRoster=activeProjects();
+  const totalProjects=activeRoster.length;
+  const reported=wkProjs.filter(n=>projWeek(n,CURWEEK)).length;
+
+  let html=`
+    <div class="wkctrl">
+      <div class="grp"><label>週別</label><select onchange="CURWEEK=this.value;renderWeekly()">${weekOpts}</select></div>
+      <div class="grp"><label>建案</label><select onchange="CURPROJ=this.value;renderWeekly()">${projOpts}</select></div>
+      <div class="wkcover">本週已回報 <b>${reported}</b> / ${totalProjects} 案在售${reported<totalProjects?` <span style="color:var(--warn)">（缺 ${totalProjects-reported}）</span>`:''}</div>
+    </div>`;
+
+  html += (CURPROJ==='__all__') ? renderWeeklyPortfolio() : renderWeeklyProject(CURPROJ);
+  el('weekly').innerHTML=html;
+}
+
+function renderWeeklyPortfolio(){
+  const wkProjs=weeklyProjects();
+  const prev=WEEKS[WEEKS.indexOf(CURWEEK)-1]||null;
+  const agg=(week)=>{
+    let vis=0,deals=0,signedU=0,signedAmt=0,n=0;
+    wkProjs.forEach(name=>{
+      const r=projWeek(name,week); if(!r)return;
+      n++; vis+=r.visitors_week||0; deals+=r.deals_week||0;
+      signedU+=r.signed_week_units||0; signedAmt+=r.signed_week_amount||0;
+    });
+    return {vis,deals,signedU,signedAmt,n};
+  };
+  const a=agg(CURWEEK), pa=prev?agg(prev):null;
+
+  const kpis=[
+    {k:'本週來人',v:fmtN(a.vis),u:'組',cur:a.vis,prev:pa?pa.vis:null,fmt:fmtN,mode:'good_up'},
+    {k:'本週成交',v:fmtN(a.deals),u:'戶',cur:a.deals,prev:pa?pa.deals:null,fmt:fmtN,mode:'good_up'},
+    {k:'本週簽約',v:fmtN(a.signedU),u:'戶',cur:a.signedU,prev:pa?pa.signedU:null,fmt:fmtN,mode:'good_up'},
+    {k:'本週簽約金額',v:fmtW(a.signedAmt),u:'萬',cur:a.signedAmt,prev:pa?pa.signedAmt:null,fmt:fmtW,mode:'good_up'},
+  ];
+  let h=`<div class="wkkpis">`+kpis.map(c=>`
+    <div class="wkkpi"><div class="k">${c.k}</div>
+    <div class="v num">${c.v}<span class="u">${c.u}</span></div>
+    ${wowSpan(c.cur,c.prev,c.fmt,c.mode)}</div>`).join('')+`</div>`;
+
+  const rows=wkProjs.map(name=>{
+    const r=projWeek(name,CURWEEK); if(!r)return null;
+    return {name, vis:r.visitors_week||0, deals:r.deals_week||0, signedAmt:r.signed_week_amount||0};
+  }).filter(Boolean).sort((x,y)=>y.deals-x.deals);
+
+  h+=`<div class="wksec"><h2>各案本週表現 <span class="sub">${wkLabel(CURWEEK)}</span></h2>`;
+  if(rows.length){
+    h+=`<table><thead><tr><th style="text-align:left">建案</th><th>來人</th><th>成交</th><th>簽約金額(萬)</th></tr></thead><tbody>`+
+      rows.map(r=>`<tr style="cursor:pointer" onclick="CURPROJ='${r.name}';renderWeekly()">
+        <td style="text-align:left;font-weight:500">${r.name}</td>
+        <td class="num">${fmtN(r.vis)}</td>
+        <td class="num">${fmtN(r.deals)}</td>
+        <td class="num">${fmtW(r.signedAmt)}</td></tr>`).join('')+`</tbody></table>`;
+  } else {
+    h+='<div style="color:var(--faint);font-size:13px;padding:14px 0">本週尚無任何建案回報。</div>';
+  }
+  h+=`</div>`;
+  h+=`<div style="font-size:12px;color:var(--mut);background:var(--bluebg);border-radius:9px;padding:11px 14px;line-height:1.6">
+    投組層的週彙總會隨各案單案週報上傳而自動補齊。目前已有單案週資料：<b>${wkProjs.join('、')||'—'}</b>。
+    其餘建案上傳後，本頁的來人／成交／簽約週彙總會自動納入。</div>`;
+  return h;
+}
+
+function renderWeeklyProject(name){
+  const r=projWeek(name,CURWEEK);
+  if(!r) return `<div class="wksec" style="color:var(--faint)">「${name}」於本週（${wkLabel(CURWEEK)}）尚無資料。</div>`;
+  const pw=prevWeekFor(name,CURWEEK);
+  const p=pw?projWeek(name,pw):null;
+  const units=getUnits(name);
+  const dehua=units?(units-(r.remain_units||0))/units*100:null;
+  const dehuaPrev=(p&&units)?(units-(p.remain_units||0))/units*100:null;
+
+  const kpis=[
+    {k:'本週來人',v:fmtN(r.visitors_week),u:'組',cur:r.visitors_week,prev:p?p.visitors_week:null,fmt:fmtN,mode:'good_up'},
+    {k:'本週來電',v:fmtN(r.calls_week),u:'通',cur:r.calls_week,prev:p?p.calls_week:null,fmt:fmtN,mode:'good_up'},
+    {k:'本週成交',v:fmtN(r.deals_week),u:'戶',cur:r.deals_week,prev:p?p.deals_week:null,fmt:fmtN,mode:'good_up'},
+    {k:'本週簽約',v:fmtN(r.signed_week_units),u:'戶',cur:r.signed_week_units,prev:p?p.signed_week_units:null,fmt:fmtN,mode:'good_up'},
+    {k:'簽約金額',v:fmtW(r.signed_week_amount),u:'萬',cur:r.signed_week_amount,prev:p?p.signed_week_amount:null,fmt:fmtW,mode:'good_up'},
+    {k:'本週補足',v:fmtN(r.deposit_week_units),u:'戶',cur:r.deposit_week_units,prev:p?p.deposit_week_units:null,fmt:fmtN,mode:'good_up'},
+    {k:'去化率',v:dehua!=null?dehua.toFixed(1)+'%':'—',u:'',cur:dehua,prev:dehuaPrev,fmt:v=>v.toFixed(1)+'pp',mode:'good_up'},
+    {k:'剩餘戶',v:fmtN(r.remain_units),u:'戶',cur:r.remain_units,prev:p?p.remain_units:null,fmt:fmtN,mode:'good_down'},
+  ];
+  let h=`<div class="wkkpis">`+kpis.map(c=>`
+    <div class="wkkpi"><div class="k">${c.k}</div>
+    <div class="v num">${c.v}${c.u?`<span class="u">${c.u}</span>`:''}</div>
+    ${wowSpan(c.cur,c.prev,c.fmt,c.mode)}</div>`).join('')+`</div>`;
+
+  const bud=[
+    {k:'媒體執行',key:'budget_media'},{k:'人事管銷',key:'budget_personnel'},
+    {k:'現場管銷',key:'budget_onsite'},{k:'公司管銷',key:'budget_company'},
+    {k:'銷售獎金',key:'budget_bonus'},{k:'本週小計',key:'budget_total'},
+  ];
+  h+=`<div class="wksec"><h2>本週預算執行 <span class="sub">含週對比 · 萬元</span></h2><div class="wkrow6">`+
+    bud.map(b=>`<div class="wkbudget"><div class="bl">${b.k}</div>
+      <div class="bv num">${fmtW(r[b.key])}</div>
+      ${wowSpan(r[b.key],p?p[b.key]:null,fmtW,'neutral')}</div>`).join('')+
+    `</div>
+     <div style="display:flex;gap:24px;margin-top:12px;font-size:12.5px;color:var(--mut)">
+       <span>預算執行率 <b style="color:var(--ink)">${r.exec_rate_budget!=null?(r.exec_rate_budget*100).toFixed(1)+'%':'—'}</b></span>
+       <span>銷售進度 <b style="color:var(--ink)">${r.exec_rate_sales!=null?(r.exec_rate_sales*100).toFixed(1)+'%':'—'}</b></span>
+     </div></div>`;
+
+  h+=`<div class="wksec"><h2>業主請款 <span class="sub">服務費（戶）</span></h2><div class="wkrow6">
+     <div class="wkbudget"><div class="bl">可請</div><div class="bv num">${fmtN(r.billable_fee)}</div></div>
+     <div class="wkbudget"><div class="bl">已請</div><div class="bv num">${fmtN(r.billed_fee)}</div>${wowSpan(r.billed_fee,p?p.billed_fee:null,fmtN,'good_up')}</div>
+     <div class="wkbudget"><div class="bl">本月欲請款</div><div class="bv num">${fmtN(r.this_month_request)}</div></div>
+   </div></div>`;
+
+  if(r.salespeople&&r.salespeople.length){
+    h+=`<div class="wksec"><h2>銷售人員累計</h2><div style="display:flex;flex-direction:column;gap:6px">`+
+      r.salespeople.filter(s=>s.name).map(s=>{
+        const cr=s.conv_rate!=null?(s.conv_rate>1?s.conv_rate.toFixed(1):(s.conv_rate*100).toFixed(1)):null;
+        return `<div style="display:flex;justify-content:space-between;align-items:center;background:var(--line2);border-radius:8px;padding:8px 12px;font-size:12.5px">
+          <span style="font-weight:500">${s.name}</span>
+          <span style="color:var(--mut)">累計來人 <b>${s.cum_visitors!=null?s.cum_visitors:'—'}</b> · 成交 <b>${s.cum_deals!=null?s.cum_deals:'—'}</b>${cr?` · 轉換 <b style="color:var(--blue)">${cr}%</b>`:''}</span>
+        </div>`;
+      }).join('')+`</div></div>`;
+  }
+
+  const series=k=>WEEKS.map(w=>{const rr=projWeek(name,w);return rr?{w, v:rr[k]!=null?rr[k]:0}:null;}).filter(Boolean);
+  h+=`<div class="wkgrid2">
+    <div class="wksec"><h2>週來人趨勢 <span class="sub">近 12 週</span></h2>${buildWeekTrend(series('visitors_week'),CURWEEK,css('--blue'),fmtN)}</div>
+    <div class="wksec"><h2>週成交趨勢 <span class="sub">近 12 週</span></h2>${buildWeekTrend(series('deals_week'),CURWEEK,css('--amber'),fmtN)}</div>
+  </div>
+  <div class="wkgrid2">
+    <div class="wksec"><h2>週簽約金額趨勢 <span class="sub">萬元</span></h2>${buildWeekTrend(series('signed_week_amount'),CURWEEK,css('--pos'),fmtW)}</div>
+    <div class="wksec"><h2>週預算小計趨勢 <span class="sub">萬元</span></h2>${buildWeekTrend(series('budget_total'),CURWEEK,css('--brand'),fmtW)}</div>
+  </div>`;
+  return h;
+}
+
+function buildWeekTrend(series, highlightWeek, color, fmt){
+  const data=series.slice(-12);
+  if(!data.length)return'<div style="font-size:11px;color:var(--faint);padding:8px">無資料</div>';
+  const W=500,H=150,pl=14,pr=16,pt=18,pb=32;
+  const vals=data.map(d=>d.v);
+  const mx=Math.max(...vals.map(Math.abs),1);
+  const n=data.length;
+  const xs=i=>pl+(W-pl-pr)*(n>1?i/(n-1):0.5);
+  const ys=v=>H-pb-(H-pt-pb)*(v/mx);
+  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%">`;
+  for(let g=0;g<=3;g++){const y=pt+(H-pt-pb)*g/3;svg+=`<line x1="${pl}" y1="${y}" x2="${W-pr}" y2="${y}" stroke="${css('--line')}" stroke-width="1"/>`;}
+  data.forEach((d,i)=>{
+    if(n>8 && i%2!==0 && i!==n-1) return;
+    svg+=`<text x="${xs(i)}" y="${H-8}" font-size="9" fill="${css('--mut')}" text-anchor="middle" font-family="Noto Sans TC">${rocDate(d.w).slice(-5)}</text>`;
+  });
+  svg+=`<polyline fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round" points="${data.map((d,i)=>`${xs(i)},${ys(d.v)}`).join(' ')}"/>`;
+  data.forEach((d,i)=>{
+    const hl=d.w===highlightWeek;
+    svg+=`<circle cx="${xs(i)}" cy="${ys(d.v)}" r="${hl?5:3}" fill="${color}"${hl?` stroke="${css('--card')}" stroke-width="2"`:''}/>`;
+    if(hl) svg+=`<text x="${xs(i)}" y="${ys(d.v)-11}" font-size="10" fill="${color}" text-anchor="middle" font-weight="700" font-family="Noto Sans TC">${fmt(d.v)}</text>`;
+  });
+  return svg+'</svg>';
+}
 
 init();
 </script>

@@ -268,6 +268,51 @@ def merge_to_db(result: dict):
     DB_JSON.write_text(json.dumps(db, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"status": "ok", "merged_to_db": True, **result}
 
+# ── 上傳檢查：週對週劇變 + 週報 vs 月報勾稽 ─────────────────────
+def check_anomalies(result: dict) -> list:
+    """回傳警告清單（不阻擋入庫，僅提示）"""
+    warnings = []
+    weekly = result.get("weekly", {})
+    pname  = result.get("project_name", "")
+
+    # 依 week_start 排序
+    recs = sorted(
+        [w for w in weekly.values() if w.get("week_start")],
+        key=lambda w: w["week_start"]
+    )
+
+    # 1) 週對週劇變（來人/成交/簽約戶/剩餘戶）
+    METRICS = [("visitors_week","來人"),("deals_week","成交"),
+               ("signed_week_units","簽約戶"),("remain_units","剩餘戶")]
+    for i in range(1, len(recs)):
+        prev, cur = recs[i-1], recs[i]
+        for key, label in METRICS:
+            pv, cv = prev.get(key), cur.get(key)
+            if pv is None or cv is None: continue
+            # 剩餘戶異常增加（去化倒退超過5戶）
+            if key == "remain_units" and cv - pv > 5:
+                warnings.append(f"⚠ {cur['week_start']} {label} 從 {pv} 增至 {cv}（+{cv-pv}），去化倒退，請確認退戶/買回")
+            # 其他指標：上週≥3 且本週變動超過 2 倍
+            elif key != "remain_units" and abs(pv) >= 3 and abs(cv - pv) > abs(pv) * 2:
+                warnings.append(f"⚠ {cur['week_start']} {label} 由 {pv} 劇變為 {cv}，幅度異常，請確認上傳數字")
+
+    # 2) 週報 vs 月報勾稽（該月最後一週剩餘戶 vs 月報剩餘戶）
+    db = json.loads(DB_JSON.read_text(encoding="utf-8")) if DB_JSON.exists() else {}
+    by_month = {}
+    for w in recs:
+        d = datetime.datetime.strptime(w["week_start"], "%Y-%m-%d")
+        ym = f"{d.year-1911}.{d.month:02d}"
+        if ym not in by_month or w["week_start"] > by_month[ym]["week_start"]:
+            by_month[ym] = w
+    for ym, w in by_month.items():
+        mrow = next((r for r in db.get("portfolio", {}).get(ym, []) if r["project_name"] == pname), None)
+        if mrow and mrow.get("remain_units") is not None and w.get("remain_units") is not None:
+            diff = abs(mrow["remain_units"] - w["remain_units"])
+            if diff > 3:
+                warnings.append(f"⚠ {ym} 勾稽不符：週報剩餘戶 {w['remain_units']} vs 月報 {mrow['remain_units']}（差 {diff} 戶）")
+
+    return warnings
+
 # ── CLI ───────────────────────────────────────────────────────
 if __name__ == "__main__":
     import sys
@@ -278,6 +323,8 @@ if __name__ == "__main__":
     pname    = sys.argv[2] if len(sys.argv) > 2 else None
     r = parse_project_workbook(filepath, pname)
     if r["status"] == "ok":
+        # 入庫前先檢查（勾稽用現有 db.json 的月報）
+        anomalies = check_anomalies(r)
         merged = merge_to_db(r)
         print(f"✅ 解析完成")
         print(f"   建案：{r['project_name']}")
@@ -285,6 +332,15 @@ if __name__ == "__main__":
         print(f"   銷況表戶數：{len(r['unit_status'].get('matrix',[]))}")
         print(f"   月份：{sorted(r['monthly'].keys())}")
         print(f"   db.json 已更新")
+        if anomalies:
+            print()
+            print(f"🔍 偵測到 {len(anomalies)} 項需確認（不影響入庫）：")
+            for a in anomalies[:15]:
+                print(f"   {a}")
+            if len(anomalies) > 15:
+                print(f"   …另有 {len(anomalies)-15} 項")
+        else:
+            print("   ✅ 無劇變或勾稽異常")
         print()
         print("📌 下一步：")
         print("   git add db.json")
