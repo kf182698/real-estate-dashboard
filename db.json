@@ -2831,7 +2831,7 @@
       "deals": 153.0
     }
   ],
-  "updated_at": "2026-06-15 13:40",
+  "updated_at": "2026-06-20 14:25",
   "projects": {
     "合康雙匯": {
       "weekly": {
@@ -8447,7 +8447,132 @@
           ]
         }
       },
-      "updated_at": "2026-06-15 14:14"
+      "updated_at": "2026-06-20 00:54"
+    },
+    "致茂橋豐": {
+      "weekly": {
+        "2026-05-25": {
+          "week_start": "2026-05-25",
+          "week_end": "2026-05-31",
+          "visitors_week": 10,
+          "calls_week": null,
+          "deals_week": 1,
+          "ordered_week_units": null,
+          "deposit_week_units": 1,
+          "signed_week_units": 1,
+          "signed_week_amount": 1090,
+          "cancelled_week_units": null,
+          "remain_units": null,
+          "remain_parking": null,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null
+        }
+      },
+      "updated_at": "2026-06-20 14:25"
+    },
+    "大觀富琚": {
+      "weekly": {
+        "2026-05-25": {
+          "week_start": "2026-05-25",
+          "week_end": "2026-05-31",
+          "visitors_week": 2,
+          "calls_week": null,
+          "deals_week": 0,
+          "ordered_week_units": null,
+          "deposit_week_units": null,
+          "signed_week_units": null,
+          "signed_week_amount": null,
+          "cancelled_week_units": null,
+          "remain_units": 57,
+          "remain_parking": null,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null
+        }
+      },
+      "updated_at": "2026-06-20 14:25"
+    },
+    "合康世紀滙": {
+      "weekly": {
+        "2026-05-25": {
+          "week_start": "2026-05-25",
+          "week_end": "2026-05-31",
+          "visitors_week": 15,
+          "calls_week": null,
+          "deals_week": 0,
+          "ordered_week_units": 1,
+          "deposit_week_units": null,
+          "signed_week_units": 2,
+          "signed_week_amount": 2549,
+          "cancelled_week_units": null,
+          "remain_units": 174,
+          "remain_parking": null,
+          "budget_media": null,
+          "budget_personnel": null,
+          "budget_onsite": null,
+          "budget_company": null,
+          "budget_bonus": null
+        }
+      },
+      "updated_at": "2026-06-20 14:25"
+    }
+  },
+  "project_settings": {
+    "傳佳樂": {
+      "commission_rate": 0.05
+    },
+    "傳佳緻": {
+      "commission_rate": 0.05
+    },
+    "僑家大院": {
+      "commission_rate": 0.05
+    },
+    "合康雙匯": {
+      "commission_rate": 0.05
+    },
+    "合新城峰": {
+      "commission_rate": 0.05
+    },
+    "大景旭": {
+      "commission_rate": 0.05
+    },
+    "大景閱": {
+      "commission_rate": 0.05
+    },
+    "大觀富琚": {
+      "commission_rate": 0.05
+    },
+    "寶佳淳青": {
+      "commission_rate": 0.05
+    },
+    "幸福成": {
+      "commission_rate": 0.05
+    },
+    "捷運湛": {
+      "commission_rate": 0.05
+    },
+    "昕暉詠翠": {
+      "commission_rate": 0.05
+    },
+    "春宜5": {
+      "commission_rate": 0.05
+    },
+    "氧之森": {
+      "commission_rate": 0.05
+    },
+    "耀時代": {
+      "commission_rate": 0.05
+    },
+    "虹韻": {
+      "commission_rate": 0.05
+    },
+    "閣美學": {
+      "commission_rate": 0.05
     }
   }
 }
